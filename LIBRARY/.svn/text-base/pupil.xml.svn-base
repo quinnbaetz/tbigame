@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="pupil" itemID="4e19e7d1-000002af" linkageExportForAS="true" linkageClassName="pupil" lastModified="1310322379">
+  <timeline>
+    <DOMTimeline name="pupil">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!70 -71[100 -41 100 0!100 0[100 41 70 71!70 71[41 100 0 100!0 100[-42 100 -71 71!-71 71[-100 41 -100 0!-100 0[-100 -41 -71 -71!-71 -71[-42 -100 0 -100!0 -100[41 -100 70 -71"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

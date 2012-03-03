@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/23/trunk/LIBRARY/images/MRI/brain
+END
+cerrebellum.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/cerrebellum.xml
+END
+temporalLobe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/temporalLobe.xml
+END
+brainBase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/brainBase.xml
+END
+frontalLobe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/frontalLobe.xml
+END
+occipitalLobe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/occipitalLobe.xml
+END
+skull.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/skull.xml
+END
+lateralVentrical.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/lateralVentrical.xml
+END
+thalamus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/trunk/LIBRARY/images/MRI/brain/thalamus.xml
+END

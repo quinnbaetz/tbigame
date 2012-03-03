@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/actions/handPump" itemID="4df266c2-00000238" linkageExportForAS="true" linkageClassName="handPump" lastModified="1307750789">
+  <timeline>
+    <DOMTimeline name="handPump" currentFrame="1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" name="release" labelType="name" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/actions/handPumpImages/handPump1.png">
+                  <matrix>
+                    <Matrix tx="0.85" ty="0.45"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" name="squeeze" labelType="name" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="images/actions/handPumpImages/handPump2.png">
+                  <matrix>
+                    <Matrix tx="28.35" ty="1.45"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

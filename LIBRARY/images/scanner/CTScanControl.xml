@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/scanner/CTScanControl" itemID="4e745a97-000002cc" linkageExportForAS="true" linkageClassName="CTScanControl" lastModified="1316248518">
+  <timeline>
+    <DOMTimeline name="CTScanControl">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="images/scanner/upCTButton" name="upButton" symbolType="button">
+                  <transformationPoint>
+                    <Point x="22.5" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/scanner/downCTButton" name="downButton" symbolType="button">
+                  <matrix>
+                    <Matrix ty="77"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.5" y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

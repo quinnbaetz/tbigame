@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/notes/chart/data/accident" itemID="4e07db8f-00000307" lastModified="1309137807">
+  <timeline>
+    <DOMTimeline name="accident">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="images/menuBar/notes/chart/data/chartImages/accident.png">
+                  <matrix>
+                    <Matrix a="0.399993896484375" d="0.399993896484375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="239" y="115.4"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

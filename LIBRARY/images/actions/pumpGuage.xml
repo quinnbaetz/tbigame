@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/actions/pumpGuage" itemID="4df290c6-0000026b" linkageExportForAS="true" linkageClassName="pumpGuage" lastModified="1309137057" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="pumpGuage">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/actions/pumpGuageComponents/pumpGuage.png">
+                  <matrix>
+                    <Matrix ty="0.35"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMSymbolInstance libraryItemName="images/actions/pumpGuageComponents/pumpNeedle" name="needle" centerPoint3DX="257.5" centerPoint3DY="203.65">
+                  <matrix>
+                    <Matrix tx="249" ty="145.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.5" y="57.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

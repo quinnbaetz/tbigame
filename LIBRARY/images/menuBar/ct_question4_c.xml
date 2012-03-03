@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/ct_question4_c" itemID="4f4631f4-0000083a" symbolType="button" lastModified="1330001290">
+  <timeline>
+    <DOMTimeline name="ct_question4_c">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="491" height="38" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="-4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>C. The hematoma increases pressure on the brain and will cause additional brain damage. </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Roman" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="505" height="38" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="-4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>C. The hematoma increases pressure on the brain and will cause additional brain damage. </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
