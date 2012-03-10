@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/surgery/arms/scalpelArm/scalpelArm" itemID="4f5b8005-00000819" linkageExportForAS="true" linkageClassName="scalpelArm" lastModified="1331397275">
+  <timeline>
+    <DOMTimeline name="scalpelArm" currentFrame="59">
+      <layers>
+        <DOMLayer name="marker and scalpep" color="#0000FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="60" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="60000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value="scalpelMotion"/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="1969,18" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,55.5" next="3619,76.5" previous="-1969,31.25" roving="1" timevalue="5906"/><Keyframe anchor="0,139.5" next="3618,159.2" previous="-3619,121.05" roving="1" timevalue="16762"/><Keyframe anchor="0,124.5" next="5016,102.45" previous="-3618,140.5" roving="1" timevalue="27615"/><Keyframe anchor="0,-6.5" next="5446,-77.05" previous="-5016,60" roving="1" timevalue="42663"/><Keyframe anchor="0,-158" next="0,-158" previous="-5446,-120.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="1969,12" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,19.5" next="3619,24" previous="-1969,14.3" roving="1" timevalue="5906"/><Keyframe anchor="0,81.5" next="3618,129.85" previous="-3619,36.25" roving="1" timevalue="16762"/><Keyframe anchor="0,184" next="5016,218.5" previous="-3618,159" roving="1" timevalue="27615"/><Keyframe anchor="0,245" next="5446,244.5" previous="-5016,245.5" roving="1" timevalue="42663"/><Keyframe anchor="0,189.5" next="0,189.5" previous="-5446,213" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 2" name="Symbol2_168" centerPoint3DX="387" centerPoint3DY="284.95">
+                  <matrix>
+                    <Matrix ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="387" y="285"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
