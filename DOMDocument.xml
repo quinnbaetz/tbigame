@@ -23,9 +23,9 @@
           <DOMFolderItem name="images/MRI/ct" itemID="4e383c65-0000024d" isExpanded="true"/>
           <DOMFolderItem name="images/MRI/images" itemID="4e472b42-000003e0" isExpanded="true"/>
           <DOMFolderItem name="images/MRI/xray" itemID="4e69e39f-0000029a" isExpanded="true"/>
-          <DOMFolderItem name="images/scanner" itemID="4e69e436-0000034f"/>
+          <DOMFolderItem name="images/scanner" itemID="4e69e436-0000034f" isExpanded="true"/>
           <DOMFolderItem name="images/scanner/injuredBrains" itemID="4e745d38-00000302" isExpanded="true"/>
-          <DOMFolderItem name="images/scanner/slices" itemID="4e7649fd-0000043f"/>
+          <DOMFolderItem name="images/scanner/slices" itemID="4e7649fd-0000043f" isExpanded="true"/>
           <DOMFolderItem name="images/surgery" itemID="4ebe8916-00000309" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms" itemID="4ed5c369-00000345" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/clipArms" itemID="4f2f9acd-00000a4d"/>
@@ -434,7 +434,7 @@
           <Include href="images/MRI/ct/thalamus.xml" itemID="4e388832-000002b9" lastModified="1313285295"/>
           <Include href="images/scanner/ctScanBrainPatient.xml" itemID="4e764621-000002e1" lastModified="1316375082"/>
           <Include href="images/scanner/CTScanControl.xml" itemID="4e745a97-000002cc" lastModified="1316248518"/>
-          <Include href="images/scanner/CTScanInjuries.xml" itemID="4e764cca-00000533" lastModified="1316415373"/>
+          <Include href="images/scanner/CTScanInjuries.xml" itemID="4e764cca-00000533" lastModified="1331395107"/>
           <Include href="images/scanner/CTScanLocation.xml" itemID="4e764db5-0000056a" lastModified="1316378690"/>
           <Include href="images/scanner/downCTButton.xml" itemIcon="0" itemID="4e745bb8-000002e0" lastModified="1316248504"/>
           <Include href="images/scanner/popupBox.xml" itemID="4e69e4b1-00000390" lastModified="1321763729"/>
@@ -444,7 +444,7 @@
           <Include href="images/scanner/upCTButton.xml" itemIcon="0" itemID="4e745bae-000002db" lastModified="1316248494"/>
           <Include href="images/surgery/arms/clipArms/clipArm.xml" itemID="4f2f9ae1-00000a51" lastModified="1328520939"/>
           <Include href="images/surgery/arms/needleArms/needleHand.xml" itemID="4f1afc61-00000322" lastModified="1327176230"/>
-          <Include href="images/surgery/arms/patch/patchArm.xml" itemID="4f5b5e33-0000051f" lastModified="1331389386"/>
+          <Include href="images/surgery/arms/patch/patchArm.xml" itemID="4f5b5e33-0000051f" lastModified="1331393541"/>
           <Include href="images/surgery/arms/surgicel/surgicelArm.xml" itemID="4f38b00f-00000e00" lastModified="1329116120"/>
           <Include href="images/surgery/brain/drilledHoles/drilledHoles.xml" itemID="4f3108ce-00000ef1" lastModified="1328614150"/>
           <Include href="images/surgery/brain/xhole/x1.xml" loadImmediate="false" itemID="4f3106be-00000e74" lastModified="1328613054"/>
@@ -635,6 +635,17 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="5409429" publishTime="1331394218"/>
+          <PublishItem publishSize="5409429" publishTime="1331394125"/>
+          <PublishItem publishSize="5409435" publishTime="1331393833"/>
+          <PublishItem publishSize="5351899" publishTime="1331393794"/>
+          <PublishItem publishSize="5351899" publishTime="1331393771"/>
+          <PublishItem publishSize="5351899" publishTime="1331393737"/>
+          <PublishItem publishSize="5409057" publishTime="1331392484"/>
+          <PublishItem publishSize="5409050" publishTime="1331392295"/>
+          <PublishItem publishSize="5409041" publishTime="1331391819"/>
+          <PublishItem publishSize="5409043" publishTime="1331391771"/>
+          <PublishItem publishSize="5409045" publishTime="1331389437"/>
           <PublishItem publishSize="5410221" publishTime="1331389206"/>
           <PublishItem publishSize="5410206" publishTime="1331389165"/>
           <PublishItem publishSize="5410233" publishTime="1331389006"/>
@@ -644,16 +655,5 @@
           <PublishItem publishSize="5410202" publishTime="1331388770"/>
           <PublishItem publishSize="5410188" publishTime="1331388694"/>
           <PublishItem publishSize="5296016" publishTime="1331387685"/>
-          <PublishItem publishSize="5295999" publishTime="1331387656"/>
-          <PublishItem publishSize="5296016" publishTime="1331387608"/>
-          <PublishItem publishSize="5296008" publishTime="1331387526"/>
-          <PublishItem publishSize="5250251" publishTime="1331387025"/>
-          <PublishItem publishSize="5250267" publishTime="1331387000"/>
-          <PublishItem publishSize="5250267" publishTime="1331386964"/>
-          <PublishItem publishSize="5250270" publishTime="1331386915"/>
-          <PublishItem publishSize="5250264" publishTime="1331386514"/>
-          <PublishItem publishSize="5491898" publishTime="1331384411"/>
-          <PublishItem publishSize="5491878" publishTime="1331384115"/>
-          <PublishItem publishSize="5491850" publishTime="1331383323"/>
      </publishHistory>
 </DOMDocument>

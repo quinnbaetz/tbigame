@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/scanner/CTScanInjuries" itemID="4e764cca-00000533" linkageExportForAS="true" linkageClassName="CTScanInjuries" lastModified="1316415373">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/scanner/CTScanInjuries" itemID="4e764cca-00000533" linkageExportForAS="true" linkageClassName="CTScanInjuries" lastModified="1331395107">
   <timeline>
-    <DOMTimeline name="CTScanInjuries" currentFrame="2">
+    <DOMTimeline name="CTScanInjuries" currentFrame="3">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -34,7 +34,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="images/scanner/injuredBrains/epidural.jpg"/>
+                <DOMBitmapInstance selected="true" libraryItemName="images/scanner/injuredBrains/epidural.jpg"/>
               </elements>
             </DOMFrame>
             <DOMFrame index="4" keyMode="9728">
