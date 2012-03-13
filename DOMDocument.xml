@@ -445,7 +445,7 @@
           <Include href="images/surgery/arms/clipArms/clipArm.xml" itemID="4f2f9ae1-00000a51" lastModified="1328520939"/>
           <Include href="images/surgery/arms/needleArms/needleHand.xml" itemID="4f1afc61-00000322" lastModified="1327176230"/>
           <Include href="images/surgery/arms/patch/patchArm.xml" itemID="4f5b5e33-0000051f" lastModified="1331393541"/>
-          <Include href="images/surgery/arms/scalpelArm/scalpelArm.xml" itemID="4f5b8005-00000819" lastModified="1331397275"/>
+          <Include href="images/surgery/arms/scalpelArm/scalpelArm.xml" itemID="4f5b8005-00000819" lastModified="1331652634"/>
           <Include href="images/surgery/arms/surgicel/surgicelArm.xml" itemID="4f38b00f-00000e00" lastModified="1329116120"/>
           <Include href="images/surgery/brain/drilledHoles/drilledHoles.xml" itemID="4f3108ce-00000ef1" lastModified="1328614150"/>
           <Include href="images/surgery/brain/xhole/x1.xml" loadImmediate="false" itemID="4f3106be-00000e74" lastModified="1328613054"/>
@@ -470,23 +470,19 @@
           <Include href="thermometerCheck.xml" itemID="4e1a6071-0000023d" lastModified="1310523239"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="16">
+          <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="scripts" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="scripts" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[include "scripts/main.as";]]></script>
                                    </Actionscript>
-                                   <elements>
-                                        <DOMBitmapInstance selected="true" libraryItemName="images/surgery/arms/duracutArm.png"/>
-                                        <DOMBitmapInstance selected="true" libraryItemName="images/surgery/arms/patch/patchOpen.png"/>
-                                        <DOMBitmapInstance selected="true" libraryItemName="images/surgery/arms/patch/patchClosed.png"/>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Scenes" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Scenes" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -637,6 +633,13 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="5409881" publishTime="1331652448"/>
+          <PublishItem publishSize="5409819" publishTime="1331652294"/>
+          <PublishItem publishSize="5410238" publishTime="1331398542"/>
+          <PublishItem publishSize="5410233" publishTime="1331398386"/>
+          <PublishItem publishSize="5410239" publishTime="1331398340"/>
+          <PublishItem publishSize="5410223" publishTime="1331398272"/>
+          <PublishItem publishSize="5410182" publishTime="1331398041"/>
           <PublishItem publishSize="5410227" publishTime="1331397960"/>
           <PublishItem publishSize="5410223" publishTime="1331397927"/>
           <PublishItem publishSize="5410213" publishTime="1331397869"/>
@@ -650,12 +653,5 @@
           <PublishItem publishSize="5409822" publishTime="1331395864"/>
           <PublishItem publishSize="5409830" publishTime="1331395796"/>
           <PublishItem publishSize="5409831" publishTime="1331395461"/>
-          <PublishItem publishSize="5409429" publishTime="1331394218"/>
-          <PublishItem publishSize="5409429" publishTime="1331394125"/>
-          <PublishItem publishSize="5409435" publishTime="1331393833"/>
-          <PublishItem publishSize="5351899" publishTime="1331393794"/>
-          <PublishItem publishSize="5351899" publishTime="1331393771"/>
-          <PublishItem publishSize="5351899" publishTime="1331393737"/>
-          <PublishItem publishSize="5409057" publishTime="1331392484"/>
      </publishHistory>
 </DOMDocument>
