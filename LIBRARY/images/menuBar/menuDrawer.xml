@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuDrawer" itemID="4f45da0d-000005cf" linkageExportForAS="true" linkageClassName="menuDrawer" lastModified="1330001822">
   <timeline>
-    <DOMTimeline name="menuDrawer" currentFrame="1">
+    <DOMTimeline name="menuDrawer">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
