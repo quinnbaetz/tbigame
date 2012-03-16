@@ -1,0 +1,140 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/surgery/brain/hematoma/hematoma" itemID="4f631f32-00000dab" linkageExportForAS="true" linkageClassName="Hematoma" lastModified="1331898406" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="hematoma" currentFrame="7">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-1.png">
+                  <matrix>
+                    <Matrix tx="1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 3" name="top" centerPoint3DX="50" centerPoint3DY="27.5">
+                  <matrix>
+                    <Matrix tx="19" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31" y="25.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-2-2.png">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-0.05"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 4" name="top" centerPoint3DX="56" centerPoint3DY="46">
+                  <matrix>
+                    <Matrix tx="19.5" ty="17"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.5" y="29"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-3-2.png">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-0.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 5" name="top" centerPoint3DX="89" centerPoint3DY="53">
+                  <matrix>
+                    <Matrix tx="55" ty="22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34" y="31"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-4-2.png">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-0.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 6" name="top" centerPoint3DX="81" centerPoint3DY="86">
+                  <matrix>
+                    <Matrix tx="36.5" ty="63.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="44.5" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-5-2.png">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-0.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 7" name="top" centerPoint3DX="94" centerPoint3DY="104">
+                  <matrix>
+                    <Matrix tx="59.5" ty="72.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34.5" y="31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-6-2.png">
+                  <matrix>
+                    <Matrix ty="-1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 9" name="top" centerPoint3DX="68" centerPoint3DY="122.95">
+                  <matrix>
+                    <Matrix tx="35.5" ty="94.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.5" y="28"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-7-2.png">
+                  <matrix>
+                    <Matrix ty="-0.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 8" name="top" centerPoint3DX="50" centerPoint3DY="139.95">
+                  <matrix>
+                    <Matrix tx="19.5" ty="114.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.5" y="25.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance libraryItemName="images/surgery/brain/hematoma/hematoma-8-2.png">
+                  <matrix>
+                    <Matrix ty="-2.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

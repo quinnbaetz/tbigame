@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/scanner/CTScanInjuries" itemID="4e764cca-00000533" linkageExportForAS="true" linkageClassName="CTScanInjuries" lastModified="1331396552">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/scanner/CTScanInjuries" itemID="4e764cca-00000533" linkageExportForAS="true" linkageClassName="CTScanInjuries" lastModified="1331891461" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="CTScanInjuries" currentFrame="3">
+    <DOMTimeline name="CTScanInjuries">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -11,6 +11,22 @@
                     <Matrix tx="1.8" ty="0.5"/>
                   </matrix>
                 </DOMBitmapInstance>
+                <DOMSymbolInstance libraryItemName="images/MRI/hemispheres/left_hemisphere" name="left" centerPoint3DX="70" centerPoint3DY="135.95">
+                  <matrix>
+                    <Matrix a="0.919998168945312" d="0.91998291015625" tx="21.2" ty="23.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="53.05" y="122.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/MRI/hemispheres/right_hemisphere" name="right" centerPoint3DX="154" centerPoint3DY="134.4">
+                  <matrix>
+                    <Matrix a="0.919998168945312" d="0.919998168945312" tx="107.55" ty="22.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.5" y="121.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
@@ -34,7 +50,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="images/scanner/injuredBrains/epidural.jpg"/>
+                <DOMBitmapInstance libraryItemName="images/scanner/injuredBrains/epidural.jpg"/>
               </elements>
             </DOMFrame>
             <DOMFrame index="4" keyMode="9728">
