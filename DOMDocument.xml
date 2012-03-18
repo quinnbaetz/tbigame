@@ -218,7 +218,7 @@
           <DOMBitmapItem name="images/MRI/hemispheres/left_white.png" itemID="4f62f7bc-00000798" sourceExternalFilepath="./LIBRARY/images/MRI/hemispheres/left_white.png" sourceLastImported="1331885725" sourcePlatform="macintosh" externalFileSize="15861" originalCompressionType="lossless" quality="50" href="images/MRI/hemispheres/left_white.png" bitmapDataHRef="M 310 1331885815.dat" frameRight="2120" frameBottom="4900"/>
           <DOMBitmapItem name="images/menuBar/notes/chart/data/chartImages/lungs.png" itemID="4e07d216-00000227" sourceExternalFilepath="./LIBRARY/images/menuBar/notes/chart/data/chartImages/lungs.png" sourceLastImported="1309131863" externalFileCRC32="2362254928" externalFileSize="8657" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/notes/chart/data/chartImages/lungs.png" bitmapDataHRef="M 34 1309135382.dat" frameRight="2580" frameBottom="2720"/>
           <DOMBitmapItem name="images/surgeryTools/marker.png" itemID="4ed5b447-00000333" linkageExportForAS="true" linkageClassName="marker" sourceExternalFilepath="./LIBRARY/images/surgeryTools/marker.png" sourceLastImported="1321822301" externalFileSize="3607" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgeryTools/marker.png" bitmapDataHRef="M 206 1322627754.dat" frameRight="700" frameBottom="4080"/>
-          <DOMBitmapItem name="images/surgery/arms/markerArm/markerArm.png" itemID="4f633436-0000113a" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgery/arms/markerArm/markerArm.png" sourceLastImported="1331901445" externalFileSize="103659" originalCompressionType="lossless" quality="50" href="images/surgery/arms/markerArm/markerArm.png" bitmapDataHRef="M 219 1323662616.dat" frameRight="11700" frameBottom="14800"/>
+          <DOMBitmapItem name="images/surgery/arms/markerArm/markerArm.png" itemID="4f633436-0000113a" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgery/arms/markerArm/markerArm.png" sourceLastImported="1332037961" externalFileSize="103659" originalCompressionType="lossless" quality="50" href="images/surgery/arms/markerArm/markerArm.png" bitmapDataHRef="M 219 1323662616.dat" frameRight="11700" frameBottom="14800"/>
           <DOMBitmapItem name="images/surgery/marker/markerDotted.png" itemID="4f0294ab-0000031e" linkageExportForAS="true" linkageClassName="markerDotted" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/surgery/marker/markerDotted.png" sourceLastImported="1325568934" externalFileSize="11532" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/marker/markerDotted.png" bitmapDataHRef="M 217 1323655991.dat" frameRight="6200" frameBottom="4960"/>
           <DOMBitmapItem name="images/surgery/marker/markerLine.png" itemID="4f029816-00000329" linkageExportForAS="true" linkageClassName="markerLine" sourceExternalFilepath="./LIBRARY/images/surgery/marker/markerLine.png" sourceLastImported="1325569915" externalFileSize="16778" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/marker/markerLine.png" bitmapDataHRef="M 228 1325569970.dat" frameRight="6320" frameBottom="5040"/>
           <DOMBitmapItem name="images/surgery/marker/markerOutline.png" itemID="4f13c371-0000031f" linkageExportForAS="true" linkageClassName="markerOutline" sourceExternalFilepath="./LIBRARY/images/surgery/marker/markerOutline.png" sourceLastImported="1326695247" externalFileSize="3717" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/marker/markerOutline.png" bitmapDataHRef="M 218 1323655991.dat" frameRight="6680" frameBottom="5400"/>
@@ -696,6 +696,9 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="5709361" publishTime="1332038582"/>
+          <PublishItem publishSize="5709344" publishTime="1332038446"/>
+          <PublishItem publishSize="5650599" publishTime="1332038360"/>
           <PublishItem publishSize="5708178" publishTime="1331907950"/>
           <PublishItem publishSize="5660607" publishTime="1331907674"/>
           <PublishItem publishSize="5660598" publishTime="1331907642"/>
@@ -713,8 +716,5 @@
           <PublishItem publishSize="5660597" publishTime="1331906451"/>
           <PublishItem publishSize="5660611" publishTime="1331906392"/>
           <PublishItem publishSize="5660594" publishTime="1331906329"/>
-          <PublishItem publishSize="5660604" publishTime="1331906273"/>
-          <PublishItem publishSize="5660600" publishTime="1331906185"/>
-          <PublishItem publishSize="5660608" publishTime="1331906128"/>
      </publishHistory>
 </DOMDocument>
