@@ -13,7 +13,7 @@
                 </DOMBitmapInstance>
                 <DOMSymbolInstance libraryItemName="images/MRI/hemispheres/left_hemisphere" name="left" centerPoint3DX="70" centerPoint3DY="135.95">
                   <matrix>
-                    <Matrix a="0.919998168945312" d="0.91998291015625" tx="21.2" ty="23.3"/>
+                    <Matrix a="0.91998291015625" d="0.91998291015625" tx="21.2" ty="23.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="53.05" y="122.45"/>
@@ -21,7 +21,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="images/MRI/hemispheres/right_hemisphere" name="right" centerPoint3DX="154" centerPoint3DY="134.4">
                   <matrix>
-                    <Matrix a="0.919998168945312" d="0.919998168945312" tx="107.55" ty="22.2"/>
+                    <Matrix a="0.91998291015625" d="0.91998291015625" tx="107.55" ty="22.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50.5" y="121.95"/>
