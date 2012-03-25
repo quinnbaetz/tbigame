@@ -1,0 +1,22 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 14" itemID="4f6f0e84-0000051a" lastModified="1332678539">
+  <timeline>
+    <DOMTimeline name="Symbol 14" currentFrame="29">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="30" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="30000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="2754,10" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,53" next="2031,62.5" previous="-2754,43.5" roving="1" timevalue="8262"/><Keyframe anchor="0,92" next="2354,99.5" previous="-2031,84.5" roving="1" timevalue="14355"/><Keyframe anchor="0,137" next="2527,144" previous="-2354,130" roving="1" timevalue="21418"/><Keyframe anchor="0,183.5" next="0,183.5" previous="-2527,179.5" roving="0" timevalue="29000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="2754,-1" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="2031,0.5" previous="-2754,-1.5" roving="1" timevalue="8262"/><Keyframe anchor="0,2.5" next="2354,3.5" previous="-2031,1.5" roving="1" timevalue="14355"/><Keyframe anchor="0,8" next="2527,9.5" previous="-2354,6.5" roving="1" timevalue="21418"/><Keyframe anchor="0,22" next="0,22" previous="-2527,18.5" roving="0" timevalue="29000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 15">
+                  <transformationPoint>
+                    <Point x="386" y="276"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

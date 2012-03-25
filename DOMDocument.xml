@@ -32,6 +32,7 @@
           <DOMFolderItem name="images/surgery" itemID="4ebe8916-00000309" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms" itemID="4ed5c369-00000345" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/clipArms" itemID="4f2f9acd-00000a4d"/>
+          <DOMFolderItem name="images/surgery/arms/duraCutArm" itemID="4f6f0cea-000004cd" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/markerArm" itemID="4f63331a-00001100" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/needleArms" itemID="4f1afd64-0000033b"/>
           <DOMFolderItem name="images/surgery/arms/patch" itemID="4f5b5df7-0000051d"/>
@@ -140,7 +141,7 @@
           <DOMBitmapItem name="images/surgery/brain/drilledHoles/drilledHoles.png" itemID="4f310910-00000f0f" sourceExternalFilepath="./LIBRARY/images/surgery/brain/drilledHoles/drilledHoles.png" sourceLastImported="1328578378" sourcePlatform="macintosh" externalFileSize="10465" originalCompressionType="lossless" quality="50" href="images/surgery/brain/drilledHoles/drilledHoles.png" bitmapDataHRef="M 265 1328613509.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/surgeryTools/second/drills.png" itemID="4eec732f-0000035f" linkageExportForAS="true" linkageClassName="drills" sourceExternalFilepath="./LIBRARY/images/surgeryTools/second/drills.png" sourceLastImported="1321822395" externalFileSize="12536" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/drills.png" bitmapDataHRef="M 223 1324118663.dat" frameRight="5480" frameBottom="1760"/>
           <DOMBitmapItem name="images/surgery/brain/duraCut.png" itemID="4f385cb5-000009f8" linkageExportForAS="true" linkageClassName="duraCut" sourceExternalFilepath="./LIBRARY/images/surgery/brain/duraCut.png" sourceLastImported="1329093136" sourcePlatform="macintosh" externalFileSize="5640" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/duraCut.png" bitmapDataHRef="M 278 1329093718.dat" frameRight="3760" frameBottom="3200"/>
-          <DOMBitmapItem name="images/surgery/arms/duracutArm.png" itemID="4f5b5c39-000004c2" linkageExportForAS="true" linkageClassName="duracutArm" sourceExternalFilepath="./LIBRARY/images/surgery/arms/duracutArm.png" sourceLastImported="1331387270" sourcePlatform="macintosh" externalFileSize="123623" originalCompressionType="lossless" quality="50" href="images/surgery/arms/duracutArm.png" bitmapDataHRef="M 302 1331387365.dat" frameRight="15440" frameBottom="11040"/>
+          <DOMBitmapItem name="images/surgery/arms/duraCutArm/duracutArm.png" itemID="4f6f1067-0000057a" sourceExternalFilepath="./LIBRARY/images/surgery/arms/duraCutArm/duracutArm.png" sourceLastImported="1332678159" sourcePlatform="macintosh" externalFileSize="123623" originalCompressionType="lossless" quality="50" href="images/surgery/arms/duraCutArm/duracutArm.png" bitmapDataHRef="M 302 1331387365.dat" frameRight="15440" frameBottom="11040"/>
           <DOMBitmapItem name="images/surgery/brain/duraLines.png" itemID="4f385cb5-000009f9" linkageExportForAS="true" linkageClassName="duraLines" sourceExternalFilepath="./LIBRARY/images/surgery/brain/duraLines.png" sourceLastImported="1329092730" sourcePlatform="macintosh" externalFileSize="6557" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/duraLines.png" bitmapDataHRef="M 279 1329093718.dat" frameRight="3780" frameBottom="3280"/>
           <DOMBitmapItem name="images/surgery/brain/duraLinesRegion.png" itemID="4f385cb5-000009fa" linkageExportForAS="true" linkageClassName="duraLinesRegion" sourceExternalFilepath="./LIBRARY/images/surgery/brain/duraLinesRegion.png" sourceLastImported="1329093062" sourcePlatform="macintosh" externalFileSize="6219" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/duraLinesRegion.png" bitmapDataHRef="M 280 1329093718.dat" frameRight="3980" frameBottom="3580"/>
           <DOMBitmapItem name="images/surgery/brain/duraOpen.png" itemID="4f38b32d-00000e9b" linkageExportForAS="true" linkageClassName="duraOpen" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgery/brain/duraOpen.png" sourceLastImported="1329115854" sourcePlatform="macintosh" externalFileSize="84468" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/duraOpen.png" bitmapDataHRef="M 281 1329107414.dat" frameRight="5700" frameBottom="5380"/>
@@ -489,6 +490,7 @@
           <Include href="images/scanner/upCTButton.xml" itemIcon="0" itemID="4e745bae-000002db" lastModified="1316248494"/>
           <Include href="images/surgery/arms/clipArms/clipArm.xml" itemID="4f2f9ae1-00000a51" lastModified="1328520939"/>
           <Include href="images/surgery/arms/drillArm.xml" itemID="4f633df1-0000129f" lastModified="1331907729"/>
+          <Include href="images/surgery/arms/duraCutArm/duraCutArm.xml" itemID="4f6f0d36-000004f2" lastModified="1332684160"/>
           <Include href="images/surgery/arms/markerArm/markerArm.xml" itemID="4f633310-000010fb" lastModified="1331903985"/>
           <Include href="images/surgery/arms/needleArms/needleHand.xml" itemID="4f1afc61-00000322" lastModified="1327176230"/>
           <Include href="images/surgery/arms/patch/patchArm.xml" itemID="4f5b5e33-0000051f" lastModified="1331393541"/>
@@ -519,6 +521,10 @@
           <Include href="Symbol 10.xml" loadImmediate="false" itemID="4f6333cd-00001130" lastModified="1331901389"/>
           <Include href="Symbol 11.xml" loadImmediate="false" itemID="4f633e63-000012b6" lastModified="1331904099"/>
           <Include href="Symbol 12.xml" loadImmediate="false" itemID="4f634d4b-00001561" lastModified="1331907915"/>
+          <Include href="Symbol 13.xml" loadImmediate="false" itemID="4f6f0d53-00000500" lastModified="1332678529"/>
+          <Include href="Symbol 14.xml" loadImmediate="false" itemID="4f6f0e84-0000051a" lastModified="1332678539"/>
+          <Include href="Symbol 15.xml" loadImmediate="false" itemID="4f6f0f89-00000543" lastModified="1332678537"/>
+          <Include href="Symbol 16.xml" loadImmediate="false" itemID="4f6f1025-00000564" lastModified="1332678693"/>
           <Include href="Symbol 59.xml" itemIcon="1" loadImmediate="false" itemID="4e69e3e8-000002a0" lastModified="1315562472"/>
           <Include href="Symbol 60.xml" itemIcon="1" loadImmediate="false" itemID="4e69e3e8-000002a5" lastModified="1315562472"/>
           <Include href="Symbol 61.xml" itemIcon="1" loadImmediate="false" itemID="4e69e3e8-000002aa" lastModified="1315562472"/>
@@ -696,25 +702,25 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="5709361" publishTime="1332038582"/>
-          <PublishItem publishSize="5709344" publishTime="1332038446"/>
-          <PublishItem publishSize="5650599" publishTime="1332038360"/>
-          <PublishItem publishSize="5708178" publishTime="1331907950"/>
-          <PublishItem publishSize="5660607" publishTime="1331907674"/>
-          <PublishItem publishSize="5660598" publishTime="1331907642"/>
-          <PublishItem publishSize="5660606" publishTime="1331907190"/>
-          <PublishItem publishSize="5660601" publishTime="1331907135"/>
-          <PublishItem publishSize="5660478" publishTime="1331907006"/>
-          <PublishItem publishSize="5660609" publishTime="1331906867"/>
-          <PublishItem publishSize="5660599" publishTime="1331906805"/>
-          <PublishItem publishSize="5660602" publishTime="1331906768"/>
-          <PublishItem publishSize="5660593" publishTime="1331906726"/>
-          <PublishItem publishSize="5660602" publishTime="1331906686"/>
-          <PublishItem publishSize="5660600" publishTime="1331906638"/>
-          <PublishItem publishSize="5660604" publishTime="1331906598"/>
-          <PublishItem publishSize="5660599" publishTime="1331906551"/>
-          <PublishItem publishSize="5660597" publishTime="1331906451"/>
-          <PublishItem publishSize="5660611" publishTime="1331906392"/>
-          <PublishItem publishSize="5660594" publishTime="1331906329"/>
+          <PublishItem publishSize="5709848" publishTime="1332684040"/>
+          <PublishItem publishSize="5709861" publishTime="1332683948"/>
+          <PublishItem publishSize="5709840" publishTime="1332683907"/>
+          <PublishItem publishSize="5709851" publishTime="1332683867"/>
+          <PublishItem publishSize="5709854" publishTime="1332683766"/>
+          <PublishItem publishSize="5709862" publishTime="1332683678"/>
+          <PublishItem publishSize="5709819" publishTime="1332683568"/>
+          <PublishItem publishSize="5709838" publishTime="1332683491"/>
+          <PublishItem publishSize="5709831" publishTime="1332683461"/>
+          <PublishItem publishSize="5709827" publishTime="1332683175"/>
+          <PublishItem publishSize="5709852" publishTime="1332683113"/>
+          <PublishItem publishSize="5709874" publishTime="1332683061"/>
+          <PublishItem publishSize="5709876" publishTime="1332682976"/>
+          <PublishItem publishSize="5709854" publishTime="1332682907"/>
+          <PublishItem publishSize="5709868" publishTime="1332682817"/>
+          <PublishItem publishSize="5709852" publishTime="1332682716"/>
+          <PublishItem publishSize="5709867" publishTime="1332682646"/>
+          <PublishItem publishSize="5651373" publishTime="1332682615"/>
+          <PublishItem publishSize="5709800" publishTime="1332682366"/>
+          <PublishItem publishSize="5709807" publishTime="1332682211"/>
      </publishHistory>
 </DOMDocument>
