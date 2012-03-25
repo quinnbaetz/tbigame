@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/messageBox/message" itemID="4f6f2b55-00000825" lastModified="1332686371" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="message" currentFrame="1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/messageBox/container.png"/>
+                <DOMSymbolInstance libraryItemName="Symbol 17" name="prev" centerPoint3DX="413" centerPoint3DY="23">
+                  <matrix>
+                    <Matrix tx="402" ty="10.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbol 18" name="next" centerPoint3DX="416" centerPoint3DY="88.95">
+                  <matrix>
+                    <Matrix tx="405" ty="76.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbol 19" name="exit" centerPoint3DX="415" centerPoint3DY="55">
+                  <matrix>
+                    <Matrix tx="404" ty="45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="text" width="370" height="90.95" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="10" ty="9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Verdana" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/messageBox/container.png"/>
+                <DOMSymbolInstance libraryItemName="Symbol 17" name="prev" centerPoint3DX="413" centerPoint3DY="23">
+                  <matrix>
+                    <Matrix tx="402" ty="10.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbol 18" name="next" centerPoint3DX="416" centerPoint3DY="88.95">
+                  <matrix>
+                    <Matrix tx="405" ty="76.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbol 19" name="exit" centerPoint3DX="415" centerPoint3DY="55">
+                  <matrix>
+                    <Matrix tx="404" ty="45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="text" width="272" height="90.95" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="108" ty="9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Verdana" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
