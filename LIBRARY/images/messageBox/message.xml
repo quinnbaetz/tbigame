@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/messageBox/message" itemID="4f6f2b55-00000825" linkageExportForAS="true" linkageClassName="message" lastModified="1332688744" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/messageBox/message" itemID="4f6f2b55-00000825" linkageExportForAS="true" linkageClassName="message" lastModified="1332692922" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="message">
+    <DOMTimeline name="message" currentFrame="1">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -31,9 +31,9 @@
                     <Point x="11" y="10"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMDynamicText name="text" selected="true" width="370" height="90.95" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="text" width="370" height="99.95" isSelectable="false" lineType="multiline">
                   <matrix>
-                    <Matrix tx="10" ty="9"/>
+                    <Matrix tx="10" ty="6"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -73,7 +73,7 @@
                     <Point x="11" y="10"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMDynamicText name="text" width="272" height="90.95" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="text" width="272" height="96.95" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="114" ty="9"/>
                   </matrix>
