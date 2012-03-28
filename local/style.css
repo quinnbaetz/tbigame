@@ -1,0 +1,129 @@
+object, embed, #applet{
+margin: 0 auto;	
+}
+#applet{
+	text-align: center;	
+}
+#glossary{
+	width: 800px;
+	margin: 0 auto;
+	height: 300px;
+	margin-top: 20px;
+}
+
+#list, #description{
+	float: left;
+	border: 1px solid black;
+	padding: 4px;
+}
+
+#list{
+	width: 20%;;	
+}
+
+#description{
+	overflow:auto;
+	height: 119%;
+	width: 76%;	
+}
+
+#words{
+	overflow: auto;
+	height: 100%;
+}
+
+
+#tablet ul {
+  margin: 0;
+  padding-left: 15px; }
+  ul li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+
+.hoverBorder {
+    border: 1px solid transparent;
+}
+.hoverBorder:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+#tablet h4 {
+  margin: 0px;
+  padding: 0px; }
+
+#tablet h5 {
+  margin: 0px;
+  padding: 0px; }
+
+#tablet {
+  display: block;
+  width: 650px;
+  height: 450px;
+  color: #292929;
+  background: url("tablet_bg.png") repeat;
+  position: relative;
+  margin: 0 auto;
+  top: -560px;
+  font-family: "georgia"; }
+  #tablet #nav {
+    vertical-align: top;
+    font-size: 18px;
+    display: inline-block;
+    width: 140px;
+    height: 450px;
+    border-right: 2px solid #464646; }
+    #tablet #nav h2 {
+      font-size: 18px;
+      padding-left: 5px; }
+    #tablet #nav input {
+      width: 125px;
+      height: 25px;
+      border: 1px solid black; }
+      #tablet #nav #search, #tablet #submitButton {
+      display: block;
+      width: 125px;
+      height: 25px;
+      border: 1px solid black;
+      text-align: center;
+      line-height: 25px;
+      color: #292929;
+      margin-top: 5px; }
+      
+     #tablet #submitButton { float: right; margin-right: 40px; display: inline-block; }
+
+      #tablet #nav #search a, #tablet #submitButton a{
+        display: block;
+        width: 125px;
+        height: 25px;
+      }
+    #tablet #nav ul {
+      margin: 0px;
+      padding: 0px; }
+      #tablet #nav ul ul li {
+        border: 1px solid black;
+        width: 125px;
+        height: 25px;
+        text-align: left;
+        margin-top: 5px; }
+        #tablet #nav ul ul li a {
+          color: #292929;
+          display: block;
+          width: 115px;
+          height: 25px;
+          line-height: 25px;
+          padding-left: 10px; }
+  #tablet #content {
+    display: inline-block;
+    width: 500px; }
+    #tablet #content img {
+      vertical-align: top; }
+    #tablet #content #findings {
+      vertical-align: top;
+      display: inline-block; }
+    #tablet #content #location {
+      vertical-align: top;
+      display: inline-block; }
+    #tablet #content #summary {
+      margin-top: 15px; }
+

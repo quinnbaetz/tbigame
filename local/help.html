@@ -1,0 +1,618 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+	
+    <title>Project Neuron</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+	<div id="content">
+		
+<script language="JavaScript" type="text/javascript">
+<!--
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2008 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+  document.write(str);
+}
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+// -->
+</script>
+
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!-- saved from url=(0013)about:internet -->
+       <div id="leftContent">
+        <div class="bigBox smallBorder center" style="width:811px;" id='about'>
+ <div class='smallBorder center' style="width:800px;padding: 0px;" id='aboutText'>
+
+<div id='applet'>
+<script language="JavaScript" type="text/javascript">
+	AC_FL_RunContent(
+		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+		'width', '800',
+		'height', '600',
+		'src', 'preloader',
+		'quality', 'high',
+		'pluginspage', 'http://www.adobe.com/go/getflashplayer',
+		'align', 'middle',
+		'play', 'true',
+		'loop', 'true',
+		'scale', 'showall',
+		'wmode', 'transparent',
+		'devicefont', 'false',
+		'id', 'preloader',
+		'bgcolor', '#ffffff',
+		'name', 'preloader',
+		'menu', 'true',
+		'allowFullScreen', 'false',
+		'allowScriptAccess','sameDomain',
+		'movie', 'preloader',
+		'salign', ''
+		); //end AC code
+</script>
+    <noscript>
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="800" height="600" id="preloader" align="middle">
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="allowFullScreen" value="false" />
+        <param name="movie" value="preloader.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="preloader.swf" quality="high" bgcolor="#ffffff" width="800" height="600" name="preloader" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+        </object>
+    </noscript>
+</div>
+<script type="text/javascript">
+	function getFlashMovieObject(movieName){
+		if (window.document[movieName]){
+			return window.document[movieName];
+		}
+		if (navigator.appName.indexOf("Microsoft Internet")==-1){
+			if (document.embeds && document.embeds[movieName])
+				return document.embeds[movieName];
+		}
+		else{
+			return document.getElementById(movieName);
+		}
+	}
+	
+    function filterList(){
+        $('.subcontent').hide();
+        $('#words').show();
+		var val = $('#filter').val();
+		val = val.replace(" ", "").toLowerCase();
+		$('#words li').show();
+		if(val.length>0){
+			$('#words li').not('.'+val).hide();
+		}
+	}
+	function clearSearch(){
+        $('#filter').val('');
+        filterList();
+        return false;
+    }
+    function display(text){
+        $('.subcontent').hide();
+        $('#description').show();
+		$('#description').html(text); 
+    }
+     function gotoScene(scene, timeline){ //need to fix to use apply or call
+        var flashMovie=getFlashMovieObject("preloader");
+        flashMovie.jumpToScene(scene, timeline, false);
+        return false;
+    }
+    function asCall(functionName, one, two, three, four){ //need to fix to use apply or call
+        var flashMovie=getFlashMovieObject("preloader");
+        flashMovie.pickedEvidence(one);
+        return false;
+    }
+	function callToActionscript(scene, timeline) 
+	{
+        var flashMovie=getFlashMovieObject("preloader");
+        //flashMovie.restart();
+        //console.log("restarting and jumping to", scene, timeline);
+        ///setTimeout(function(){
+            flashMovie.jumpToScene(scene, timeline);
+        //},500);
+		return false;
+    }
+    function showTabletContent(){
+        $('#tablet').fadeIn();
+    }
+
+    function hideTabletContent(){
+        $('#tablet').fadeOut();
+    }
+    function submitCTForm(){
+        //$('#tablet').hide();
+        gotoScene(18, 76);
+        $('#submitButton a').unbind('click', submitCTForm);
+        return false;
+    }
+    function showCTReportOption(){
+        $('#CTReportOption').show();
+        $('#submitButton a').bind('click', submitCTForm);
+
+    }
+    function showCTReport(){
+        $('.subcontent').hide();
+        $('#ct_report').show();
+    }
+    function pickEvidence(){
+        $('#findings').addClass('hoverBorder');
+        $('#location').addClass('hoverBorder');
+        function cleanup(){
+            $('#findings').addClass('hoverBorder');
+            $('#location').addClass('hoverBorder');
+            $('#findings').unbind('click', pick2);
+            $('#location').unbind('click', pick1);
+            $('#findings').unbind('mouseover', hover2);
+            $('#location').unbind('mouseover', hover1);
+
+        }
+        function pick2(){
+            cleanup();
+            $('#findings').css('border', '1px solid black');
+            gotoScene(18, 78);
+            return false;
+        }
+        function pick1(){
+            cleanup();
+            $('#locations').css('border', '1px solid black');
+            gotoScene(18, 77);
+            return false;
+        }
+        function hover1(){
+            console.log("hovering over the first one");
+            asCall("pickedEvidence", 1);
+        }
+        function hover2(){
+            asCall("pickedEvidence", 2);
+        }
+        $('#findings').bind('click', pick2);
+        $('#location').bind('click', pick1);
+        $('#findings').bind('mouseover', hover2);
+        $('#location').bind('mouseover', hover1);
+    }
+
+</script>
+<div id='tablet' style='display: none;'>
+    <div id='nav'>
+        <ul>
+            <li>
+                <h2>Index</h2>
+                 <input id='filter' type="text" onKeyUp="filterList();"/> 
+                <a id='search' onclick='clearSearch(); return false;'>Search</a>
+            </li>
+            <li>
+                <h2>Notes</h2>
+               <ul>
+                    <li style='display:none;'><a href='#'>EMT</a></li>
+                    <li style='display:none;'><a href='#'>CT scan</a></li>
+                    <li style='display:none;'><a href='#'>Surgery</a></li>
+                </ul>
+            <li>
+            <li>
+                <h2>Reports</h2>
+                <ul>
+                    <li style='display:none;'><a href='#'>Admission</a></li>
+                    <li id='CTReportOption' style='display:none;'><a href='#' onclick='showCTReport(); return false;'>CT scan</a></li>
+                    <li style='display:none;'><a href='#' onclick='';>Post-surgery</a></li>
+                </ul>
+            <li>
+        </ul>
+    </div>
+    <div id='content'>
+        <div id='words' class='subcontent' style='display:none;'>
+        	<ul>
+            	<li class=' e em eme emer emerg emerge emergen emergenc emergency emergencym emergencyme emergencymed emergencymedi emergencymedic emergencymedica emergencymedical emergencymedicalt emergencymedicalte emergencymedicaltec emergencymedicaltech emergencymedicaltechn emergencymedicaltechni emergencymedicaltechnic emergencymedicaltechnici emergencymedicaltechnicia '><a href='#' onclick='display("Emergency medical technicians (EMT&#039;s) are medical professionals that are trained to respond to emergency calls. Working as part of ambulance team, search and rescue squad, or fire department, EMT&#039;s are often the first to arrive at the scene of a medical emergency. EMT&#039;s are trained to quickly assess a patient&#039;s condition at the scene of the accident and transport them quickly and safely to the nearest medical facility."); return false;'>Emergency medical technician</a></li><li class=' p pe pen penl penli penlig penligh '><a href='#' onclick='display("This small pen-shaped flashlight is typically used by medical professionals to illuminate a patient&#039;s throat, nose, and ears, as well as to check the for the response of pupils to bright light."); return false;'>Penlight</a></li><li class=' s st ste stet steth stetho stethos stethosc stethosco stethoscop '><a href='#' onclick='display("Modern stethosscopes are a simple device that enable a medical professional to listen to internal body sounds. Acoutsic sethtoscopes, the most common kind, use a plastic disc and hollow tubes to carry sound to the listener. More advanced electronic sethoscopes can amplify and record internal body sounds."); return false;'>Stethoscope</a></li><li class=' e ea ear eart earth earthe earther eartherm earthermo earthermom earthermome earthermomet earthermomete '><a href='#' onclick='display("While there are many places that a patient&#039;s body temerature can be measured, some locations are more accurate than others. Because the eardrum is set inside the head, ear thermometers are one of the more accurate ways to measure body temerature. Ear thermometers are able to measure the amount of infrared radiation (heat energy) given off by the eardrum without touching it. "); return false;'>Ear thermometer</a></li><li class=' b bl blo bloo blood bloodp bloodpr bloodpre bloodpres bloodpress bloodpressu bloodpressur bloodpressure bloodpressurec bloodpressurecu bloodpressurecuf '><a href='#' onclick='display("Also called a sphygmomanometer, a blood pressure cuff measures the pressure of blood flowing through arteries in the body. When gathering information on a patient, two pressures are checked: a systolic blood pressure (the pressure of the blood as the heart muscle contracts) and a diastolic pressure (the pressure of the blood when the heart is relaxed)."); return false;'>Blood pressure cuff</a></li><li class=' g ga gau gauz '><a href='#' onclick='display("Usually made of cotton, gauze is a type of bandage (or dressing) that is used to loosley wrap an injury or to hold other bandages in place. Some modern gauze has a plastic film on one side to prevent it from sticking to a wound."); return false;'>Gauze</a></li><li class=' g gl gla glas glasg glasgo glasgow glasgowc glasgowco glasgowcom glasgowcoma glasgowcomas glasgowcomasc glasgowcomasca glasgowcomascal glasgowcomascale glasgowcomascale( glasgowcomascale(g glasgowcomascale(gc glasgowcomascale(gcs '><a href='#' onclick='display("The Glasgow Coma Scale of GCS is a type of medical diagnostic developed in 1974 at the University of Glasgow. The scale was developed as a way to reliably record the conscious sate of a patient who has recieved an injury to the brain. The GCS consits of a scale from 1 to 6 in three areas: Eyes, Verbal, and Motor. Depending on the score a patient gets in each area, they are classified as having either midle, moderate, or severe brain injury."); return false;'>Glasgow Coma Scale (GCS)</a></li><li class=' m me med mede medev medeva medevac medevach medevache medevachel medevacheli medevachelic medevachelico medevachelicop medevachelicopt medevachelicopte '><a href='#' onclick='display("While motor vehicle ambulances are the most common way medical techncicnas reach the scene of an emergency, sometimes accidents can happen where an ambulance would be too slow or unable to reach the patient. In these cases medevac (medical evacuation) helicopters are used to gain access to the scene of an emergency and transport the patient to the nearest hospital. Medevac helicopters have most of the same equipment as a standard ambulance and can travel up to twice as fast. Many hospital emergency rooms have a helicopter landing pad on the roof of the building so that patients can be easily loaded on and off a helicopter right at the hospital."); return false;'>Medevac helicopter</a></li>            </ul>
+        </div>
+        <div id='description' class='subcontent'  style='display:none;'>
+    	
+        </div>
+        <div id='ct_report' class='subcontent' style='display:none;'>
+            <h3>CT REPORT - HEAD</h3>
+            <img src='brain.jpg' width='160' height='166' />
+            <div id='findings'>
+                <h4>Findings</h4>
+                <ul>
+                    <li><input type="checkbox"/>Hematoma
+                        <ul>
+                            <li><input type="checkbox"/>Epidural</li>
+                            <li><input type="checkbox"/>Subdural</li>
+                        </ul>
+                    </li>
+                    <li><input type="checkbox"/>Contusion</li>
+                    <li><input type="checkbox"/>Fracture</li>
+                    <li><input type="checkbox"/>Mass/Tumor</li>
+                    <li><input type="checkbox"/>Normal</li>
+                </ul>
+            </div>
+            <div id='location'>
+                <h4>Location</h4>
+                <ul>
+                    <li>
+                        <h5>Side</h5>
+                        <ul>
+                            <li><input type="checkbox"/>Left</li>
+                            <li><input type="checkbox"/>Right</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Lobe</h5>
+                        <ul>
+                            <li><input type="checkbox"/>Frontal</li>
+                            <li><input type="checkbox"/>Temporal</li>
+                            <li><input type="checkbox"/>Parietal</li>
+                            <li><input type="checkbox"/>Occipital</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h4 id='summary'>Findings Summary</h4>
+            <p>
+                The CT scans show the presence of 
+<select>
+    <option>fluid</option>
+    <option>blood</option>
+    <option>bone fragments</option>
+    <option>tumor</option>
+</select>
+ on the 
+<select>
+    <option>right</option>
+    <option>left</option>
+</select>
+side of the head, indicating the occurance of a 
+<select>
+    <option>contusion</option>
+    <option>hematoma</option>
+    <option>mass/tumor</option>
+</select> 
+near the 
+<select>
+    <option>frontal</option>
+    <option>parietal</option>
+    <option>occipital</option>
+    <option>temporal</option>
+</select> 
+
+ lobe of the brain. The 
+<select>
+    <option>crescent</option>
+    <option>convex</option>
+</select> 
+ shape indicates that the hematoma is 
+<select>
+    <option>epidural</option>
+    <option>subdural</option>
+</select> 
+, located between the
+<select>
+    <option>brain</option>
+    <option>dura mater</option>
+    <option>skull</option>
+</select> 
+ and the 
+<select>
+    <option>brain</option>
+    <option>dura mater</option>
+    <option>skull</option>
+</select> 
+ 
+            </p>
+            <h4 style='display: inline;'>Proposed Action</h4>
+            <p style='display: inline;'>
+                <textarea></textarea>
+            </p>
+            <div id='submitButton' style='display: inline;'>
+            <a href='#'>Submit</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<ul>
+	<li>Scene 1</li>
+    <li><a href='#' onclick='return callToActionscript(11, 50);'>Scene 2</a></li>
+	<ul>
+        	<li><a href='#' onclick='return callToActionscript(19, 75);'>CT Assessment</a></li>
+    </ul>
+
+	<li><a href='#' onclick='return callToActionscript(17, 100);'>Scene 3</a><br>
+		<ul>
+        	<li><a href='#' onclick='return callToActionscript(14, 106);'>Marker</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 107);'>Syringe</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 109);'>Scalpel</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 110);'>Raney Clips</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 111);'>Drill</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 112);'>Skull Removal</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 113);'>Bone Wax</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 114);'>Dura Cut</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 115);'>Suction and irrigation</a></li>
+        	<li><a href='#' onclick='return callToActionscript(14, 116);'>Sponge</a></li>
+        </ul>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+
+       </div>
+    <div class='clear'></div>
+    <div id='footer' class='center centerText'>
+        <span>&copy; 2010| Project Neuron| University of Illinois at Urbana-Champaign </span>
+   </div>
+        
+    </body>
+</html>

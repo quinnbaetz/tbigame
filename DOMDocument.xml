@@ -7,7 +7,7 @@
           <DOMFolderItem name="images/actions/pumpGuageComponents" itemID="4df26a34-0000025f"/>
           <DOMFolderItem name="images/actions/pupil_scene" itemID="4e19db6b-00000289"/>
           <DOMFolderItem name="images/drawer" itemID="4def93a7-0000020c"/>
-          <DOMFolderItem name="images/logos" itemID="4f43b7da-00000438"/>
+          <DOMFolderItem name="images/logos" itemID="4f43b7da-00000438" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar" itemID="4defcc3f-00000223" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/buttons" itemID="4df520c6-00000219"/>
           <DOMFolderItem name="images/menuBar/clock" itemID="4ddbd5f0-0000001f"/>
@@ -15,10 +15,10 @@
           <DOMFolderItem name="images/menuBar/images/menuBar" itemID="4f6301cb-0000091e"/>
           <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468"/>
-          <DOMFolderItem name="images/menuBar/notes" itemID="4e07bc1c-00000215"/>
+          <DOMFolderItem name="images/menuBar/notes" itemID="4e07bc1c-00000215" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes/chart" itemID="4e07d19b-0000021b" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes/chart/data" itemID="4e07d20d-00000223" isExpanded="true"/>
-          <DOMFolderItem name="images/menuBar/notes/chart/data/chartImages" itemID="4e07de05-00000371"/>
+          <DOMFolderItem name="images/menuBar/notes/chart/data/chartImages" itemID="4e07de05-00000371" isExpanded="true"/>
           <DOMFolderItem name="images/messageBox" itemID="4f120f9d-00000324" isExpanded="true"/>
           <DOMFolderItem name="images/MRI" itemID="4e383c5b-00000249"/>
           <DOMFolderItem name="images/MRI/brain" itemID="4e383c2e-00000248"/>
@@ -29,7 +29,7 @@
           <DOMFolderItem name="images/scanner" itemID="4e69e436-0000034f"/>
           <DOMFolderItem name="images/scanner/injuredBrains" itemID="4e745d38-00000302" isExpanded="true"/>
           <DOMFolderItem name="images/scanner/slices" itemID="4e7649fd-0000043f"/>
-          <DOMFolderItem name="images/surgery" itemID="4ebe8916-00000309" isExpanded="true"/>
+          <DOMFolderItem name="images/surgery" itemID="4ebe8916-00000309"/>
           <DOMFolderItem name="images/surgery/arms" itemID="4ed5c369-00000345"/>
           <DOMFolderItem name="images/surgery/arms/clipArms" itemID="4f2f9acd-00000a4d"/>
           <DOMFolderItem name="images/surgery/arms/duraCutArm" itemID="4f6f0cea-000004cd" isExpanded="true"/>
@@ -51,12 +51,12 @@
           <DOMFolderItem name="images/tools" itemID="4defcd32-00000279"/>
           <DOMFolderItem name="scripts" itemID="4dd9e52f-00000017"/>
           <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b"/>
-          <DOMFolderItem name="Scenes" itemID="4dd9ddc7-00000014"/>
+          <DOMFolderItem name="Scenes" itemID="4dd9ddc7-00000014" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
           <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -123,7 +123,7 @@
           <DOMBitmapItem name="images/scanner/injuredBrains/coup-contrecoup.jpg" itemID="4e745d7d-00000303" linkageExportForAS="true" linkageClassName="coupcontrecoup.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/coup-contrecoup.jpg" sourceLastImported="1316248819" externalFileSize="6557" quality="50" href="images/scanner/injuredBrains/coup-contrecoup.jpg" bitmapDataHRef="M 164 1316248852.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg" itemID="4e69e4a6-0000038b" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1315562660" externalFileSize="312609" originalCompressionType="lossless" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 119 1313287228.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg copy" itemID="4e69e4a6-0000038c" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1315562660" externalFileSize="312609" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 120 1313287267.dat" frameRight="32000" frameBottom="24000" isJPEG="true"/>
-          <DOMBitmapItem name="Scenes/CTTech.png" itemID="4f6209b9-000004d9" sourceExternalFilepath="./LIBRARY/Scenes/CTTech.png" sourceLastImported="1331824588" sourcePlatform="macintosh" externalFileSize="170753" originalCompressionType="lossless" quality="50" href="Scenes/CTTech.png" bitmapDataHRef="M 304 1331824630.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="Scenes/CTTech.png" itemID="4f6209b9-000004d9" linkageExportForAS="true" linkageClassName="CTTech" sourceExternalFilepath="./LIBRARY/Scenes/CTTech.png" sourceLastImported="1331824588" sourcePlatform="macintosh" externalFileSize="170753" originalCompressionType="lossless" quality="50" href="Scenes/CTTech.png" bitmapDataHRef="M 304 1331824630.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="images/tools/cuff.png" itemID="4ed5b448-00000338" linkageExportForAS="true" linkageClassName="cuff" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/tools/cuff.png" sourceLastImported="1328488977" externalFileCRC32="1998285673" externalFileSize="61907" originalCompressionType="lossless" quality="50" href="images/tools/cuff.png" bitmapDataHRef="M 15 1307561266.dat" frameRight="6900" frameBottom="4940"/>
           <DOMBitmapItem name="images/actions/cuffedArms/cuffedArmLeft.png" itemID="4df2a0d2-00000281" linkageExportForAS="true" linkageClassName="cuffedArmLeft" sourceExternalFilepath="./LIBRARY/images/actions/cuffedArms/cuffedArmLeft.png" sourceLastImported="1307746410" externalFileCRC32="1895993168" externalFileSize="28294" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/cuffedArms/cuffedArmLeft.png" bitmapDataHRef="M 32 1307746514.dat" frameRight="4980" frameBottom="4780"/>
           <DOMBitmapItem name="images/actions/cuffedArms/cuffedArmRight.png" itemID="4e092476-0000022d" linkageExportForAS="true" linkageClassName="cuffedArmRight" sourceExternalFilepath="./LIBRARY/images/actions/cuffedArms/cuffedArmRight.png" sourceLastImported="1309221870" externalFileCRC32="3673105633" externalFileSize="32042" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/cuffedArms/cuffedArmRight.png" bitmapDataHRef="M 44 1309222006.dat" frameRight="4640" frameBottom="4160"/>
@@ -232,7 +232,7 @@
           <DOMBitmapItem name="images/MRI/images/MRIbase.png" itemID="4e4733b1-0000040f" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/MRI/images/MRIbase.png" sourceLastImported="1313287291" externalFileSize="49756" originalCompressionType="lossless" quality="50" href="images/MRI/images/MRIbase.png" bitmapDataHRef="M 116 1313285334.dat" frameRight="4720" frameBottom="5880"/>
           <DOMBitmapItem name="images/surgery/brain/muscleback.png" itemID="4f2f9f7b-00000ac6" linkageExportForAS="true" linkageClassName="muscleback" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgery/brain/muscleback.png" sourceLastImported="1328521063" sourcePlatform="macintosh" externalFileSize="78253" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/muscleback.png" bitmapDataHRef="M 252 1328517500.dat" frameRight="9320" frameBottom="8040"/>
           <DOMBitmapItem name="images/menuBar/notes/chart/data/chartImages/name.png" itemID="4e07d216-0000022b" sourceExternalFilepath="./LIBRARY/images/menuBar/notes/chart/data/chartImages/name.png" sourceLastImported="1309131584" externalFileCRC32="3937390071" externalFileSize="18855" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/notes/chart/data/chartImages/name.png" bitmapDataHRef="M 35 1309135382.dat" frameRight="9940" frameBottom="1860"/>
-          <DOMBitmapItem name="images/logos/neuron.png" itemID="4f43bbdd-0000059f" linkageExportForAS="true" linkageClassName="neuronLogo" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/logos/neuron.png" sourceLastImported="1329839068" sourcePlatform="macintosh" externalFileSize="8123" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/logos/neuron.png" bitmapDataHRef="M 298 1329838024.dat" frameRight="5460" frameBottom="2500"/>
+          <DOMBitmapItem name="images/logos/neuron.png" itemID="4f7359d6-00000a10" linkageExportForAS="true" linkageClassName="neuronLogo" sourceExternalFilepath="./LIBRARY/images/logos/neuron.png" sourceLastImported="1329839068" sourcePlatform="macintosh" externalFileSize="8123" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/logos/neuron.png" bitmapDataHRef="M 298 1329838024.dat" frameRight="5460" frameBottom="2500"/>
           <DOMBitmapItem name="images/menuBar/menu/menubuttons/new.png" itemID="4f3f8203-000004a4" sourceExternalFilepath="./LIBRARY/images/menuBar/menu/menubuttons/new.png" sourceLastImported="1329560859" sourcePlatform="macintosh" externalFileSize="3216" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/menu/menubuttons/new.png" bitmapDataHRef="M 290 1329561787.dat" frameRight="3540" frameBottom="640"/>
           <DOMBitmapItem name="images/menuBar/menu/menubuttons/newDown.png" itemID="4f3f8203-000004a5" sourceExternalFilepath="./LIBRARY/images/menuBar/menu/menubuttons/newDown.png" sourceLastImported="1329560898" sourcePlatform="macintosh" externalFileSize="3234" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/menu/menubuttons/newDown.png" bitmapDataHRef="M 291 1329561787.dat" frameRight="3540" frameBottom="640"/>
           <DOMBitmapItem name="images/MRI/xray/nonInjuredBrain10.jpg" itemID="4f5b5134-00000520" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/MRI/xray/nonInjuredBrain10.jpg" sourceLastImported="1331384708" externalFileSize="26745" originalCompressionType="lossless" quality="50" href="images/MRI/xray/nonInjuredBrain10.jpg" bitmapDataHRef="M 137 1315562489.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
@@ -544,9 +544,9 @@
           <Include href="thermometerCheck.xml" itemID="4e1a6071-0000023d" lastModified="1310523239"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="19">
                <layers>
-                    <DOMLayer name="scripts" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="scripts" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -556,7 +556,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Scenes" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="Scenes" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -702,6 +702,52 @@
                                         <DOMBitmapInstance libraryItemName="Scenes/CTTech.png"/>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#999999"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200!16439 -200|16439 12279"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMDynamicText width="559.95" height="55">
+                                             <matrix>
+                                                  <Matrix tx="168" ty="154"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>To Be Continued...&#xD;</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="Verdana" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMBitmapInstance libraryItemName="images/logos/sepaLogo.png">
+                                             <matrix>
+                                                  <Matrix tx="150.95" ty="356"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance libraryItemName="images/logos/neuron.png">
+                                             <matrix>
+                                                  <Matrix tx="456.95" ty="318.45"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
                </layers>
@@ -712,25 +758,25 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="5764408" publishTime="1332722086"/>
-          <PublishItem publishSize="5763889" publishTime="1332695332"/>
-          <PublishItem publishSize="5751030" publishTime="1332695266"/>
-          <PublishItem publishSize="5751030" publishTime="1332695241"/>
-          <PublishItem publishSize="5693348" publishTime="1332695218"/>
-          <PublishItem publishSize="5763745" publishTime="1332692259"/>
-          <PublishItem publishSize="5763736" publishTime="1332691455"/>
-          <PublishItem publishSize="5763761" publishTime="1332691258"/>
-          <PublishItem publishSize="5763740" publishTime="1332691234"/>
-          <PublishItem publishSize="5763765" publishTime="1332690830"/>
-          <PublishItem publishSize="5763498" publishTime="1332688715"/>
-          <PublishItem publishSize="5763515" publishTime="1332688521"/>
-          <PublishItem publishSize="5763515" publishTime="1332688401"/>
-          <PublishItem publishSize="5763493" publishTime="1332688321"/>
-          <PublishItem publishSize="5763416" publishTime="1332688250"/>
-          <PublishItem publishSize="5763420" publishTime="1332688154"/>
-          <PublishItem publishSize="5763403" publishTime="1332688109"/>
-          <PublishItem publishSize="5763411" publishTime="1332688074"/>
-          <PublishItem publishSize="5763408" publishTime="1332688028"/>
-          <PublishItem publishSize="5763425" publishTime="1332687925"/>
+          <PublishItem publishSize="5764654" publishTime="1332958968"/>
+          <PublishItem publishSize="5764650" publishTime="1332958751"/>
+          <PublishItem publishSize="5764569" publishTime="1332957927"/>
+          <PublishItem publishSize="5764566" publishTime="1332956565"/>
+          <PublishItem publishSize="5764527" publishTime="1332955920"/>
+          <PublishItem publishSize="5764527" publishTime="1332954617"/>
+          <PublishItem publishSize="5764530" publishTime="1332954594"/>
+          <PublishItem publishSize="5764530" publishTime="1332954554"/>
+          <PublishItem publishSize="5764521" publishTime="1332954517"/>
+          <PublishItem publishSize="5764521" publishTime="1332954446"/>
+          <PublishItem publishSize="5764537" publishTime="1332954376"/>
+          <PublishItem publishSize="5764522" publishTime="1332954338"/>
+          <PublishItem publishSize="5764497" publishTime="1332953661"/>
+          <PublishItem publishSize="5764495" publishTime="1332953553"/>
+          <PublishItem publishSize="5764535" publishTime="1332953401"/>
+          <PublishItem publishSize="5764518" publishTime="1332952383"/>
+          <PublishItem publishSize="5764518" publishTime="1332952325"/>
+          <PublishItem publishSize="5764506" publishTime="1332951242"/>
+          <PublishItem publishSize="5764484" publishTime="1332948397"/>
+          <PublishItem publishSize="5764458" publishTime="1332947570"/>
      </publishHistory>
 </DOMDocument>
