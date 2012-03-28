@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" lastModified="1332900781" lastUniqueIdentifier="47">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" sourceFlashFilepath="./AuthortimeSharedAssets.fla" sourceLibraryItemHRef="images/menuBar/TabletContent" sourceLastModified="1332905318" sourceAutoUpdate="true" lastModified="1332905318" lastUniqueIdentifier="49" sourceItemID="4f6f548b-00000d5c">
   <timeline>
     <DOMTimeline name="TabletContent" currentFrame="1">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
             <DOMFrame index="1" name="CTReport" labelType="name" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="148" height="17.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="148" height="17.05" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-131"/>
                   </matrix>
@@ -22,7 +22,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="images/menuBar/tabletImages/brain" selected="true">
+                <DOMSymbolInstance libraryItemName="images/menuBar/tabletImages/brain">
                   <matrix>
                     <Matrix tx="80" ty="-20.1"/>
                   </matrix>
@@ -30,7 +30,7 @@
                     <Point y="0.45"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMStaticText selected="true" width="66.7" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="66.7" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="163.65" ty="-104.95"/>
                   </matrix>
@@ -43,7 +43,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="67.05" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="67.05" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="299.6" ty="-104.95"/>
                   </matrix>
@@ -56,196 +56,63 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Hematoma" selected="true" centerPoint3DX="229" centerPoint3DY="-77.05" uniqueID="3">
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Hematoma" centerPoint3DX="229" centerPoint3DY="-77.05">
                   <matrix>
                     <Matrix tx="179" ty="-88.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='3'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Hematoma" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Epidural" selected="true" centerPoint3DX="245" centerPoint3DY="-57.65" uniqueID="5">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Epidural" centerPoint3DX="245" centerPoint3DY="-57.65">
                   <matrix>
                     <Matrix tx="195" ty="-68.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='5'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Epidural" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Subdural" selected="true" centerPoint3DX="245" centerPoint3DY="-37.65" uniqueID="7">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Subdural" centerPoint3DX="245" centerPoint3DY="-37.65">
                   <matrix>
                     <Matrix tx="195" ty="-48.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='7'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Subdural" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Contusion" selected="true" centerPoint3DX="229" centerPoint3DY="-15.65" uniqueID="9">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Contusion" centerPoint3DX="229" centerPoint3DY="-15.65">
                   <matrix>
                     <Matrix tx="179" ty="-26.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='9'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Contusion" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Fracture" selected="true" centerPoint3DX="229" centerPoint3DY="6.35" uniqueID="11">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Fracture" centerPoint3DX="229" centerPoint3DY="6.35">
                   <matrix>
                     <Matrix tx="179" ty="-4.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='11'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Fracture" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="MassTumor" selected="true" centerPoint3DX="229" centerPoint3DY="28.35" uniqueID="13">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="MassTumor" centerPoint3DX="229" centerPoint3DY="28.35">
                   <matrix>
                     <Matrix tx="179" ty="17.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='13'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Mass Tumor" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Normal" selected="true" centerPoint3DX="229" centerPoint3DY="50.35" uniqueID="15">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Normal" centerPoint3DX="229" centerPoint3DY="50.35">
                   <matrix>
                     <Matrix tx="179" ty="39.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='15'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Normal" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMStaticText selected="true" width="29.2" height="14.5" autoExpand="true" isSelectable="false">
+                </DOMSymbolInstance>
+                <DOMStaticText width="29.2" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="314.95" ty="-88.1"/>
                   </matrix>
@@ -258,61 +125,23 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Left" selected="true" centerPoint3DX="382.3" centerPoint3DY="-65.65" uniqueID="17">
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Left" centerPoint3DX="382.3" centerPoint3DY="-65.65">
                   <matrix>
                     <Matrix tx="332.3" ty="-76.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='17'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Left" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Right" selected="true" centerPoint3DX="382.3" centerPoint3DY="-47.65" uniqueID="19">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Right" centerPoint3DX="382.3" centerPoint3DY="-47.65">
                   <matrix>
                     <Matrix tx="332.3" ty="-58.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='19'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Right" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMStaticText selected="true" width="32.45" height="14.5" autoExpand="true" isSelectable="false">
+                </DOMSymbolInstance>
+                <DOMStaticText width="32.45" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="316.1" ty="-36.9"/>
                   </matrix>
@@ -325,115 +154,39 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Frontal" selected="true" centerPoint3DX="382.3" centerPoint3DY="-10.15" uniqueID="21">
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Frontal" centerPoint3DX="382.3" centerPoint3DY="-10.15">
                   <matrix>
                     <Matrix tx="332.3" ty="-21.15"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='21'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Frontal" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Temporal" selected="true" centerPoint3DX="382.3" centerPoint3DY="8.85" uniqueID="23">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Temporal" centerPoint3DX="382.3" centerPoint3DY="8.85">
                   <matrix>
                     <Matrix tx="332.3" ty="-2.15"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Temporal" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Parietal" selected="true" centerPoint3DX="382.3" centerPoint3DY="27.85" uniqueID="25">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Parietal" centerPoint3DX="382.3" centerPoint3DY="27.85">
                   <matrix>
                     <Matrix tx="332.3" ty="16.85"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='25'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Parietal" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CheckBox" name="Occipital" selected="true" centerPoint3DX="382.3" centerPoint3DY="48.85" uniqueID="27">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Occipital" centerPoint3DX="382.3" centerPoint3DY="48.85">
                   <matrix>
                     <Matrix tx="332.3" ty="37.85"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='27'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Occipital" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMStaticText selected="true" width="146.4" height="17.05" autoExpand="true" isSelectable="false">
+                </DOMSymbolInstance>
+                <DOMStaticText width="146.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-2" ty="66.9"/>
                   </matrix>
@@ -446,7 +199,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="248.4" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="248.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-1" ty="88.9"/>
                   </matrix>
@@ -459,7 +212,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="45.15" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="45.15" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="363.3" ty="86.9"/>
                   </matrix>
@@ -472,7 +225,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="28.4" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="28.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="495.95" ty="85.95"/>
                   </matrix>
@@ -485,7 +238,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="292.9" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="292.9" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix ty="112.9"/>
                   </matrix>
@@ -498,7 +251,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="59.35" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="59.35" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="407.95" ty="115.9"/>
                   </matrix>
@@ -511,7 +264,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="151.75" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="151.75" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="104" ty="142.85"/>
                   </matrix>
@@ -524,7 +277,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="169.55" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="169.55" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="362.95" ty="141.85"/>
                   </matrix>
@@ -537,7 +290,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="91.45" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="91.45" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-4" ty="169.85"/>
                   </matrix>
@@ -550,7 +303,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="152.85" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="152.85" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="191.3" ty="169.85"/>
                   </matrix>
@@ -563,7 +316,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="53.75" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="53.75" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="442.95" ty="169.85"/>
                   </matrix>
@@ -576,271 +329,71 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMComponentInstance libraryItemName="ComboBox" name="presenceOf" selected="true" centerPoint3DX="305.3" centerPoint3DY="91.9" uniqueID="31">
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="presenceOf" centerPoint3DX="305.3" centerPoint3DY="91.9">
                   <matrix>
                     <Matrix tx="255.3" ty="80.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='31'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 4, fluid, fluid, blood, blood, bone fragments, bone fragments, tumor, tumor" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="onThe" selected="true" centerPoint3DX="450.1" centerPoint3DY="91.95" uniqueID="33">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="onThe" centerPoint3DX="450.1" centerPoint3DY="91.95">
                   <matrix>
                     <Matrix a="0.68798828125" tx="415.7" ty="80.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='33'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 2, right, right, left, left" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="occuranceOfA" selected="true" centerPoint3DX="350.3" centerPoint3DY="122.95" uniqueID="35">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="occuranceOfA" centerPoint3DX="350.3" centerPoint3DY="122.95">
                   <matrix>
                     <Matrix tx="300.3" ty="111.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='35'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 3, contusion, contusion, hematoma, hematoma, mass/tumor, mass/tumor" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="nearThe" selected="true" centerPoint3DX="46" centerPoint3DY="148.85" uniqueID="37">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="nearThe" centerPoint3DX="46" centerPoint3DY="148.85">
                   <matrix>
                     <Matrix tx="-4" ty="137.85"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='37'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 4, frontal, frontal, parietal, parietal, occipital, occipital, temporal, temporal" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="brainThe" selected="true" centerPoint3DX="311.3" centerPoint3DY="148.85" uniqueID="39">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="brainThe" centerPoint3DX="311.3" centerPoint3DY="148.85">
                   <matrix>
                     <Matrix a="0.888992309570313" tx="266.85" ty="137.85"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='39'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 2, crescent, crescent, convex, convex" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="indicatesThatThe" selected="true" centerPoint3DX="141" centerPoint3DY="177.9" uniqueID="41">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="indicatesThatThe" centerPoint3DX="141" centerPoint3DY="177.9">
                   <matrix>
                     <Matrix a="0.847991943359375" tx="98.6" ty="166.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='41'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 2, epidural, epidural, subdural, subdural" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="betweenThe" selected="true" centerPoint3DX="392.7" centerPoint3DY="178.85" uniqueID="43">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="betweenThe" centerPoint3DX="392.7" centerPoint3DY="178.85">
                   <matrix>
                     <Matrix a="0.842987060546875" tx="350.55" ty="167.85"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='43'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 3, brain, brain, dura mater, dura mater, skull, skull" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="andThe" selected="true" centerPoint3DX="48.6" centerPoint3DY="206.35" uniqueID="45">
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="andThe" centerPoint3DX="48.6" centerPoint3DY="206.35">
                   <matrix>
                     <Matrix tx="-1.4" ty="195.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='45'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 2, label, 5, , , data, 5, , , 3, brain, brain, dura mater, dura mater, skull, skull" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMStaticText selected="true" width="128.45" height="17.05" autoExpand="true" isSelectable="false">
+                </DOMSymbolInstance>
+                <DOMStaticText width="128.45" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix ty="244.9"/>
                   </matrix>
@@ -853,7 +406,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMInputText name="submitInput" selected="true" width="233.55" height="50.1" border="true" lineType="multiline">
+                <DOMInputText name="submitInput" width="233.55" height="50.1" border="true" lineType="multiline">
                   <matrix>
                     <Matrix tx="148.4" ty="207.85"/>
                   </matrix>
@@ -866,39 +419,14 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMComponentInstance libraryItemName="Button" name="Submit" selected="true" centerPoint3DX="456.3" centerPoint3DY="231.9" uniqueID="47">
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Button" name="Submit" centerPoint3DX="456.3" centerPoint3DY="231.9">
                   <matrix>
                     <Matrix tx="406.3" ty="220.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='47'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="emphasized">
-      <Inspectable name="emphasized" variable="emphasized" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Submit" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="toggle">
-      <Inspectable name="toggle" variable="toggle" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="2" name="TermDefs" labelType="name" keyMode="9728">

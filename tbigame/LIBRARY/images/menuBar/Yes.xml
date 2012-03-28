@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Yes" itemID="4f630206-00000955" symbolType="button" lastModified="1331888789">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Yes" itemID="4f630206-00000955" sourceFlashFilepath="./AuthortimeSharedAssets.fla" sourceLibraryItemHRef="images/menuBar/Yes" sourceLastModified="1331888789" sourceAutoUpdate="true" symbolType="button" lastModified="1331888789" sourceItemID="4f630206-00000955">
   <timeline>
     <DOMTimeline name="Yes" currentFrame="1">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="43.95" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="43.95" height="20.1" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -23,7 +23,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="33.95" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="33.95" height="20.1" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
