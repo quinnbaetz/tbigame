@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" sourceFlashFilepath="./AuthortimeSharedAssets.fla" sourceLibraryItemHRef="images/menuBar/TabletContent" sourceLastModified="1332905318" sourceAutoUpdate="true" lastModified="1332905318" lastUniqueIdentifier="49" sourceItemID="4f6f548b-00000d5c">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1332909285" lastUniqueIdentifier="49">
   <timeline>
     <DOMTimeline name="TabletContent" currentFrame="1">
       <layers>
@@ -11,7 +11,7 @@
               <elements>
                 <DOMStaticText width="148" height="17.05" includeOutlines="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="2" ty="-131"/>
+                    <Matrix tx="60" ty="-131"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -22,17 +22,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="images/menuBar/tabletImages/brain">
-                  <matrix>
-                    <Matrix tx="80" ty="-20.1"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point y="0.45"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMStaticText width="66.7" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="163.65" ty="-104.95"/>
+                    <Matrix tx="221.65" ty="-104.95"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -45,7 +37,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="67.05" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="299.6" ty="-104.95"/>
+                    <Matrix tx="357.6" ty="-104.95"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -56,65 +48,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Hematoma" centerPoint3DX="229" centerPoint3DY="-77.05">
-                  <matrix>
-                    <Matrix tx="179" ty="-88.05"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Epidural" centerPoint3DX="245" centerPoint3DY="-57.65">
-                  <matrix>
-                    <Matrix tx="195" ty="-68.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Subdural" centerPoint3DX="245" centerPoint3DY="-37.65">
-                  <matrix>
-                    <Matrix tx="195" ty="-48.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Contusion" centerPoint3DX="229" centerPoint3DY="-15.65">
-                  <matrix>
-                    <Matrix tx="179" ty="-26.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Fracture" centerPoint3DX="229" centerPoint3DY="6.35">
-                  <matrix>
-                    <Matrix tx="179" ty="-4.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="MassTumor" centerPoint3DX="229" centerPoint3DY="28.35">
-                  <matrix>
-                    <Matrix tx="179" ty="17.35"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Normal" centerPoint3DX="229" centerPoint3DY="50.35">
-                  <matrix>
-                    <Matrix tx="179" ty="39.35"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMStaticText width="29.2" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="314.95" ty="-88.1"/>
+                    <Matrix tx="372.95" ty="-88.1"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -125,25 +61,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Left" centerPoint3DX="382.3" centerPoint3DY="-65.65">
-                  <matrix>
-                    <Matrix tx="332.3" ty="-76.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Right" centerPoint3DX="382.3" centerPoint3DY="-47.65">
-                  <matrix>
-                    <Matrix tx="332.3" ty="-58.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMStaticText width="32.45" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="316.1" ty="-36.9"/>
+                    <Matrix tx="374.1" ty="-36.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -154,41 +74,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Frontal" centerPoint3DX="382.3" centerPoint3DY="-10.15">
-                  <matrix>
-                    <Matrix tx="332.3" ty="-21.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Temporal" centerPoint3DX="382.3" centerPoint3DY="8.85">
-                  <matrix>
-                    <Matrix tx="332.3" ty="-2.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Parietal" centerPoint3DX="382.3" centerPoint3DY="27.85">
-                  <matrix>
-                    <Matrix tx="332.3" ty="16.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/CheckBox" name="Occipital" centerPoint3DX="382.3" centerPoint3DY="48.85">
-                  <matrix>
-                    <Matrix tx="332.3" ty="37.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMStaticText width="146.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-2" ty="66.9"/>
+                    <Matrix tx="56" ty="66.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -201,7 +89,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="248.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-1" ty="88.9"/>
+                    <Matrix tx="57" ty="88.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -214,7 +102,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="45.15" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="363.3" ty="86.9"/>
+                    <Matrix tx="421.3" ty="86.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -227,7 +115,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="28.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="495.95" ty="85.95"/>
+                    <Matrix tx="553.95" ty="85.95"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -240,7 +128,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="292.9" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix ty="112.9"/>
+                    <Matrix tx="58" ty="112.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -253,7 +141,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="59.35" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="407.95" ty="115.9"/>
+                    <Matrix tx="465.95" ty="115.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -266,7 +154,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="151.75" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="104" ty="142.85"/>
+                    <Matrix tx="162" ty="142.85"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -279,7 +167,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="169.55" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="362.95" ty="141.85"/>
+                    <Matrix tx="420.95" ty="141.85"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -292,7 +180,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="91.45" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-4" ty="169.85"/>
+                    <Matrix tx="54" ty="169.85"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -305,7 +193,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="152.85" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="191.3" ty="169.85"/>
+                    <Matrix tx="249.3" ty="169.85"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -318,7 +206,7 @@
                 </DOMStaticText>
                 <DOMStaticText width="53.75" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="442.95" ty="169.85"/>
+                    <Matrix tx="500.95" ty="169.85"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -329,73 +217,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="presenceOf" centerPoint3DX="305.3" centerPoint3DY="91.9">
-                  <matrix>
-                    <Matrix tx="255.3" ty="80.9"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="onThe" centerPoint3DX="450.1" centerPoint3DY="91.95">
-                  <matrix>
-                    <Matrix a="0.68798828125" tx="415.7" ty="80.95"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="occuranceOfA" centerPoint3DX="350.3" centerPoint3DY="122.95">
-                  <matrix>
-                    <Matrix tx="300.3" ty="111.95"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="nearThe" centerPoint3DX="46" centerPoint3DY="148.85">
-                  <matrix>
-                    <Matrix tx="-4" ty="137.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="brainThe" centerPoint3DX="311.3" centerPoint3DY="148.85">
-                  <matrix>
-                    <Matrix a="0.888992309570313" tx="266.85" ty="137.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="indicatesThatThe" centerPoint3DX="141" centerPoint3DY="177.9">
-                  <matrix>
-                    <Matrix a="0.847991943359375" tx="98.6" ty="166.9"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="betweenThe" centerPoint3DX="392.7" centerPoint3DY="178.85">
-                  <matrix>
-                    <Matrix a="0.842987060546875" tx="350.55" ty="167.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/ComboBox" name="andThe" centerPoint3DX="48.6" centerPoint3DY="206.35">
-                  <matrix>
-                    <Matrix tx="-1.4" ty="195.35"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMStaticText width="128.45" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix ty="244.9"/>
+                    <Matrix tx="58" ty="244.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -408,7 +232,7 @@
                 </DOMStaticText>
                 <DOMInputText name="submitInput" width="233.55" height="50.1" border="true" lineType="multiline">
                   <matrix>
-                    <Matrix tx="148.4" ty="207.85"/>
+                    <Matrix tx="206.4" ty="207.85"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -419,14 +243,6 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Button" name="Submit" centerPoint3DX="456.3" centerPoint3DY="231.9">
-                  <matrix>
-                    <Matrix tx="406.3" ty="220.9"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="2" name="TermDefs" labelType="name" keyMode="9728">

@@ -37,7 +37,7 @@
 		var dataNames = new Array("accident", "age", "gcs", "bp", "pName", "lungs", "pupils", "pTemp", "heightWeight");
 		function Toolbox(theStage){
 			this.theStage = theStage;
-			tablet = new tablet(theStage);
+			tabletContent = new tabletLogic(theStage);
 			
 			clock = new Clock(theStage, 0, 500)
 			
@@ -175,7 +175,8 @@
 					createTween(pad, "scaleY", None.easeNone, scale);
 					createTween(pad, "rotation", None.easeInOut, padRot);
 				 });
-				 ExternalInterface.call("hideTabletContent");
+				 //ExternalInterface.call("hideTabletContent");
+				 tabletContent.hideTablet();
 			} 
 		}
 		

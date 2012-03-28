@@ -5,6 +5,7 @@ import tbigame.scripts.Toolbox;
 import tbigame.scripts.Clock;
 import tbigame.scripts.Tool;
 import tbigame.scripts.ClickRegion;
+import tbigame.scripts.tabletLogic;
 import flash.external.ExternalInterface;
 include "utility.as";
 include "tbiUtilities.as";
