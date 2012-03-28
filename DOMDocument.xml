@@ -13,8 +13,8 @@
           <DOMFolderItem name="images/menuBar/clock" itemID="4ddbd5f0-0000001f"/>
           <DOMFolderItem name="images/menuBar/images" itemID="4f6301cb-0000091d"/>
           <DOMFolderItem name="images/menuBar/images/menuBar" itemID="4f6301cb-0000091e"/>
-          <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437"/>
-          <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468" isExpanded="true"/>
+          <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437" isExpanded="true"/>
+          <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468"/>
           <DOMFolderItem name="images/menuBar/notes" itemID="4e07bc1c-00000215"/>
           <DOMFolderItem name="images/menuBar/notes/chart" itemID="4e07d19b-0000021b" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes/chart/data" itemID="4e07d20d-00000223" isExpanded="true"/>
@@ -462,7 +462,7 @@
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
           <Include href="images/menuBar/No.xml" itemIcon="0" loadImmediate="false" itemID="4f630215-0000095d" lastModified="1331888805"/>
-          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1332696270"/>
+          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1332725139"/>
           <Include href="images/menuBar/TabletContent.xml" loadImmediate="false" itemID="4f6f548b-00000d5c" lastModified="1332696283"/>
           <Include href="images/menuBar/Yes.xml" itemIcon="0" loadImmediate="false" itemID="4f630206-00000955" lastModified="1331888789"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1332692922"/>
@@ -712,6 +712,7 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="5764408" publishTime="1332722086"/>
           <PublishItem publishSize="5763889" publishTime="1332695332"/>
           <PublishItem publishSize="5751030" publishTime="1332695266"/>
           <PublishItem publishSize="5751030" publishTime="1332695241"/>
@@ -731,6 +732,5 @@
           <PublishItem publishSize="5763411" publishTime="1332688074"/>
           <PublishItem publishSize="5763408" publishTime="1332688028"/>
           <PublishItem publishSize="5763425" publishTime="1332687925"/>
-          <PublishItem publishSize="5763413" publishTime="1332687865"/>
      </publishHistory>
 </DOMDocument>
