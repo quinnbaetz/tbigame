@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/notes/chart/data/age" itemID="4e07dc22-0000031b" lastModified="1309137954">
+  <timeline>
+    <DOMTimeline name="age">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="images/menuBar/notes/chart/data/chartImages/age.png">
+                  <matrix>
+                    <Matrix a="0.399993896484375" d="0.399993896484375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="44.4" y="35.4"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

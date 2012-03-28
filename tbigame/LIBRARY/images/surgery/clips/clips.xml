@@ -1,0 +1,112 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/surgery/clips/clips" itemID="4f2f8150-000005ae" linkageExportForAS="true" linkageClassName="clips" lastModified="1328523908">
+  <timeline>
+    <DOMTimeline name="clips">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="clipone" name="clipone" centerPoint3DX="-52" centerPoint3DY="139.45">
+                  <matrix>
+                    <Matrix tx="-68" ty="125.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="14"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cliptwo" name="cliptwo" centerPoint3DX="-18" centerPoint3DY="154.95">
+                  <matrix>
+                    <Matrix tx="-35" ty="142.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipthree" name="clipthree" centerPoint3DX="20" centerPoint3DY="165.45">
+                  <matrix>
+                    <Matrix tx="4" ty="154.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipfour" name="clipfour" centerPoint3DX="58.5" centerPoint3DY="172.45">
+                  <matrix>
+                    <Matrix tx="39" ty="162.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipfive" name="clipfive" centerPoint3DX="105" centerPoint3DY="167.95">
+                  <matrix>
+                    <Matrix tx="85" ty="156.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipsix" name="clipsix" centerPoint3DX="148" centerPoint3DY="151.95">
+                  <matrix>
+                    <Matrix tx="129" ty="137.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="14.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipseven" name="clipseven" centerPoint3DX="185.5" centerPoint3DY="123.95">
+                  <matrix>
+                    <Matrix tx="168" ty="107.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.5" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipeight" name="clipeight" centerPoint3DX="208.5" centerPoint3DY="88.45">
+                  <matrix>
+                    <Matrix tx="194" ty="70.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipnine" name="clipnine" centerPoint3DX="218.5" centerPoint3DY="47.5">
+                  <matrix>
+                    <Matrix tx="208" ty="28"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.5" y="19.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipten" name="clipten" centerPoint3DX="212.5" centerPoint3DY="8.5">
+                  <matrix>
+                    <Matrix tx="200" ty="-8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.5" y="16.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="clipeleven" name="clipeleven" centerPoint3DX="193.5" centerPoint3DY="-22">
+                  <matrix>
+                    <Matrix tx="179.5" ty="-36.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14" y="14.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="cliptwelve" name="cliptwelve" selected="true" centerPoint3DX="165" centerPoint3DY="-44.5">
+                  <matrix>
+                    <Matrix tx="149" ty="-56.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

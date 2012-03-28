@@ -1,0 +1,1 @@
+﻿package  {        public class Tbigame extends Sprite      {          public function Tbigame()          {    			trace("init tbigame");        }		public function jumpToScene(scene, timeline){			trace("from within", scene, timeline);			trace(subJumpToScene);				}    }  }  

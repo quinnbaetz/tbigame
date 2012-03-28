@@ -1,0 +1,22 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/surgery/arms/scalpelArm/scalpelArm" itemID="4f634d36-00001554" linkageExportForAS="true" linkageClassName="scalpelArm" lastModified="1331907938">
+  <timeline>
+    <DOMTimeline name="scalpelArm" currentFrame="199">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="200" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="200000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="6640,18" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,55.5" next="12205,76.5" previous="-6640,31.25" roving="1" timevalue="19919"/><Keyframe anchor="0,139.5" next="12202,159.2" previous="-12205,121.05" roving="1" timevalue="56535"/><Keyframe anchor="0,124.5" next="16919,102.45" previous="-12202,140.5" roving="1" timevalue="93142"/><Keyframe anchor="0,-6.5" next="18367,-77.05" previous="-16919,60" roving="1" timevalue="143898"/><Keyframe anchor="0,-158" next="0,-158" previous="-18367,-120.5" roving="0" timevalue="199000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="6640,12" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,19.5" next="12205,24" previous="-6640,14.3" roving="1" timevalue="19919"/><Keyframe anchor="0,81.5" next="12202,129.85" previous="-12205,36.25" roving="1" timevalue="56535"/><Keyframe anchor="0,184" next="16919,218.5" previous="-12202,159" roving="1" timevalue="93142"/><Keyframe anchor="0,245" next="18367,244.5" previous="-16919,245.5" roving="1" timevalue="143898"/><Keyframe anchor="0,189.5" next="0,189.5" previous="-18367,213" roving="0" timevalue="199000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 12" name="arm" selected="true">
+                  <transformationPoint>
+                    <Point x="387" y="285"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/buttons/MenuButton13" itemID="4ddd9074-000000c1" linkageExportForAS="true" linkageClassName="MenuButton" symbolType="button" lastModified="1315291181">
+  <timeline>
+    <DOMTimeline name="MenuButton13">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/buttons/menuButton.png">
+                  <matrix>
+                    <Matrix tx="0.3" ty="0.3"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

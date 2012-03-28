@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/surgery/brain/drilledHoles/drilledHoles" itemID="4f3108ce-00000ef1" linkageExportForAS="true" linkageClassName="drilledHoles" lastModified="1328614150">
+  <timeline>
+    <DOMTimeline name="drilledHoles">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="h1" name="h1" centerPoint3DX="17" centerPoint3DY="67.95">
+                  <matrix>
+                    <Matrix tx="-0.5" ty="50.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="h2" name="h2" centerPoint3DX="218.5" centerPoint3DY="14.95">
+                  <matrix>
+                    <Matrix tx="201.5" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="h3" name="h3" centerPoint3DX="251" centerPoint3DY="91.95">
+                  <matrix>
+                    <Matrix tx="235.5" ty="75.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.5" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="h4" name="h4" centerPoint3DX="183" centerPoint3DY="164.45">
+                  <matrix>
+                    <Matrix tx="167" ty="149.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="14.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

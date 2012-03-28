@@ -1,0 +1,198 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1331888868">
+  <timeline>
+    <DOMTimeline name="menuPop" currentFrame="7">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_a" name="ct_question1_a" symbolType="button">
+                  <matrix>
+                    <Matrix tx="38.5" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_b" name="ct_question1_b" symbolType="button">
+                  <matrix>
+                    <Matrix tx="38.5" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_c" name="ct_question1_c" symbolType="button">
+                  <matrix>
+                    <Matrix tx="38.5" ty="36.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_d" name="ct_question1_d" symbolType="button">
+                  <matrix>
+                    <Matrix tx="38.5" ty="61.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_e" name="ct_question1_e" symbolType="button">
+                  <matrix>
+                    <Matrix tx="40" ty="78.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question2_a" name="ct_question2_a" symbolType="button">
+                  <matrix>
+                    <Matrix tx="27" ty="21"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question2_b" name="ct_question2_b" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="27" ty="43"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question2_c" name="ct_question2_c" symbolType="button">
+                  <matrix>
+                    <Matrix tx="27" ty="65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question3_a" name="ct_question3_a" symbolType="button">
+                  <matrix>
+                    <Matrix tx="24" ty="20.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question3_b" name="ct_question3_b" symbolType="button">
+                  <matrix>
+                    <Matrix tx="24" ty="42.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question4_a" name="ct_question4_a" symbolType="button">
+                  <matrix>
+                    <Matrix tx="24.55" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question4_b" name="ct_question4_b" symbolType="button">
+                  <matrix>
+                    <Matrix tx="24.55" ty="22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question4_c" name="ct_question4_c" symbolType="button">
+                  <matrix>
+                    <Matrix tx="29.05" ty="60.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMStaticText width="137" height="18" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="71" ty="5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>location of injury</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMStaticText width="137" height="18" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="71" ty="5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>type of injury</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" face="Times-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
+                <DOMSymbolInstance libraryItemName="images/menuBar/Yes" name="yes" symbolType="button">
+                  <matrix>
+                    <Matrix tx="161.45" ty="45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/No" name="no" symbolType="button" centerPoint3DX="623.95" centerPoint3DY="50">
+                  <matrix>
+                    <Matrix tx="376.45" ty="45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
