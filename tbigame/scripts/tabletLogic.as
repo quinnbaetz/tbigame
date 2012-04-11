@@ -12,20 +12,20 @@
 		public var theTabletContent;
 
 		function tabletLogic(theStage) {
-			var tabletContents = new TabletContent();
+			//var tabletContents = new TabletContent();
 			this.theStage = theStage;
-			this.theTabletContent = tabletContents;
-			theTabletContent.gotoAndStop(2);
-			this.theStage.addChild(theTabletContent);
-			theTabletContent.alpha = 0;
+			//this.theTabletContent = tabletContents;
+			//theTabletContent.gotoAndStop("CTReport");
+			//this.theStage.addChild(theTabletContent);
+			//theTabletContent.alpha = 0;
 		}
 		
 		public function showTablet():void {
-			theTabletContent.alpha = 1;
+			//theTabletContent.alpha = 1;
 		}
 		
 		public function hideTablet():void {
-			theTabletContent.alpha = 0;
+			//theTabletContent.alpha = 0;
 		}
 
 	}

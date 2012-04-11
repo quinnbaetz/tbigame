@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1332908085" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1333877799" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Tablet">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -17,11 +17,11 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!3560 860|3560 9659"/>
+                    <Edge strokeStyle="1" edges="!3560 860S4|3560 9659"/>
                     <Edge cubics="!3560 860(;3560,860 3560,9659 3560,9659q3560 860 3560 9659);"/>
                   </edges>
                 </DOMShape>
-                <DOMDynamicText width="100" height="17.05" isSelectable="false" lineType="multiline">
+                <DOMDynamicText selected="true" width="100" height="17.05" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="62" ty="44"/>
                   </matrix>
@@ -34,7 +34,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMInputText name="searchBar" width="100" height="17.05" border="true">
+                <DOMInputText name="searchBar" selected="true" width="100" height="17.05" border="true">
                   <matrix>
                     <Matrix tx="62" ty="71"/>
                   </matrix>
@@ -47,7 +47,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMDynamicText width="100" height="17.05" isSelectable="false" lineType="multiline">
+                <DOMDynamicText selected="true" width="100" height="17.05" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="62" ty="140.95"/>
                   </matrix>
@@ -60,7 +60,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText width="100" height="17.05" isSelectable="false" lineType="multiline">
+                <DOMDynamicText selected="true" width="100" height="17.05" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="62" ty="249.95"/>
                   </matrix>
@@ -73,7 +73,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMSymbolInstance libraryItemName="Symbol 20" name="ctreport" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Symbol 20" name="ctreport" selected="true" symbolType="button">
                   <matrix>
                     <Matrix tx="58" ty="281.95"/>
                   </matrix>
@@ -81,7 +81,7 @@
                     <Point x="53.5" y="10.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent">
+                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" selected="true">
                   <matrix>
                     <Matrix tx="191" ty="49"/>
                   </matrix>
@@ -93,7 +93,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

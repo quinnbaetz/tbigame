@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1332909285" lastUniqueIdentifier="49">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1333878510" lastUniqueIdentifier="49">
   <timeline>
     <DOMTimeline name="TabletContent" currentFrame="1">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
             <DOMFrame index="1" name="CTReport" labelType="name" keyMode="9728">
               <elements>
-                <DOMStaticText width="148" height="17.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText selected="true" width="148" height="17.05" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="60" ty="-131"/>
                   </matrix>
@@ -22,7 +22,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="66.7" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="66.7" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="221.65" ty="-104.95"/>
                   </matrix>
@@ -35,7 +35,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="67.05" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="67.05" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="357.6" ty="-104.95"/>
                   </matrix>
@@ -48,7 +48,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="29.2" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="29.2" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="372.95" ty="-88.1"/>
                   </matrix>
@@ -61,7 +61,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="32.45" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="32.45" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="374.1" ty="-36.9"/>
                   </matrix>
@@ -74,7 +74,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="146.4" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="146.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="56" ty="66.9"/>
                   </matrix>
@@ -87,7 +87,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="248.4" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="248.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="57" ty="88.9"/>
                   </matrix>
@@ -100,7 +100,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="45.15" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="45.15" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="421.3" ty="86.9"/>
                   </matrix>
@@ -113,7 +113,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="28.4" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="28.4" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="553.95" ty="85.95"/>
                   </matrix>
@@ -126,7 +126,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="292.9" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="292.9" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="58" ty="112.9"/>
                   </matrix>
@@ -139,7 +139,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="59.35" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="59.35" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="465.95" ty="115.9"/>
                   </matrix>
@@ -152,7 +152,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="151.75" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="151.75" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="162" ty="142.85"/>
                   </matrix>
@@ -165,7 +165,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="169.55" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="169.55" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="420.95" ty="141.85"/>
                   </matrix>
@@ -178,7 +178,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="91.45" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="91.45" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="54" ty="169.85"/>
                   </matrix>
@@ -191,7 +191,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="152.85" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="152.85" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="249.3" ty="169.85"/>
                   </matrix>
@@ -204,7 +204,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="53.75" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="53.75" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="500.95" ty="169.85"/>
                   </matrix>
@@ -217,7 +217,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="128.45" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="128.45" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="58" ty="244.9"/>
                   </matrix>
@@ -230,7 +230,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMInputText name="submitInput" width="233.55" height="50.1" border="true" lineType="multiline">
+                <DOMInputText name="submitInput" selected="true" width="233.55" height="50.1" border="true" lineType="multiline">
                   <matrix>
                     <Matrix tx="206.4" ty="207.85"/>
                   </matrix>

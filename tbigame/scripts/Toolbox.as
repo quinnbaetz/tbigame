@@ -24,7 +24,7 @@
 		public var down;
 		public var menuBox;
 		public var pad;
-		public var tabletContent;
+		//public var tabletContent;
 		public var chart;
 		public var clock;
 		public var notes = new Array();
@@ -37,7 +37,7 @@
 		var dataNames = new Array("accident", "age", "gcs", "bp", "pName", "lungs", "pupils", "pTemp", "heightWeight");
 		function Toolbox(theStage){
 			this.theStage = theStage;
-			tabletContent = new tabletLogic(theStage);
+			//tabletContent = new tabletLogic(theStage);
 			
 			clock = new Clock(theStage, 0, 500)
 			
@@ -142,9 +142,12 @@
 		}
 		public function showPad(){
 			padToggle(null, true, false);
+			//tabletContent.showTablet();
+			
 		}
 		public function hidePad(){
 			padToggle(null, false, true);
+			//tabletContent.hideTablet();
 		}
 		private function padToggle(evt, forceOpen = false, forceClose = false){
 			trace("here");
@@ -158,7 +161,7 @@
 				createTween(pad, "scaleY", None.easeInOut, 1);
 				createTween(pad, "rotation", None.easeInOut, 0, -1, 10, function(){
 					//ExternalInterface.call("showTabletContent");
-					tabletContent.showTablet();
+					//tabletContent.showTablet();
 				});
 				return;
 			}
@@ -176,7 +179,7 @@
 					createTween(pad, "rotation", None.easeInOut, padRot);
 				 });
 				 //ExternalInterface.call("hideTabletContent");
-				 tabletContent.hideTablet();
+				 //tabletContent.hideTablet();
 			} 
 		}
 		

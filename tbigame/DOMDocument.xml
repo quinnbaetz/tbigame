@@ -11,9 +11,9 @@
           <DOMFolderItem name="Component Assets/Shared" itemID="44f892ff-0000001e"/>
           <DOMFolderItem name="Component Assets/TextInputSkins" itemID="44c91d04-00000282"/>
           <DOMFolderItem name="images" itemID="4ddbd5e5-0000001b" isExpanded="true"/>
-          <DOMFolderItem name="images/actions" itemID="4df1c40b-00000215"/>
+          <DOMFolderItem name="images/actions" itemID="4df1c40b-00000215" isExpanded="true"/>
           <DOMFolderItem name="images/actions/cuffedArms" itemID="4df2a0ba-00000279"/>
-          <DOMFolderItem name="images/actions/handPumpImages" itemID="4df26740-0000024b"/>
+          <DOMFolderItem name="images/actions/handPumpImages" itemID="4df26740-0000024b" isExpanded="true"/>
           <DOMFolderItem name="images/actions/pumpGuageComponents" itemID="4df26a34-0000025f"/>
           <DOMFolderItem name="images/actions/pupil_scene" itemID="4e19db6b-00000289"/>
           <DOMFolderItem name="images/drawer" itemID="4def93a7-0000020c"/>
@@ -65,9 +65,9 @@
           <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b"/>
      </folders>
      <fonts>
-          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
           <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -89,7 +89,7 @@
           <DOMBitmapItem name="images/surgeryTools/second/boneWax.png" itemID="4eec732f-0000035e" linkageExportForAS="true" linkageClassName="boneWax" sourceExternalFilepath="./LIBRARY/images/surgeryTools/second/boneWax.png" sourceLastImported="1321819927" externalFileSize="22514" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/boneWax.png" bitmapDataHRef="M 224 1324118672.dat" frameRight="3240" frameBottom="4460"/>
           <DOMBitmapItem name="images/surgery/arms/bonewaxArm.png" itemID="4f384b1f-000008d7" linkageExportForAS="true" linkageClassName="bonewaxArm" sourceExternalFilepath="./LIBRARY/images/surgery/arms/bonewaxArm.png" sourceLastImported="1329089247" sourcePlatform="macintosh" externalFileSize="98760" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/arms/bonewaxArm.png" bitmapDataHRef="M 277 1329089261.dat" frameRight="10740" frameBottom="14380"/>
           <DOMBitmapItem name="images/menuBar/notes/chart/data/chartImages/bp.png" itemID="4e07d217-0000023f" sourceExternalFilepath="./LIBRARY/images/menuBar/notes/chart/data/chartImages/bp.png" sourceLastImported="1309131809" externalFileCRC32="3543078558" externalFileSize="8319" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/notes/chart/data/chartImages/bp.png" bitmapDataHRef="M 40 1309135383.dat" frameRight="3600" frameBottom="1380"/>
-          <DOMBitmapItem name="brain.jpg" itemID="4f728752-000006fa" sourceExternalFilepath="./LIBRARY/brain.jpg" sourceLastImported="1332905688" externalFileSize="3785" quality="50" href="brain.jpg" bitmapDataHRef="M 337 1332905742.dat" frameRight="3200" frameBottom="3320" isJPEG="true"/>
+          <DOMBitmapItem name="brain.jpg" itemID="4f728752-000006fa" sourceExternalFilepath="./LIBRARY/brain.jpg" sourceLastImported="1332905688" externalFileSize="3785" originalCompressionType="lossless" quality="50" href="brain.jpg" bitmapDataHRef="M 337 1332905742.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/surgery/brain/brainSponged.png" itemID="4f5b63ed-0000061e" linkageExportForAS="true" linkageClassName="brainSponged" sourceExternalFilepath="./LIBRARY/images/surgery/brain/brainSponged.png" sourceLastImported="1331389410" sourcePlatform="macintosh" externalFileSize="89198" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/brainSponged.png" bitmapDataHRef="M 287 1329118092.dat" frameRight="5700" frameBottom="5380"/>
           <DOMSoundItem name="sounds/breath.wav" itemID="4e10f792-0000024d" linkageExportForAS="true" linkageClassName="sound_breath" sourceExternalFilepath="./LIBRARY/sounds/breath.wav" sourceLastImported="1309734743" externalFileCRC32="1072827880" externalFileSize="1387492" href="sounds/breath.wav" soundDataHRef="M 44 1309660386.dat" format="44kHz 16bit Stereo" sampleCount="346862" dataLength="262477"/>
           <DOMBitmapItem name="images/MRI/images/cerebellum2darkGrey.png" itemID="4e4733b0-000003f7" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/MRI/images/cerebellum2darkGrey.png" sourceLastImported="1313287289" externalFileSize="7773" originalCompressionType="lossless" quality="50" href="images/MRI/images/cerebellum2darkGrey.png" bitmapDataHRef="M 88 1313285029.dat" frameRight="1640" frameBottom="1460"/>
@@ -273,7 +273,7 @@
           <DOMBitmapItem name="images/surgery/hair.png" itemID="4ebe8979-0000030e" linkageExportForAS="true" linkageClassName="hair" sourceExternalFilepath="./LIBRARY/images/surgery/hair.png" sourceLastImported="1319899750" externalFileSize="61412" originalCompressionType="lossless" quality="50" href="images/surgery/hair.png" bitmapDataHRef="M 200 1321109817.dat" frameRight="11380" frameBottom="11360"/>
           <DOMBitmapItem name="images/surgery/hairStubble.png" itemID="4ed5c543-00000357" linkageExportForAS="true" linkageClassName="hairStubble" sourceExternalFilepath="./LIBRARY/images/surgery/hairStubble.png" sourceLastImported="1322632435" externalFileSize="50463" originalCompressionType="lossless" quality="50" href="images/surgery/hairStubble.png" bitmapDataHRef="M 213 1322632440.dat" frameRight="10800" frameBottom="10860"/>
           <DOMBitmapItem name="images/surgery/arms/handDrill1Arm.png" itemID="4f30048d-00000d7b" sourceExternalFilepath="./LIBRARY/images/surgery/arms/handDrill1Arm.png" sourceLastImported="1328488622" sourcePlatform="macintosh" externalFileSize="150588" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/arms/handDrill1Arm.png" bitmapDataHRef="M 255 1328546805.dat" frameRight="18320" frameBottom="12260"/>
-          <DOMBitmapItem name="images/actions/handPumpImages/handPump1.png" itemID="4df26566-0000022e" linkageExportForAS="true" linkageClassName="handPump1" sourceExternalFilepath="./LIBRARY/images/actions/handPumpImages/handPump1.png" sourceLastImported="1307731176" externalFileCRC32="3535642848" externalFileSize="64915" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump1.png" bitmapDataHRef="M 29 1307731302.dat" frameRight="7300" frameBottom="9300"/>
+          <DOMBitmapItem name="images/actions/handPumpImages/handPump1.png" itemID="4f815d25-000005bf" linkageExportForAS="true" linkageClassName="handPump1" sourceExternalFilepath="C:/Users/gavin/workspace/ProjNEUR/tbigame/LIBRARY/images/actions/handPumpImages/handPump1.png" sourceLastImported="1332904109" externalFileCRC32="3535642848" externalFileSize="64915" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump1.png" bitmapDataHRef="M 29 1307731302.dat" frameRight="7300" frameBottom="9300"/>
           <DOMBitmapItem name="images/actions/handPumpImages/handPump2.png" itemID="4df26567-00000232" linkageExportForAS="true" linkageClassName="handPump2" sourceExternalFilepath="./LIBRARY/images/actions/handPumpImages/handPump2.png" sourceLastImported="1307730317" externalFileCRC32="3813389172" externalFileSize="66187" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump2.png" bitmapDataHRef="M 30 1307731303.dat" frameRight="6760" frameBottom="9300"/>
           <DOMBitmapItem name="head.jpg" itemID="4ebe8562-00000304" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1323629681" externalFileSize="35021" originalCompressionType="lossless" quality="50" href="head.jpg" bitmapDataHRef="M 199 1321108363.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="head.jpg copy" itemID="4ed5c543-00000358" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1322632318" externalFileSize="35021" quality="50" href="head.jpg" bitmapDataHRef="M 211 1322632402.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
@@ -572,15 +572,15 @@
           <Include href="h2.xml" loadImmediate="false" itemID="4f310aec-00000f5e" lastModified="1328614124"/>
           <Include href="h3.xml" loadImmediate="false" itemID="4f310af7-00000f67" lastModified="1328614135"/>
           <Include href="h4.xml" loadImmediate="false" itemID="4f310b02-00000f70" lastModified="1328614146"/>
-          <Include href="images/actions/handPump.xml" itemID="4df266c2-00000238" lastModified="1307750789"/>
+          <Include href="images/actions/handPump.xml" itemID="4df266c2-00000238" lastModified="1333878040"/>
           <Include href="images/actions/pumpGuage.xml" itemID="4df290c6-0000026b" lastModified="1309137057"/>
           <Include href="images/actions/pumpGuageComponents/pumpNeedle.xml" itemID="4df290d2-0000026c" lastModified="1307749349"/>
           <Include href="images/menuBar/buttons/downButton.xml" itemIcon="0" itemID="4e65c098-000002d6" lastModified="1316373522"/>
           <Include href="images/menuBar/buttons/IndexButton.xml" itemIcon="0" itemID="4ddd9062-000000c0" lastModified="1315290112"/>
           <Include href="images/menuBar/buttons/MenuButton13.xml" itemIcon="0" itemID="4ddd9074-000000c1" lastModified="1315291181"/>
           <Include href="images/menuBar/buttons/upButton.xml" itemIcon="0" itemID="4e65c02d-000002cb" lastModified="1315291288"/>
-          <Include href="images/menuBar/clock/ClockBack.xml" itemID="4ddbd764-00000054" lastModified="1306253156"/>
-          <Include href="images/menuBar/clock/ClockHand.xml" itemID="4ddbfaee-000000aa" lastModified="1306262254"/>
+          <Include href="images/menuBar/clock/ClockBack.xml" itemID="4ddbd764-00000054" lastModified="1333877801"/>
+          <Include href="images/menuBar/clock/ClockHand.xml" itemID="4ddbfaee-000000aa" lastModified="1333877817"/>
           <Include href="images/menuBar/clock/Symbol 3.xml" itemIcon="1" loadImmediate="false" itemID="4ddbd628-0000002b" lastModified="1306252840"/>
           <Include href="images/menuBar/clock/Symbol 4.xml" itemIcon="1" loadImmediate="false" itemID="4ddbd628-00000030" lastModified="1306252840"/>
           <Include href="images/menuBar/clock/Symbol 5.xml" itemIcon="1" loadImmediate="false" itemID="4ddbd628-00000035" lastModified="1306252840"/>
@@ -621,8 +621,8 @@
           <Include href="images/menuBar/notes/chart/data/bp.xml" loadImmediate="false" itemID="4e07dc7a-0000032f" lastModified="1309138042"/>
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
-          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1332908085"/>
-          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1332909285"/>
+          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1333877799"/>
+          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1333878510"/>
           <Include href="images/menuBar/tabletImages/brain.xml" itemID="4f72851f-000003a7" lastModified="1332905247"/>
           <Include href="images/menuBar/Yes.xml" itemIcon="0" itemID="4f630206-00000955" lastModified="1331888789"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1332692922"/>
@@ -874,26 +874,26 @@
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="5834774" publishTime="1332909991" publishDebug="true"/>
-          <PublishItem publishSize="5834782" publishTime="1332909085" publishDebug="true"/>
-          <PublishItem publishSize="5834785" publishTime="1332909038" publishDebug="true"/>
-          <PublishItem publishSize="5834738" publishTime="1332908778" publishDebug="true"/>
-          <PublishItem publishSize="5834465" publishTime="1332908627" publishDebug="true"/>
-          <PublishItem publishSize="5834487" publishTime="1332908447" publishDebug="true"/>
-          <PublishItem publishSize="5835359" publishTime="1332908152" publishDebug="true"/>
-          <PublishItem publishSize="5835251" publishTime="1332907438" publishDebug="true"/>
-          <PublishItem publishSize="5835200" publishTime="1332906963" publishDebug="true"/>
-          <PublishItem publishSize="5835260" publishTime="1332906533" publishDebug="true"/>
-          <PublishItem publishSize="5835245" publishTime="1332906481" publishDebug="true"/>
-          <PublishItem publishSize="5835212" publishTime="1332906282" publishDebug="true"/>
-          <PublishItem publishSize="5763889" publishTime="1332695332"/>
-          <PublishItem publishSize="5751030" publishTime="1332695266"/>
-          <PublishItem publishSize="5751030" publishTime="1332695241"/>
-          <PublishItem publishSize="5693348" publishTime="1332695218"/>
-          <PublishItem publishSize="5763745" publishTime="1332692259"/>
-          <PublishItem publishSize="5763736" publishTime="1332691455"/>
-          <PublishItem publishSize="5763761" publishTime="1332691258"/>
-          <PublishItem publishSize="5763740" publishTime="1332691234"/>
+          <PublishItem publishSize="5811557" publishTime="1333878413"/>
+          <PublishItem publishSize="5811655" publishTime="1333878351"/>
+          <PublishItem publishSize="5811435" publishTime="1333877741"/>
+          <PublishItem publishSize="5811438" publishTime="1333877677"/>
+          <PublishItem publishSize="5811447" publishTime="1333877618"/>
+          <PublishItem publishSize="5811631" publishTime="1333873572"/>
+          <PublishItem publishSize="5811634" publishTime="1333873513"/>
+          <PublishItem publishSize="5811635" publishTime="1333873460"/>
+          <PublishItem publishSize="5811597" publishTime="1333873075"/>
+          <PublishItem publishSize="5811622" publishTime="1333872955"/>
+          <PublishItem publishSize="5811631" publishTime="1333872824"/>
+          <PublishItem publishSize="5811652" publishTime="1333872696"/>
+          <PublishItem publishSize="5811646" publishTime="1333872457"/>
+          <PublishItem publishSize="5811646" publishTime="1333872393"/>
+          <PublishItem publishSize="5811650" publishTime="1333872308"/>
+          <PublishItem publishSize="5811641" publishTime="1333870162"/>
+          <PublishItem publishSize="5811621" publishTime="1333870015"/>
+          <PublishItem publishSize="5811624" publishTime="1333869970"/>
+          <PublishItem publishSize="5811622" publishTime="1333868516"/>
+          <PublishItem publishSize="5811633" publishTime="1333868452"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="41v181ksg5.swc">

@@ -22,7 +22,7 @@ var clock;
 //DEBUGGING PURPOSES
 var DEBUG = true;
 //USED TO JUMP TO A SPECIFIC SCENE
-var SCENE = 3;
+var SCENE = 12;
 //used in heli scene
 var toolOrder = new Array("stethoscope");
 var currentTool = null;
@@ -95,8 +95,8 @@ stage.addEventListener(Event.ENTER_FRAME, function(){
 		switch(lastFrame){
 			case 1:
 				if(DEBUG){
-					timeline= 75;
-					gotoAndStop(19);
+					timeline= 54;
+					gotoAndStop(13);
 				}else{
 					trace("in first menu");
 					toolbox.showMenu();

@@ -9,17 +9,17 @@
 	public class tablet {
 		
 		private var theStage;
-		public var theTabletContent;
+		//public var theTabletContent;
 
 		public function tablet(theStage) {
-			var tabletContents = new TabletContent();
+			//var tabletContents = new TabletContent();
 			this.theStage = theStage;
-			this.theTabletContent = tabletContents;
-			tabletContents.gotoAndStop(2);
+			//this.theTabletContent = tabletContents;
+			//tabletContents.gotoAndStop(2);
 		}
 		
 		public function showTablet():void {
-			this.theStage.addChild(theTabletContent);
+			//this.theStage.addChild(theTabletContent);
 		}
 
 	}
