@@ -17,10 +17,7 @@ var doctorDialogIntro = function(callback){
 	
 	var messages = new Array("The patient’s scans will appear on the left.",
 							 "The display in the lower left shows the position of the scan relative to the patient’s head.",
-							 "On the right are examples of common brain injuries; you’ll use these if you find any injuries.",
-							 "First look for irregularities in the patient’s brain.",
-							 "Click and hold your left mouse button to draw a box around any possible injuries.",
-							 "Do this for each scan and then press “submit” to classify the damage.");
+							 "On the right are examples of common brain injuries; you’ll use these if you find any injuries.");
 	displayMessages(messages, 50, 60, callback, false, "doctorFace");
 	
 };
@@ -216,18 +213,12 @@ var outline = function(){
 		trans.visible = true;
 		trans.x = locs[brain1Frame].x;
 		trans.y = locs[brain1Frame].y;
-		//trans.width = locs[brain1Frame].width;
-		//trans.height = locs[brain1Frame].height;
-		//var newColour:ColorTransform=trans.transform.colorTransform;
 		
 		if(locs[brain1Frame].color == "red"){
-			//newColour.color=0xff0000;
 			outlineColor = 0xff0000;
 		}else{
-			//newColour.color=0xffffff;
 			outlineColor = 0xffffff;
 		}
-		//trans.transform.colorTransform=newColour;
 		
 		
 	}else{
@@ -306,7 +297,6 @@ var CTDragHandlerWrap = function(callback){
 				transWidth = Math.min(brain1.x+brain1.width-trans.x, Math.max(startX-trans.x, mouseX-trans.x));
 				transHeight = Math.min(brain1.y+brain1.height-trans.y, Math.max(startY-trans.y, mouseY-trans.y));
 				trans.graphics.lineStyle(2,outlineColor);
-				trans.graphics.beginFill(outlineColor);
 				trans.graphics.drawRect(0,0,transWidth, transHeight);
 				trans.graphics.endFill();
 				trans.alpha = 0.5;
@@ -320,8 +310,6 @@ var CTDragHandlerWrap = function(callback){
 				}else{
 					trans.visible = false;
 					trans.graphics.clear();
-					//trans.width = 0;
-					//trans.height = 0;
 				}
 				stage.removeEventListener(MouseEvent.MOUSE_UP, arguments.callee);
 			});
@@ -330,7 +318,6 @@ var CTDragHandlerWrap = function(callback){
 };
 var setUpDragging = function(callback){
 	stage.addChild(trans);
-	 //trans =  addImage("transparent", 0, 0);
 	 outlineColor = 0xffffff;
 	 
 	 for(var i = 0; i<=brain1.totalFrames; i++){

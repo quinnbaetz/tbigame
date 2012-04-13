@@ -1,35 +1,24 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" adjustViewAngle3D="false" previewMode="full" nextSceneIdentifier="3" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" adjustViewAngle3D="false" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
-          <DOMFolderItem name="Component Assets" itemID="44e488a0-000016d6"/>
-          <DOMFolderItem name="Component Assets/_private" itemID="4573a4bc-000003c6"/>
-          <DOMFolderItem name="Component Assets/ButtonSkins" itemID="44c91bad-00000231"/>
-          <DOMFolderItem name="Component Assets/CellRendererSkins" itemID="44d7baa5-000000e7"/>
-          <DOMFolderItem name="Component Assets/CheckBoxSkins" itemID="44c9141c-00000113"/>
-          <DOMFolderItem name="Component Assets/ComboBoxSkins" itemID="44f73b7c-0000018e"/>
-          <DOMFolderItem name="Component Assets/ListSkins" itemID="44e5f6f9-00000039"/>
-          <DOMFolderItem name="Component Assets/ScrollBarSkins" itemID="44ea2edf-000000a6"/>
-          <DOMFolderItem name="Component Assets/Shared" itemID="44f892ff-0000001e"/>
-          <DOMFolderItem name="Component Assets/TextInputSkins" itemID="44c91d04-00000282"/>
           <DOMFolderItem name="images" itemID="4ddbd5e5-0000001b" isExpanded="true"/>
-          <DOMFolderItem name="images/actions" itemID="4df1c40b-00000215" isExpanded="true"/>
+          <DOMFolderItem name="images/actions" itemID="4df1c40b-00000215"/>
           <DOMFolderItem name="images/actions/cuffedArms" itemID="4df2a0ba-00000279"/>
-          <DOMFolderItem name="images/actions/handPumpImages" itemID="4df26740-0000024b" isExpanded="true"/>
+          <DOMFolderItem name="images/actions/handPumpImages" itemID="4df26740-0000024b"/>
           <DOMFolderItem name="images/actions/pumpGuageComponents" itemID="4df26a34-0000025f"/>
           <DOMFolderItem name="images/actions/pupil_scene" itemID="4e19db6b-00000289"/>
           <DOMFolderItem name="images/drawer" itemID="4def93a7-0000020c"/>
           <DOMFolderItem name="images/logos" itemID="4f43b7da-00000438"/>
           <DOMFolderItem name="images/menuBar" itemID="4defcc3f-00000223" isExpanded="true"/>
-          <DOMFolderItem name="images/menuBar/buttons" itemID="4df520c6-00000219"/>
-          <DOMFolderItem name="images/menuBar/clock" itemID="4ddbd5f0-0000001f" isExpanded="true"/>
+          <DOMFolderItem name="images/menuBar/buttons" itemID="4df520c6-00000219" isExpanded="true"/>
+          <DOMFolderItem name="images/menuBar/clock" itemID="4ddbd5f0-0000001f"/>
           <DOMFolderItem name="images/menuBar/images" itemID="4f6301cb-0000091d"/>
-          <DOMFolderItem name="images/menuBar/images/menuBar" itemID="4f6301cb-0000091e"/>
+          <DOMFolderItem name="images/menuBar/images/menuBar" itemID="4f6301cb-0000091e" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437"/>
-          <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468" isExpanded="true"/>
+          <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468"/>
           <DOMFolderItem name="images/menuBar/notes" itemID="4e07bc1c-00000215"/>
           <DOMFolderItem name="images/menuBar/notes/chart" itemID="4e07d19b-0000021b" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes/chart/data" itemID="4e07d20d-00000223" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes/chart/data/chartImages" itemID="4e07de05-00000371"/>
-          <DOMFolderItem name="images/menuBar/tabletImages" itemID="4f72851f-000003a6"/>
           <DOMFolderItem name="images/messageBox" itemID="4f120f9d-00000324" isExpanded="true"/>
           <DOMFolderItem name="images/MRI" itemID="4e383c5b-00000249"/>
           <DOMFolderItem name="images/MRI/brain" itemID="4e383c2e-00000248"/>
@@ -65,9 +54,9 @@
           <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
           <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -89,7 +78,6 @@
           <DOMBitmapItem name="images/surgeryTools/second/boneWax.png" itemID="4eec732f-0000035e" linkageExportForAS="true" linkageClassName="boneWax" sourceExternalFilepath="./LIBRARY/images/surgeryTools/second/boneWax.png" sourceLastImported="1321819927" externalFileSize="22514" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/boneWax.png" bitmapDataHRef="M 224 1324118672.dat" frameRight="3240" frameBottom="4460"/>
           <DOMBitmapItem name="images/surgery/arms/bonewaxArm.png" itemID="4f384b1f-000008d7" linkageExportForAS="true" linkageClassName="bonewaxArm" sourceExternalFilepath="./LIBRARY/images/surgery/arms/bonewaxArm.png" sourceLastImported="1329089247" sourcePlatform="macintosh" externalFileSize="98760" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/arms/bonewaxArm.png" bitmapDataHRef="M 277 1329089261.dat" frameRight="10740" frameBottom="14380"/>
           <DOMBitmapItem name="images/menuBar/notes/chart/data/chartImages/bp.png" itemID="4e07d217-0000023f" sourceExternalFilepath="./LIBRARY/images/menuBar/notes/chart/data/chartImages/bp.png" sourceLastImported="1309131809" externalFileCRC32="3543078558" externalFileSize="8319" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/notes/chart/data/chartImages/bp.png" bitmapDataHRef="M 40 1309135383.dat" frameRight="3600" frameBottom="1380"/>
-          <DOMBitmapItem name="brain.jpg" itemID="4f728752-000006fa" sourceExternalFilepath="./LIBRARY/brain.jpg" sourceLastImported="1332905688" externalFileSize="3785" originalCompressionType="lossless" quality="50" href="brain.jpg" bitmapDataHRef="M 337 1332905742.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/surgery/brain/brainSponged.png" itemID="4f5b63ed-0000061e" linkageExportForAS="true" linkageClassName="brainSponged" sourceExternalFilepath="./LIBRARY/images/surgery/brain/brainSponged.png" sourceLastImported="1331389410" sourcePlatform="macintosh" externalFileSize="89198" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/brainSponged.png" bitmapDataHRef="M 287 1329118092.dat" frameRight="5700" frameBottom="5380"/>
           <DOMSoundItem name="sounds/breath.wav" itemID="4e10f792-0000024d" linkageExportForAS="true" linkageClassName="sound_breath" sourceExternalFilepath="./LIBRARY/sounds/breath.wav" sourceLastImported="1309734743" externalFileCRC32="1072827880" externalFileSize="1387492" href="sounds/breath.wav" soundDataHRef="M 44 1309660386.dat" format="44kHz 16bit Stereo" sampleCount="346862" dataLength="262477"/>
           <DOMBitmapItem name="images/MRI/images/cerebellum2darkGrey.png" itemID="4e4733b0-000003f7" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/MRI/images/cerebellum2darkGrey.png" sourceLastImported="1313287289" externalFileSize="7773" originalCompressionType="lossless" quality="50" href="images/MRI/images/cerebellum2darkGrey.png" bitmapDataHRef="M 88 1313285029.dat" frameRight="1640" frameBottom="1460"/>
@@ -131,97 +119,6 @@
           <DOMBitmapItem name="images/menuBar/clock/clock_hand.png" itemID="4ddbd628-0000002a" sourceExternalFilepath="./LIBRARY/images/menuBar/clock/clock_hand.png" sourceLastImported="1306179300" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/clock/clock_hand.png" bitmapDataHRef="M 4 1306252840.dat" frameRight="1920" frameBottom="2000"/>
           <DOMBitmapItem name="images/menuBar/clock/clock-face.png" itemID="4ddbd628-00000025" sourceExternalFilepath="./LIBRARY/images/menuBar/clock/clock-face.png" sourceLastImported="1306179280" originalCompressionType="lossless" quality="50" href="images/menuBar/clock/clock-face.png" bitmapDataHRef="M 3 1306252840.dat" frameRight="1920" frameBottom="2000"/>
           <DOMBitmapItem name="images/messageBox/close.png" itemID="4f6f2b9f-0000084c" sourceExternalFilepath="./LIBRARY/images/messageBox/close.png" sourceLastImported="1332690768" sourcePlatform="macintosh" externalFileSize="1815" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/messageBox/close.png" bitmapDataHRef="M 297 1329572507.dat" frameRight="440" frameBottom="400"/>
-          <DOMCompiledClipItem name="Component Assets/_private/ComponentShim" itemID="4d08cfa8-000001ee" linkageExportForAS="true" linkageClassName="fl.core.ComponentShim" sourceLastImported="1292423080" displayAsComponent="false" customIconID="0" actionscriptClass="fl.core.ComponentShim" swfScmHRef="kbx0udh422.swf" swfScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPkavphdh40p..swf" persistLivePreview11="true" livePreview11ScmHRef="kbx0udh4221.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPkavphdh40p..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Component Assets/_private/ComponentShim.xml" rootSymbolLinkageID="fl.core.ComponentShim" playerVersion="9" actionscriptVersion="3" hashKey="k718tUOF1.A1OSpQnqdJJ0">
-               <classProperties><![CDATA[<component id="fl/core/ComponentShim" class="fl.core.ComponentShim" modified="1292423059130">
-<movieBounds xmin="0" xmax="0" ymin="0" ymax="0" />
-<classDefs>
-	<classDef id="fl.core.AccessibilityShim"/>
-	<classDef id="fl.controls.CheckBox"/>
-	<classDef id="fl.controls.LabelButton"/>
-	<classDef id="fl.controls.List"/>
-	<classDef id="fl.controls.ComboBox"/>
-	<classDef id="fl.controls.ProgressBarDirection"/>
-	<classDef id="fl.data.SimpleCollectionItem"/>
-	<classDef id="fl.controls.TextArea"/>
-	<classDef id="fl.display.ProLoaderInfo"/>
-	<classDef id="fl.controls.Slider"/>
-	<classDef id="fl.events.DataChangeEvent"/>
-	<classDef id="fl.accessibility.ComboBoxAccImpl"/>
-	<classDef id="fl.events.DataChangeType"/>
-	<classDef id="fl.accessibility.TileListAccImpl"/>
-	<classDef id="fl.accessibility.ButtonAccImpl"/>
-	<classDef id="fl.controls.BaseButton"/>
-	<classDef id="fl.core.UIComponent"/>
-	<classDef id="fl.controls.DataGrid"/>
-	<classDef id="fl.display.ProLoader"/>
-	<classDef id="fl.containers.BaseScrollPane"/>
-	<classDef id="fl.livepreview.LivePreviewParent"/>
-	<classDef id="fl.controls.Label"/>
-	<classDef id="fl.managers.IFocusManagerComponent"/>
-	<classDef id="fl.controls.UIScrollBar"/>
-	<classDef id="fl.controls.listClasses.ICellRenderer"/>
-	<classDef id="fl.controls.ColorPicker"/>
-	<classDef id="fl.controls.dataGridClasses.DataGridCellEditor"/>
-	<classDef id="fl.managers.FocusManager"/>
-	<classDef id="fl.events.ProLoaderRSLPreloaderSandboxEvent"/>
-	<classDef id="fl.events.DataGridEventReason"/>
-	<classDef id="fl.events.SliderEvent"/>
-	<classDef id="fl.events.SliderEventClickTarget"/>
-	<classDef id="fl.controls.progressBarClasses.IndeterminateBar"/>
-	<classDef id="fl.controls.listClasses.ListData"/>
-	<classDef id="fl.core.InvalidationType"/>
-	<classDef id="fl.controls.NumericStepper"/>
-	<classDef id="fl.controls.RadioButtonGroup"/>
-	<classDef id="fl.accessibility.LabelButtonAccImpl"/>
-	<classDef id="fl.containers.UILoader"/>
-	<classDef id="fl.events.ColorPickerEvent"/>
-	<classDef id="fl.controls.ButtonLabelPlacement"/>
-	<classDef id="fl.accessibility.CheckBoxAccImpl"/>
-	<classDef id="fl.controls.TileList"/>
-	<classDef id="fl.managers.StyleManager"/>
-	<classDef id="fl.controls.RadioButton"/>
-	<classDef id="fl.containers.ScrollPane"/>
-	<classDef id="fl.controls.listClasses.TileListData"/>
-	<classDef id="fl.events.InteractionInputType"/>
-	<classDef id="fl.controls.Button"/>
-	<classDef id="fl.core.ComponentShim"/>
-	<classDef id="fl.accessibility.UIComponentAccImpl"/>
-	<classDef id="fl.controls.SelectableList"/>
-	<classDef id="fl.events.ComponentEvent"/>
-	<classDef id="fl.accessibility.RadioButtonAccImpl"/>
-	<classDef id="fl.controls.listClasses.CellRenderer"/>
-	<classDef id="fl.managers.IFocusManagerGroup"/>
-	<classDef id="fl.controls.ScrollPolicy"/>
-	<classDef id="fl.controls.ProgressBar"/>
-	<classDef id="fl.controls.ScrollBar"/>
-	<classDef id="fl.controls.listClasses.ImageCell"/>
-	<classDef id="fl.managers.IFocusManager"/>
-	<classDef id="fl.controls.ProgressBarMode"/>
-	<classDef id="fl.accessibility.SelectableListAccImpl"/>
-	<classDef id="fl.controls.TextInput"/>
-	<classDef id="fl.events.ListEvent"/>
-	<classDef id="fl.accessibility.AccImpl"/>
-	<classDef id="fl.accessibility.DataGridAccImpl"/>
-	<classDef id="fl.events.ScrollEvent"/>
-	<classDef id="fl.controls.dataGridClasses.DataGridColumn"/>
-	<classDef id="fl.events.DataGridEvent"/>
-	<classDef id="fl.data.TileListCollectionItem"/>
-	<classDef id="fl.data.DataProvider"/>
-	<classDef id="fl.accessibility.ListAccImpl"/>
-	<classDef id="fl.controls.dataGridClasses.HeaderRenderer"/>
-	<classDef id="fl.controls.ScrollBarDirection"/>
-	<classDef id="fl.controls.SliderDirection"/>
-</classDefs>
-<class id="fl.core.ComponentShim" >
-	<method id="ComponentShim" isConstructor="true" isProperty="false">
-	</method>
-</class></component>
-]]></classProperties>
-               <customIcon>
-                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="kbx0udh4222.dat"/>
-               </customIcon>
-               <SwcItem name="fl.core.ComponentShim" version="1292423059" isTopLevel="true"/>
-          </DOMCompiledClipItem>
           <DOMBitmapItem name="images/messageBox/container.png" itemID="4f6f2b9f-0000084d" sourceExternalFilepath="./LIBRARY/images/messageBox/container.png" sourceLastImported="1332685406" sourcePlatform="macintosh" externalFileSize="3754" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/messageBox/container.png" bitmapDataHRef="M 337 1332685448.dat" frameRight="8740" frameBottom="2220"/>
           <DOMBitmapItem name="images/scanner/injuredBrains/coup-contrecoup.jpg" itemID="4e745d7d-00000303" linkageExportForAS="true" linkageClassName="coupcontrecoup.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/coup-contrecoup.jpg" sourceLastImported="1316248819" externalFileSize="6557" quality="50" href="images/scanner/injuredBrains/coup-contrecoup.jpg" bitmapDataHRef="M 164 1316248852.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg" itemID="4e69e4a6-0000038b" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1315562660" externalFileSize="312609" originalCompressionType="lossless" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 119 1313287228.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
@@ -273,9 +170,9 @@
           <DOMBitmapItem name="images/surgery/hair.png" itemID="4ebe8979-0000030e" linkageExportForAS="true" linkageClassName="hair" sourceExternalFilepath="./LIBRARY/images/surgery/hair.png" sourceLastImported="1319899750" externalFileSize="61412" originalCompressionType="lossless" quality="50" href="images/surgery/hair.png" bitmapDataHRef="M 200 1321109817.dat" frameRight="11380" frameBottom="11360"/>
           <DOMBitmapItem name="images/surgery/hairStubble.png" itemID="4ed5c543-00000357" linkageExportForAS="true" linkageClassName="hairStubble" sourceExternalFilepath="./LIBRARY/images/surgery/hairStubble.png" sourceLastImported="1322632435" externalFileSize="50463" originalCompressionType="lossless" quality="50" href="images/surgery/hairStubble.png" bitmapDataHRef="M 213 1322632440.dat" frameRight="10800" frameBottom="10860"/>
           <DOMBitmapItem name="images/surgery/arms/handDrill1Arm.png" itemID="4f30048d-00000d7b" sourceExternalFilepath="./LIBRARY/images/surgery/arms/handDrill1Arm.png" sourceLastImported="1328488622" sourcePlatform="macintosh" externalFileSize="150588" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/arms/handDrill1Arm.png" bitmapDataHRef="M 255 1328546805.dat" frameRight="18320" frameBottom="12260"/>
-          <DOMBitmapItem name="images/actions/handPumpImages/handPump1.png" itemID="4f815d25-000005bf" linkageExportForAS="true" linkageClassName="handPump1" sourceExternalFilepath="C:/Users/gavin/workspace/ProjNEUR/tbigame/LIBRARY/images/actions/handPumpImages/handPump1.png" sourceLastImported="1332904109" externalFileCRC32="3535642848" externalFileSize="64915" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump1.png" bitmapDataHRef="M 29 1307731302.dat" frameRight="7300" frameBottom="9300"/>
+          <DOMBitmapItem name="images/actions/handPumpImages/handPump1.png" itemID="4df26566-0000022e" linkageExportForAS="true" linkageClassName="handPump1" sourceExternalFilepath="./LIBRARY/images/actions/handPumpImages/handPump1.png" sourceLastImported="1307731176" externalFileCRC32="3535642848" externalFileSize="64915" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump1.png" bitmapDataHRef="M 29 1307731302.dat" frameRight="7300" frameBottom="9300"/>
           <DOMBitmapItem name="images/actions/handPumpImages/handPump2.png" itemID="4df26567-00000232" linkageExportForAS="true" linkageClassName="handPump2" sourceExternalFilepath="./LIBRARY/images/actions/handPumpImages/handPump2.png" sourceLastImported="1307730317" externalFileCRC32="3813389172" externalFileSize="66187" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump2.png" bitmapDataHRef="M 30 1307731303.dat" frameRight="6760" frameBottom="9300"/>
-          <DOMBitmapItem name="head.jpg" itemID="4ebe8562-00000304" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1323629681" externalFileSize="35021" originalCompressionType="lossless" quality="50" href="head.jpg" bitmapDataHRef="M 199 1321108363.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
+          <DOMBitmapItem name="head.jpg" itemID="4ebe8562-00000304" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1323629681" externalFileSize="35021" quality="50" href="head.jpg" bitmapDataHRef="M 199 1321108363.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
           <DOMBitmapItem name="head.jpg copy" itemID="4ed5c543-00000358" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1322632318" externalFileSize="35021" quality="50" href="head.jpg" bitmapDataHRef="M 211 1322632402.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
           <DOMBitmapItem name="head.png" itemID="4e11e5b1-0000025e" sourceExternalFilepath="./LIBRARY/head.png" sourceLastImported="1309795679" externalFileCRC32="394978551" externalFileSize="160882" originalCompressionType="lossless" quality="50" href="head.png" bitmapDataHRef="M 50 1309795761.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="images/surgery/headAlcohol.png" itemID="4f01ad1f-00000317" linkageExportForAS="true" linkageClassName="headAlcohol" sourceExternalFilepath="./LIBRARY/images/surgery/headAlcohol.png" sourceLastImported="1325509878" externalFileSize="15445" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/headAlcohol.png" bitmapDataHRef="M 213 1323643758.dat" frameRight="10740" frameBottom="10880"/>
@@ -426,6 +323,7 @@
           <DOMBitmapItem name="images/scanner/slices/slice9.jpg" itemID="4e764a2d-00000459" sourceExternalFilepath="./LIBRARY/images/scanner/slices/slice9.jpg" sourceLastImported="1316250396" externalFileSize="3597" quality="50" href="images/scanner/slices/slice9.jpg" bitmapDataHRef="M 178 1316375014.dat" frameRight="2860" frameBottom="3100" isJPEG="true"/>
           <DOMBitmapItem name="images/MRI/sliceExplanation" itemID="4f62f5f4-00000720" linkageExportForAS="true" linkageClassName="sliceExplanation" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/MRI/sliceExplanation.png" sourceLastImported="1331885545" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="images/MRI/sliceExplanation.png" bitmapDataHRef="M 306 1331854693.dat" frameRight="9960" frameBottom="9240"/>
           <DOMBitmapItem name="images/menuBar/slot" itemID="4e65be69-000002c8" linkageExportForAS="true" linkageClassName="slot" sourceExternalFilepath="./LIBRARY/images/menuBar/slot.png" sourceLastImported="1315026041" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/slot.png" bitmapDataHRef="M 126 1315289884.dat" frameRight="1540" frameBottom="1540"/>
+          <DOMBitmapItem name="speaker_button.gif" itemID="4f88841a-00000632" sourceExternalFilepath="./LIBRARY/speaker_button.gif" sourceLastImported="1334346491" externalFileSize="32099" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="speaker_button.gif" bitmapDataHRef="M 336 1334346729.dat" frameRight="6000" frameBottom="6000"/>
           <DOMBitmapItem name="images/surgeryTools/second/sponge.png" itemID="4f376302-00000785" linkageExportForAS="true" linkageClassName="surgicalSponge" sourceExternalFilepath="./LIBRARY/images/surgeryTools/second/sponge.png" sourceLastImported="1331386329" sourcePlatform="macintosh" externalFileSize="56149" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/sponge.png" bitmapDataHRef="M 273 1329029457.dat" frameRight="5140" frameBottom="4440"/>
           <DOMSoundItem name="sounds/squeezePump.wav" itemID="4e18dee9-00000234" linkageExportForAS="true" linkageClassName="sound_squeezePump" sourceExternalFilepath="./LIBRARY/sounds/squeezePump.wav" sourceLastImported="1310252684" externalFileCRC32="1110573330" externalFileSize="34998" href="sounds/squeezePump.wav" soundDataHRef="M 51 1310252777.dat" format="44kHz 16bit Mono" sampleCount="16049"/>
           <DOMBitmapItem name="images/tools/stethoscope.png" itemID="4ed5b448-0000033b" linkageExportForAS="true" linkageClassName="stethoscope" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/tools/stethoscope.png" sourceLastImported="1328488977" externalFileCRC32="4124933622" externalFileSize="29701" originalCompressionType="lossless" quality="50" href="images/tools/stethoscope.png" bitmapDataHRef="M 18 1307561266.dat" frameRight="6420" frameBottom="7140"/>
@@ -499,9 +397,7 @@
           <DOMBitmapItem name="images/MRI/xray/xrayBrain8.jpg" itemID="4f5b5133-0000050a" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/MRI/xray/xrayBrain8.jpg" sourceLastImported="1331384709" externalFileSize="25054" quality="50" href="images/MRI/xray/xrayBrain8.jpg" bitmapDataHRef="M 148 1315562490.dat" frameRight="5080" frameBottom="5300" isJPEG="true"/>
      </media>
      <symbols>
-          <Include href="Button.xml" itemID="44a4944a-00000029" lastModified="1292423117"/>
           <Include href="Canvas.xml" itemID="4ddd8f21-000000ac" lastModified="1306366226"/>
-          <Include href="CheckBox.xml" itemID="44b19f0d-00000018" lastModified="1292423117"/>
           <Include href="clipeight.xml" loadImmediate="false" itemID="4f2fa53b-00000bc6" lastModified="1328522555"/>
           <Include href="clipeleven.xml" loadImmediate="false" itemID="4f2fa572-00000bde" lastModified="1328522610"/>
           <Include href="clipfive.xml" loadImmediate="false" itemID="4f2fa526-00000bae" lastModified="1328522534"/>
@@ -514,73 +410,20 @@
           <Include href="clipthree.xml" loadImmediate="false" itemID="4f2fa519-00000b9e" lastModified="1328522521"/>
           <Include href="cliptwelve.xml" loadImmediate="false" itemID="4f2faa7e-00000c85" lastModified="1328523902"/>
           <Include href="cliptwo.xml" loadImmediate="false" itemID="4f2fa510-00000b96" lastModified="1328522512"/>
-          <Include href="ComboBox.xml" itemID="44f70a5f-0000008e" lastModified="1292423117"/>
-          <Include href="Component Assets/_private/Component_avatar.xml" loadImmediate="false" itemID="44f89322-00000020" lastModified="1168286780"/>
-          <Include href="Component Assets/ButtonSkins/Button_disabledSkin.xml" itemID="44a3379e-00000015" lastModified="1168286804"/>
-          <Include href="Component Assets/ButtonSkins/Button_downSkin.xml" itemID="44a337b6-00000016" lastModified="1168286817"/>
-          <Include href="Component Assets/ButtonSkins/Button_emphasizedSkin.xml" itemID="44d77ae1-0000001b" lastModified="1168286841"/>
-          <Include href="Component Assets/ButtonSkins/Button_overSkin.xml" itemID="44a33775-00000013" lastModified="1168286854"/>
-          <Include href="Component Assets/ButtonSkins/Button_selectedDisabledSkin.xml" itemID="44a3392f-0000001e" lastModified="1168286863"/>
-          <Include href="Component Assets/ButtonSkins/Button_selectedDownSkin.xml" itemID="44a33885-0000001c" lastModified="1168286872"/>
-          <Include href="Component Assets/ButtonSkins/Button_selectedOverSkin.xml" itemID="44a3384e-0000001a" lastModified="1168286879"/>
-          <Include href="Component Assets/ButtonSkins/Button_selectedUpSkin.xml" itemID="44a3380d-00000018" lastModified="1168286889"/>
-          <Include href="Component Assets/ButtonSkins/Button_upSkin.xml" itemID="44a3377f-00000014" lastModified="1168286905"/>
-          <Include href="Component Assets/CellRenderer.xml" itemID="44d7bb1d-000000ed" lastModified="1292423118"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_disabledSkin.xml" itemID="453f806e-000004dd" lastModified="1168293053"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_downSkin.xml" itemID="453f806e-000004e0" lastModified="1168286936"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_overSkin.xml" itemID="453f806e-000004e3" lastModified="1168297377"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_selectedDisabledSkin.xml" itemID="453f806e-000004e6" lastModified="1168293033"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_selectedDownSkin.xml" itemID="453f806e-000004e9" lastModified="1168287002"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_selectedOverSkin.xml" itemID="453f806e-000004ec" lastModified="1168292911"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_selectedUpSkin.xml" itemID="453f806e-000004ef" lastModified="1168287028"/>
-          <Include href="Component Assets/CellRendererSkins/CellRenderer_upSkin.xml" itemID="453f806e-000004da" lastModified="1169163238"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_disabledIcon.xml" itemID="43970702-00000af1" lastModified="1168287061"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_downIcon.xml" itemID="43970784-00000be6" lastModified="1168287071"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_overIcon.xml" itemID="4397078d-00000c43" lastModified="1168287083"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_selectedDisabledIcon.xml" itemID="439706ef-00000a94" lastModified="1168287108"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_selectedDownIcon.xml" itemID="439707a8-00000d0d" lastModified="1168287121"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_selectedIcon.xml" loadImmediate="false" itemID="456df3a1-0000019b" lastModified="1168287126"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_selectedOverIcon.xml" itemID="43970af6-00000e3a" lastModified="1168287139"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_selectedUpIcon.xml" itemID="43970b00-00000e9b" lastModified="1168287153"/>
-          <Include href="Component Assets/CheckBoxSkins/CheckBox_upIcon.xml" itemID="4397079e-00000cac" lastModified="1168287165"/>
-          <Include href="Component Assets/ComboBoxSkins/ComboBox_disabledSkin.xml" itemID="44f747a4-00000196" lastModified="1168287287"/>
-          <Include href="Component Assets/ComboBoxSkins/ComboBox_downSkin.xml" itemID="44f74767-00000192" lastModified="1168287299"/>
-          <Include href="Component Assets/ComboBoxSkins/ComboBox_overSkin.xml" itemID="44f7476d-00000193" lastModified="1168287312"/>
-          <Include href="Component Assets/ComboBoxSkins/ComboBox_upSkin.xml" itemID="44f7477c-00000194" lastModified="1168288699"/>
-          <Include href="Component Assets/ListSkins/List_skin.xml" itemID="44d01cb5-00000051" lastModified="1169163244"/>
-          <Include href="Component Assets/ScrollBar.xml" itemID="45365ac7-000002ef" lastModified="1292423118"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowDown_disabledSkin.xml" itemID="4399b48a-00008d0a" lastModified="1168289950"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowDown_downSkin.xml" itemID="4399b4a4-00008e29" lastModified="1168289961"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowDown_icon.xml" itemIcon="1" loadImmediate="false" itemID="456df1e4-00000190" lastModified="1168289966"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowDown_overSkin.xml" itemID="4399c50b-00008f6e" lastModified="1168290195"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowDown_upSkin.xml" itemID="4399c519-0000900f" lastModified="1168290217"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowUp_disabledSkin.xml" itemID="4399b493-00008d74" lastModified="1168290230"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowUp_downSkin.xml" itemID="4399c54a-00009130" lastModified="1168290244"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowUp_icon.xml" itemIcon="1" loadImmediate="false" itemID="456df209-00000192" lastModified="1168290248"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowUp_overSkin.xml" itemID="4399c55c-000091cd" lastModified="1168290260"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollArrowUp_upSkin.xml" itemID="4399c568-00009256" lastModified="1168290275"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollBar_thumbIcon.xml" itemID="442a68fb-00006a9d" lastModified="1164927281"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollThumb_downSkin.xml" itemID="4399c5a6-000092e7" lastModified="1168290280"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollThumb_overSkin.xml" itemID="4399c5b6-00009358" lastModified="1168290288"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollThumb_upSkin.xml" itemID="4399c5d1-000093e9" lastModified="1168290292"/>
-          <Include href="Component Assets/ScrollBarSkins/ScrollTrack_skin.xml" itemID="44fdb956-000002bc" lastModified="1168290301"/>
-          <Include href="Component Assets/Shared/arrowIcon.xml" itemIcon="1" loadImmediate="false" itemID="456df449-0000019f" lastModified="1168290350"/>
-          <Include href="Component Assets/Shared/focusRectSkin.xml" itemID="44d8b6f8-00000055" lastModified="1168290361"/>
-          <Include href="Component Assets/TextInputSkins/TextInput_disabledSkin.xml" itemID="44b148ab-000000ee" lastModified="1168290428"/>
-          <Include href="Component Assets/TextInputSkins/TextInput_upSkin.xml" itemID="44b148bb-000000ef" lastModified="1168290434"/>
           <Include href="h1.xml" loadImmediate="false" itemID="4f310ae3-00000f55" lastModified="1328614115"/>
           <Include href="h2.xml" loadImmediate="false" itemID="4f310aec-00000f5e" lastModified="1328614124"/>
           <Include href="h3.xml" loadImmediate="false" itemID="4f310af7-00000f67" lastModified="1328614135"/>
           <Include href="h4.xml" loadImmediate="false" itemID="4f310b02-00000f70" lastModified="1328614146"/>
-          <Include href="images/actions/handPump.xml" itemID="4df266c2-00000238" lastModified="1333878040"/>
+          <Include href="images/actions/handPump.xml" itemID="4df266c2-00000238" lastModified="1307750789"/>
           <Include href="images/actions/pumpGuage.xml" itemID="4df290c6-0000026b" lastModified="1309137057"/>
           <Include href="images/actions/pumpGuageComponents/pumpNeedle.xml" itemID="4df290d2-0000026c" lastModified="1307749349"/>
           <Include href="images/menuBar/buttons/downButton.xml" itemIcon="0" itemID="4e65c098-000002d6" lastModified="1316373522"/>
           <Include href="images/menuBar/buttons/IndexButton.xml" itemIcon="0" itemID="4ddd9062-000000c0" lastModified="1315290112"/>
           <Include href="images/menuBar/buttons/MenuButton13.xml" itemIcon="0" itemID="4ddd9074-000000c1" lastModified="1315291181"/>
+          <Include href="images/menuBar/buttons/SpeakerButton.xml" itemIcon="0" itemID="4f8889d8-00000634" lastModified="1334348593"/>
           <Include href="images/menuBar/buttons/upButton.xml" itemIcon="0" itemID="4e65c02d-000002cb" lastModified="1315291288"/>
-          <Include href="images/menuBar/clock/ClockBack.xml" itemID="4ddbd764-00000054" lastModified="1333877801"/>
-          <Include href="images/menuBar/clock/ClockHand.xml" itemID="4ddbfaee-000000aa" lastModified="1333877817"/>
+          <Include href="images/menuBar/clock/ClockBack.xml" itemID="4ddbd764-00000054" lastModified="1306253156"/>
+          <Include href="images/menuBar/clock/ClockHand.xml" itemID="4ddbfaee-000000aa" lastModified="1306262254"/>
           <Include href="images/menuBar/clock/Symbol 3.xml" itemIcon="1" loadImmediate="false" itemID="4ddbd628-0000002b" lastModified="1306252840"/>
           <Include href="images/menuBar/clock/Symbol 4.xml" itemIcon="1" loadImmediate="false" itemID="4ddbd628-00000030" lastModified="1306252840"/>
           <Include href="images/menuBar/clock/Symbol 5.xml" itemIcon="1" loadImmediate="false" itemID="4ddbd628-00000035" lastModified="1306252840"/>
@@ -611,7 +454,7 @@
           <Include href="images/menuBar/menu/menubuttons/options.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8184-0000047b" lastModified="1329563443"/>
           <Include href="images/menuBar/menu/menubuttons/returnButton.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8702-00000596" lastModified="1329563434"/>
           <Include href="images/menuBar/menu/MenuScreen.xml" itemID="4f3f847d-00000561" lastModified="1329837654"/>
-          <Include href="images/menuBar/menuDrawer.xml" itemID="4f45da0d-000005cf" lastModified="1330001822"/>
+          <Include href="images/menuBar/menuDrawer.xml" itemID="4f45da0d-000005cf" lastModified="1334346595"/>
           <Include href="images/menuBar/menuPop.xml" loadImmediate="false" itemID="4f46305a-000007aa" lastModified="1331888868"/>
           <Include href="images/menuBar/No.xml" itemIcon="0" loadImmediate="false" itemID="4f630215-0000095d" lastModified="1331888805"/>
           <Include href="images/menuBar/notes/chart/chart.xml" itemID="4e07d4ad-00000250" lastModified="1309140396"/>
@@ -621,10 +464,9 @@
           <Include href="images/menuBar/notes/chart/data/bp.xml" loadImmediate="false" itemID="4e07dc7a-0000032f" lastModified="1309138042"/>
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
-          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1333877799"/>
-          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1333878510"/>
-          <Include href="images/menuBar/tabletImages/brain.xml" itemID="4f72851f-000003a7" lastModified="1332905247"/>
-          <Include href="images/menuBar/Yes.xml" itemIcon="0" itemID="4f630206-00000955" lastModified="1331888789"/>
+          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1332725139"/>
+          <Include href="images/menuBar/TabletContent.xml" loadImmediate="false" itemID="4f6f548b-00000d5c" lastModified="1332696283"/>
+          <Include href="images/menuBar/Yes.xml" itemIcon="0" loadImmediate="false" itemID="4f630206-00000955" lastModified="1331888789"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1332692922"/>
           <Include href="images/MRI/brain/brainBase.xml" itemID="4e3896a1-00000301" lastModified="1313291135"/>
           <Include href="images/MRI/brain/cerrebellum.xml" itemID="4e38939b-00000267" lastModified="1313282900"/>
@@ -670,7 +512,6 @@
           <Include href="images/surgery/brain/xhole/x4.xml" loadImmediate="false" itemID="4f3106db-00000e8f" lastModified="1328613083"/>
           <Include href="images/surgery/brain/xhole/xholes.xml" itemID="4f310615-00000e39" lastModified="1328613086"/>
           <Include href="images/surgery/clips/clips.xml" itemID="4f2f8150-000005ae" lastModified="1328523908"/>
-          <Include href="List.xml" itemID="44e5f6db-00000035" lastModified="1292423118"/>
           <Include href="lungs.xml" loadImmediate="false" itemID="4e07dc98-00000343" lastModified="1309138072"/>
           <Include href="pName.xml" loadImmediate="false" itemID="4e07dc10-00000311" lastModified="1309137937"/>
           <Include href="pTemp.xml" loadImmediate="false" itemID="4e07dd50-00000364" lastModified="1309138257"/>
@@ -702,13 +543,12 @@
           <Include href="Symbol 62.xml" itemIcon="1" loadImmediate="false" itemID="4e69e3e8-000002af" lastModified="1315562472"/>
           <Include href="Symbol 63.xml" itemIcon="1" loadImmediate="false" itemID="4e69e3e8-000002b4" lastModified="1315562472"/>
           <Include href="Symbol 603.xml" itemIcon="1" loadImmediate="false" itemID="4e6a0bd8-000002c4" lastModified="1315572696"/>
-          <Include href="TextInput.xml" itemID="44b159e1-000000fd" lastModified="1292423118"/>
           <Include href="thermometerCheck.xml" itemID="4e1a6071-0000023d" lastModified="1310523239"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="2">
                <layers>
-                    <DOMLayer name="scripts" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="scripts" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -718,7 +558,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Scenes" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="Scenes" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -739,7 +579,7 @@
                               </DOMFrame>
                               <DOMFrame index="2" name="Scene_Heli" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance libraryItemName="Scenes/interiorBasic.jpg">
+                                        <DOMBitmapInstance selected="true" libraryItemName="Scenes/interiorBasic.jpg">
                                              <matrix>
                                                   <Matrix tx="0.3"/>
                                              </matrix>
@@ -874,107 +714,25 @@
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="5811557" publishTime="1333878413"/>
-          <PublishItem publishSize="5811655" publishTime="1333878351"/>
-          <PublishItem publishSize="5811435" publishTime="1333877741"/>
-          <PublishItem publishSize="5811438" publishTime="1333877677"/>
-          <PublishItem publishSize="5811447" publishTime="1333877618"/>
-          <PublishItem publishSize="5811631" publishTime="1333873572"/>
-          <PublishItem publishSize="5811634" publishTime="1333873513"/>
-          <PublishItem publishSize="5811635" publishTime="1333873460"/>
-          <PublishItem publishSize="5811597" publishTime="1333873075"/>
-          <PublishItem publishSize="5811622" publishTime="1333872955"/>
-          <PublishItem publishSize="5811631" publishTime="1333872824"/>
-          <PublishItem publishSize="5811652" publishTime="1333872696"/>
-          <PublishItem publishSize="5811646" publishTime="1333872457"/>
-          <PublishItem publishSize="5811646" publishTime="1333872393"/>
-          <PublishItem publishSize="5811650" publishTime="1333872308"/>
-          <PublishItem publishSize="5811641" publishTime="1333870162"/>
-          <PublishItem publishSize="5811621" publishTime="1333870015"/>
-          <PublishItem publishSize="5811624" publishTime="1333869970"/>
-          <PublishItem publishSize="5811622" publishTime="1333868516"/>
-          <PublishItem publishSize="5811633" publishTime="1333868452"/>
+          <PublishItem publishSize="5764408" publishTime="1332722086"/>
+          <PublishItem publishSize="5763889" publishTime="1332695332"/>
+          <PublishItem publishSize="5751030" publishTime="1332695266"/>
+          <PublishItem publishSize="5751030" publishTime="1332695241"/>
+          <PublishItem publishSize="5693348" publishTime="1332695218"/>
+          <PublishItem publishSize="5763745" publishTime="1332692259"/>
+          <PublishItem publishSize="5763736" publishTime="1332691455"/>
+          <PublishItem publishSize="5763761" publishTime="1332691258"/>
+          <PublishItem publishSize="5763740" publishTime="1332691234"/>
+          <PublishItem publishSize="5763765" publishTime="1332690830"/>
+          <PublishItem publishSize="5763498" publishTime="1332688715"/>
+          <PublishItem publishSize="5763515" publishTime="1332688521"/>
+          <PublishItem publishSize="5763515" publishTime="1332688401"/>
+          <PublishItem publishSize="5763493" publishTime="1332688321"/>
+          <PublishItem publishSize="5763416" publishTime="1332688250"/>
+          <PublishItem publishSize="5763420" publishTime="1332688154"/>
+          <PublishItem publishSize="5763403" publishTime="1332688109"/>
+          <PublishItem publishSize="5763411" publishTime="1332688074"/>
+          <PublishItem publishSize="5763408" publishTime="1332688028"/>
+          <PublishItem publishSize="5763425" publishTime="1332687925"/>
      </publishHistory>
-     <swcCache>
-          <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="41v181ksg5.swc">
-               <classDefinitions>
-                    <ClassDefinition value="fl.core.AccessibilityShim"/>
-                    <ClassDefinition value="fl.controls.CheckBox"/>
-                    <ClassDefinition value="fl.controls.LabelButton"/>
-                    <ClassDefinition value="fl.controls.List"/>
-                    <ClassDefinition value="fl.controls.ComboBox"/>
-                    <ClassDefinition value="fl.controls.ProgressBarDirection"/>
-                    <ClassDefinition value="fl.data.SimpleCollectionItem"/>
-                    <ClassDefinition value="fl.controls.TextArea"/>
-                    <ClassDefinition value="fl.display.ProLoaderInfo"/>
-                    <ClassDefinition value="fl.controls.Slider"/>
-                    <ClassDefinition value="fl.events.DataChangeEvent"/>
-                    <ClassDefinition value="fl.accessibility.ComboBoxAccImpl"/>
-                    <ClassDefinition value="fl.events.DataChangeType"/>
-                    <ClassDefinition value="fl.accessibility.TileListAccImpl"/>
-                    <ClassDefinition value="fl.accessibility.ButtonAccImpl"/>
-                    <ClassDefinition value="fl.controls.BaseButton"/>
-                    <ClassDefinition value="fl.core.UIComponent"/>
-                    <ClassDefinition value="fl.controls.DataGrid"/>
-                    <ClassDefinition value="fl.display.ProLoader"/>
-                    <ClassDefinition value="fl.containers.BaseScrollPane"/>
-                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
-                    <ClassDefinition value="fl.controls.Label"/>
-                    <ClassDefinition value="fl.managers.IFocusManagerComponent"/>
-                    <ClassDefinition value="fl.controls.UIScrollBar"/>
-                    <ClassDefinition value="fl.controls.listClasses.ICellRenderer"/>
-                    <ClassDefinition value="fl.controls.ColorPicker"/>
-                    <ClassDefinition value="fl.controls.dataGridClasses.DataGridCellEditor"/>
-                    <ClassDefinition value="fl.managers.FocusManager"/>
-                    <ClassDefinition value="fl.events.ProLoaderRSLPreloaderSandboxEvent"/>
-                    <ClassDefinition value="fl.events.DataGridEventReason"/>
-                    <ClassDefinition value="fl.events.SliderEvent"/>
-                    <ClassDefinition value="fl.events.SliderEventClickTarget"/>
-                    <ClassDefinition value="fl.controls.progressBarClasses.IndeterminateBar"/>
-                    <ClassDefinition value="fl.controls.listClasses.ListData"/>
-                    <ClassDefinition value="fl.core.InvalidationType"/>
-                    <ClassDefinition value="fl.controls.NumericStepper"/>
-                    <ClassDefinition value="fl.controls.RadioButtonGroup"/>
-                    <ClassDefinition value="fl.accessibility.LabelButtonAccImpl"/>
-                    <ClassDefinition value="fl.containers.UILoader"/>
-                    <ClassDefinition value="fl.events.ColorPickerEvent"/>
-                    <ClassDefinition value="fl.controls.ButtonLabelPlacement"/>
-                    <ClassDefinition value="fl.accessibility.CheckBoxAccImpl"/>
-                    <ClassDefinition value="fl.controls.TileList"/>
-                    <ClassDefinition value="fl.managers.StyleManager"/>
-                    <ClassDefinition value="fl.controls.RadioButton"/>
-                    <ClassDefinition value="fl.containers.ScrollPane"/>
-                    <ClassDefinition value="fl.controls.listClasses.TileListData"/>
-                    <ClassDefinition value="fl.events.InteractionInputType"/>
-                    <ClassDefinition value="fl.controls.Button"/>
-                    <ClassDefinition value="fl.core.ComponentShim"/>
-                    <ClassDefinition value="fl.accessibility.UIComponentAccImpl"/>
-                    <ClassDefinition value="fl.controls.SelectableList"/>
-                    <ClassDefinition value="fl.events.ComponentEvent"/>
-                    <ClassDefinition value="fl.accessibility.RadioButtonAccImpl"/>
-                    <ClassDefinition value="fl.controls.listClasses.CellRenderer"/>
-                    <ClassDefinition value="fl.managers.IFocusManagerGroup"/>
-                    <ClassDefinition value="fl.controls.ScrollPolicy"/>
-                    <ClassDefinition value="fl.controls.ProgressBar"/>
-                    <ClassDefinition value="fl.controls.ScrollBar"/>
-                    <ClassDefinition value="fl.controls.listClasses.ImageCell"/>
-                    <ClassDefinition value="fl.managers.IFocusManager"/>
-                    <ClassDefinition value="fl.controls.ProgressBarMode"/>
-                    <ClassDefinition value="fl.accessibility.SelectableListAccImpl"/>
-                    <ClassDefinition value="fl.controls.TextInput"/>
-                    <ClassDefinition value="fl.events.ListEvent"/>
-                    <ClassDefinition value="fl.accessibility.AccImpl"/>
-                    <ClassDefinition value="fl.accessibility.DataGridAccImpl"/>
-                    <ClassDefinition value="fl.events.ScrollEvent"/>
-                    <ClassDefinition value="fl.controls.dataGridClasses.DataGridColumn"/>
-                    <ClassDefinition value="fl.events.DataGridEvent"/>
-                    <ClassDefinition value="fl.data.TileListCollectionItem"/>
-                    <ClassDefinition value="fl.data.DataProvider"/>
-                    <ClassDefinition value="fl.accessibility.ListAccImpl"/>
-                    <ClassDefinition value="fl.controls.dataGridClasses.HeaderRenderer"/>
-                    <ClassDefinition value="fl.controls.ScrollBarDirection"/>
-                    <ClassDefinition value="fl.controls.SliderDirection"/>
-               </classDefinitions>
-          </Swc>
-     </swcCache>
 </DOMDocument>

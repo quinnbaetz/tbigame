@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuDrawer" itemID="4f45da0d-000005cf" linkageExportForAS="true" linkageClassName="menuDrawer" lastModified="1330001822">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuDrawer" itemID="4f45da0d-000005cf" linkageExportForAS="true" linkageClassName="menuDrawer" lastModified="1334346595">
   <timeline>
     <DOMTimeline name="menuDrawer">
       <layers>
@@ -6,13 +6,13 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="images/menuBar/drawer"/>
+                <DOMBitmapInstance selected="true" libraryItemName="images/menuBar/drawer"/>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/drawer"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/menuPop" name="questions" selected="true" centerPoint3DX="392.95" centerPoint3DY="30">
+                <DOMSymbolInstance libraryItemName="images/menuBar/menuPop" name="questions" centerPoint3DX="392.95" centerPoint3DY="30">
                   <matrix>
                     <Matrix tx="108.45" ty="-22"/>
                   </matrix>

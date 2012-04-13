@@ -13,6 +13,10 @@
 	import flash.external.ExternalInterface;
 	import flash.events.TimerEvent;
 	import flash.utils.Timer;
+	import flash.media.Sound;
+	import flash.media.SoundChannel;
+	import flash.media.SoundTransform;
+	import flash.media.SoundMixer;
 	public class Toolbox extends MovieClip
 	{
 		
@@ -24,9 +28,10 @@
 		public var down;
 		public var menuBox;
 		public var pad;
-		//public var tabletContent;
 		public var chart;
 		public var clock;
+		public var speakerButton;
+		public var volume:SoundTransform;
 		public var notes = new Array();
 		public var tools = new Array();
 		private var padX = -105;
@@ -34,12 +39,12 @@
 		private var padRot = 30;
 		private var scale = .4;
 		var theStage;
+		var scope;
 		var dataNames = new Array("accident", "age", "gcs", "bp", "pName", "lungs", "pupils", "pTemp", "heightWeight");
-		function Toolbox(theStage){
+		function Toolbox(theStage, scope){
 			this.theStage = theStage;
-			//tabletContent = new tabletLogic(theStage);
-			
-			clock = new Clock(theStage, 0, 500)
+			this.scope = scope;
+			clock = new Clock(theStage, scope, 0, 500)
 			
 			
 			//switched to not use notepad for the time being
@@ -67,7 +72,7 @@
 			/*for each(var dName in dataNames){
 				sprite[dName].visible = false;
 			}*/
-			this.theStage.addChild(tablet);
+			this.scope.addCache(tablet, this.theStage, "Tablet");
 			pad = tablet;
 			chart = tablet;
 			
@@ -85,32 +90,30 @@
 			menuBox.width=800;
 			menuBox.height=82;
 			menuBox.stop();
-			theStage.addChild(menuBox); 
-			
+			this.scope.addCache(menuBox, this.theStage);
 			//create Buttons
 			index = new IndexButton();
 			index.x=690;
 			index.y=565;
-			theStage.addChild(index); 
-			
+			this.scope.addCache(index, this.theStage);
 			//create Buttons
 			menu = new MenuButton();
 			menu.x=690;
-			menu.y=530;
-			theStage.addChild(menu); 
+			menu.y=530; 
+			this.scope.addCache(menu, this.theStage);
 			
-			up = new upButton();
-			up.x=640;
-			up.y=540;
+			//up = new upButton();
+			//up.x=640;
+			//up.y=540;
 			//theStage.addChild(up); 
 			
-			down = new downButton();
-			down.x=640;
-			down.y=570;
+			//down = new downButton();
+			//down.x=640;
+			//down.y=570;
 			//theStage.addChild(down); 
 			
 			for(var i = 0; i<7; i++){
-				tools.push(new Tool(theStage, i));
+				tools.push(new Tool(theStage, scope, i));
 			}
 			
 			menuScreen = new MenuScreen();
@@ -118,7 +121,7 @@
 			menuScreen.y=10;
 			menuScreen.alpha = 0;
 			menuScreen.stop();
-			theStage.addChild(menuScreen);
+			this.scope.addCache(menuScreen, this.theStage);
 			
 			var menuToggle = function(){
 				bringForward();
@@ -128,6 +131,18 @@
 					hideMenu();
 				}
 			}
+			
+			//Mute functionality --------
+			speakerButton = new MuteToggleButton();
+			speakerButton.x=650;
+			speakerButton.y=580;
+			this.scope.addCache(speakerButton, this.theStage);
+			
+			if(!volume) { 
+				volume = new SoundTransform(1); }
+			speakerButton.addEventListener(MouseEvent.CLICK, toggleSound);
+			//----
+			
 			
 			clock.myAddEventListener(MouseEvent.MOUSE_DOWN, padToggle);
 			index.addEventListener(MouseEvent.CLICK, padToggle);
@@ -142,12 +157,9 @@
 		}
 		public function showPad(){
 			padToggle(null, true, false);
-			//tabletContent.showTablet();
-			
 		}
 		public function hidePad(){
 			padToggle(null, false, true);
-			//tabletContent.hideTablet();
 		}
 		private function padToggle(evt, forceOpen = false, forceClose = false){
 			trace("here");
@@ -155,13 +167,12 @@
 			if((pad.x<-50 || forceOpen) && !forceClose){
 				trace("opening");
 				hideMenu();
-				createTween(pad, "x", None.easeInOut, 20);
-				createTween(pad, "y", None.easeInOut, 5);
-				createTween(pad, "scaleX", None.easeInOut, 1);
-				createTween(pad, "scaleY", None.easeInOut, 1);
-				createTween(pad, "rotation", None.easeInOut, 0, -1, 10, function(){
-					//ExternalInterface.call("showTabletContent");
-					//tabletContent.showTablet();
+				this.scope.createTween(pad, "x", None.easeInOut, 20);
+				this.scope.createTween(pad, "y", None.easeInOut, 5);
+				this.scope.createTween(pad, "scaleX", None.easeInOut, 1);
+				this.scope.createTween(pad, "scaleY", None.easeInOut, 1);
+				this.scope.createTween(pad, "rotation", None.easeInOut, 0, -1, 10, function(){
+					ExternalInterface.call("showTabletContent");
 				});
 				return;
 			}
@@ -169,17 +180,17 @@
 				trace("closing");
 				var myTimer:Timer = new Timer(250, 1);
 				myTimer.start();
+				var scope = this.scope;
 				myTimer.addEventListener(TimerEvent.TIMER_COMPLETE, function(){
 					myTimer.removeEventListener(TimerEvent.TIMER_COMPLETE, arguments.callee);
 					myTimer = null;
-					createTween(pad, "x", None.easeInOut, padX);
-					createTween(pad, "y", None.easeInOut, padY);
-					createTween(pad, "scaleX", None.easeNone, scale);
-					createTween(pad, "scaleY", None.easeNone, scale);
-					createTween(pad, "rotation", None.easeInOut, padRot);
+					scope.createTween(pad, "x", None.easeInOut, padX);
+					scope.createTween(pad, "y", None.easeInOut, padY);
+					scope.createTween(pad, "scaleX", None.easeNone, scale);
+					scope.createTween(pad, "scaleY", None.easeNone, scale);
+					scope.createTween(pad, "rotation", None.easeInOut, padRot);
 				 });
-				 //ExternalInterface.call("hideTabletContent");
-				 //tabletContent.hideTablet();
+				 ExternalInterface.call("hideTabletContent");
 			} 
 		}
 		
@@ -195,6 +206,13 @@
 			for each(var tool in tools){
 				tool.bringForward();
 			}
+		}
+		
+
+		
+		public function toggleSound(e:MouseEvent):void {
+    		 volume.volume = volume.volume == 1 ? 0 : 1;
+    		 SoundMixer.soundTransform = volume;
 		}
 		
 		public function switchMenuType(type=1, frame=1){
@@ -238,15 +256,17 @@
 		}
 		
 		public function hide(){
+			trace("made it to the top");
 			menuBox.alpha = 0;
 			index.alpha = 0;
 			menu.alpha = 0;
-			up.alpha = 0;
-			down.alpha = 0;
+			//up.alpha = 0;
+			//down.alpha = 0;
 			chart.alpha = 0;
 			
 			chart.buttonMode = false;
 			chart.useHandCursor = false;
+			trace("made it to the tools");
 			for each(var tool in tools){
 				tool.hide();
 			}
@@ -258,8 +278,8 @@
 			index.alpha = 1;
 			menu.alpha = 1;
 			chart.alpha = 1;
-			up.alpha = 1;
-			down.alpha = 1;
+			//up.alpha = 1;
+			//down.alpha = 1;
 			chart.buttonMode = true;
 			chart.useHandCursor = true;
 			for each(var tool in tools){
@@ -269,7 +289,7 @@
 		}
 		
 		public function addNote(msg){
-			createTween(pad, "alpha", None.easeInOut, 0, -1, 30, function(){
+			this.scope.createTween(pad, "alpha", None.easeInOut, 0, -1, 30, function(){
 				var format:TextFormat = new TextFormat();
 				format.font="Arial";
 				format.size=15;
@@ -290,17 +310,17 @@
 					textMsg.y = notes[notes.length-1].y+notes[notes.length-1].textHeight + 10;
 					trace("adding second");
 				}
-				pad.addChild(textMsg);
+				this.scope.addCache(textMsg, pad);
 				notes.push(textMsg);
-				createTween(pad, "alpha", None.easeInOut, 1, -1, 30);
+				this.scope.createTween(pad, "alpha", None.easeInOut, 1, -1, 30);
 			});
 		}
 		
 		public function makeVisible(note){
 			
-			createTween(chart, "alpha", None.easeInOut, 0, -1, 30, function(){
+			this.scope.createTween(chart, "alpha", None.easeInOut, 0, -1, 30, function(){
 				chart[note].visible = true;
-				createTween(chart, "alpha", None.easeInOut, 1, -1, 30);
+				this.scope.createTween(chart, "alpha", None.easeInOut, 1, -1, 30);
 			});
 		}
 		
@@ -316,40 +336,6 @@
 			tool.addTool(name, toAdd);
 		}
 		
-		import fl.transitions.Tween;
-		import fl.transitions.easing.*;
-		import fl.transitions.TweenEvent;
-		var tweens:Array = new Array();
-		private function createTween(obj:Object, prop:String, type, endVal, startVal = -1, numFrames = 10, callBack:Function = null, useTime:Boolean = false):Tween{
-			if(startVal == -1){
-				startVal = obj[prop];
-			}
-			var tempTween:Tween = new Tween(obj, prop, type, startVal, endVal, numFrames, useTime);
-			tweens.push(tempTween);
-			tempTween.addEventListener(TweenEvent.MOTION_FINISH, tweenEnd);
-			
-			function tweenEnd(e:TweenEvent):void{
-				tempTween.removeEventListener(TweenEvent.MOTION_FINISH, tweenEnd);
-				tweens.splice(tweens.indexOf(e.target), 1);
-				obj[prop] = endVal;
-				if(callBack!=null)
-					callBack(e);
-			
-			}
-			
-			return tempTween;
-		}
-		private function addImage(className,x ,y){
-			var ClassReference:Class = getDefinitionByName(className) as Class;
-			var instance:* = new ClassReference();
-			var myImage:Bitmap = new Bitmap(instance);
-			var sprite:Sprite = new Sprite();
-			sprite.x = x;
-			sprite.y = y;
-			sprite.addChild(myImage);
-			return sprite;
-		}
-
 		
 	}	
 	

@@ -1,252 +1,28 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1333878510" lastUniqueIdentifier="49">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" lastModified="1332696283">
   <timeline>
     <DOMTimeline name="TabletContent" currentFrame="1">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" name="SearchTerms" labelType="name" keyMode="9728">
+            <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="1" name="CTReport" labelType="name" keyMode="9728">
+            <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="148" height="17.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="148" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="60" ty="-131"/>
+                    <Matrix tx="2" ty="2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>CT REPORT - HEAD </characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="66.7" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="221.65" ty="-104.95"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Findings</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="67.05" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="357.6" ty="-104.95"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Location</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="29.2" height="14.5" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="372.95" ty="-88.1"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Side</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" bitmapSize="240" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="32.45" height="14.5" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="374.1" ty="-36.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Lobe</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" bitmapSize="240" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="146.4" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="56" ty="66.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Findings Summary</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="248.4" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="57" ty="88.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>The CT scans show the presence of</characters>
-                      <textAttrs>
                         <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="45.15" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="421.3" ty="86.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>on the</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="28.4" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="553.95" ty="85.95"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>side</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="292.9" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="58" ty="112.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>of the head, indicating the occurance of a</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="59.35" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="465.95" ty="115.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>near the</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="151.75" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="162" ty="142.85"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>lobe of the brain. The</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="169.55" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="420.95" ty="141.85"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>shape indicates that the</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="91.45" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="54" ty="169.85"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>hematoma is</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="152.85" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="249.3" ty="169.85"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>, located between the</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="53.75" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="500.95" ty="169.85"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>and the</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText selected="true" width="128.45" height="17.05" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="58" ty="244.9"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Proposed Action</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMInputText name="submitInput" selected="true" width="233.55" height="50.1" border="true" lineType="multiline">
-                  <matrix>
-                    <Matrix tx="206.4" ty="207.85"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters></characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMInputText>
               </elements>
-            </DOMFrame>
-            <DOMFrame index="2" name="TermDefs" labelType="name" keyMode="9728">
-              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

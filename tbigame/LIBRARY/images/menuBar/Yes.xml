@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Yes" itemID="4f630206-00000955" sourceFlashFilepath="./AuthortimeSharedAssets.fla" sourceLibraryItemHRef="images/menuBar/Yes" sourceLastModified="1331888789" sourceAutoUpdate="true" symbolType="button" lastModified="1331888789" sourceItemID="4f630206-00000955">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Yes" itemID="4f630206-00000955" symbolType="button" lastModified="1331888789">
   <timeline>
     <DOMTimeline name="Yes" currentFrame="1">
       <layers>

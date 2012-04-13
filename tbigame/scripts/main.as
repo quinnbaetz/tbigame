@@ -1,14 +1,15 @@
-﻿import tbigame.scripts.Message;
+﻿import tbigame.scripts.tbiUtilities;
+import tbigame.scripts.Message;
 import tbigame.scripts.Picker;
 import tbigame.scripts.Tooltip;
 import tbigame.scripts.Toolbox;
 import tbigame.scripts.Clock;
 import tbigame.scripts.Tool;
 import tbigame.scripts.ClickRegion;
-import tbigame.scripts.tabletLogic;
 import flash.external.ExternalInterface;
 include "utility.as";
 include "tbiUtilities.as";
+//
 /*import flash.media.Sound;
 import flash.media.SoundChannel;*/
 var tbi = {};
@@ -20,16 +21,16 @@ var lastFrame = 0;
 var timeline = 0;
 var clock;
 //DEBUGGING PURPOSES
-var DEBUG = true;
+var DEBUG = false;
 //USED TO JUMP TO A SPECIFIC SCENE
-var SCENE = 12;
+var SCENE = 3;
 //used in heli scene
 var toolOrder = new Array("stethoscope");
 var currentTool = null;
 var theStage = stage;
 var tt = new Tooltip(0xFFFFEC,0x000000, stage);
 var sounds = new Array();
-toolbox = new Toolbox(stage);
+toolbox = new Toolbox(stage, this);
 clock = toolbox.clock;	
 clock.updateAngle(360);
 
@@ -77,8 +78,16 @@ function restart()
 	navigateToURL(request,"_level0");
 }
 ExternalInterface.addCallback("subJumpToScene", subJumpToScene);*/
+
+function subReset() 
+{
+	clearAll();
+	//while (numChildren > 0) removeChildAt(0);
+	//while (stage.numChildren > 0) stage.removeChildAt(0);
+}
 function subJumpToScene(scene, time) 
 {
+
 	fTrace("as received call to go to", scene, time);
 	lastFrame = -1;
 	timeline = time;
