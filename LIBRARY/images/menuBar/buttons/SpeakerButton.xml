@@ -5,16 +5,7 @@
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMBitmapInstance libraryItemName="speaker_button.gif">
-                  <matrix>
-                    <Matrix a="0.139999389648438" d="0.139999389648438" tx="-25" ty="-24"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="150" y="150"/>
-                  </transformationPoint>
-                </DOMBitmapInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" adjustViewAngle3D="false" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" adjustViewAngle3D="false" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="images" itemID="4ddbd5e5-0000001b" isExpanded="true"/>
           <DOMFolderItem name="images/actions" itemID="4df1c40b-00000215"/>
@@ -6,15 +6,15 @@
           <DOMFolderItem name="images/actions/handPumpImages" itemID="4df26740-0000024b"/>
           <DOMFolderItem name="images/actions/pumpGuageComponents" itemID="4df26a34-0000025f"/>
           <DOMFolderItem name="images/actions/pupil_scene" itemID="4e19db6b-00000289"/>
-          <DOMFolderItem name="images/drawer" itemID="4def93a7-0000020c"/>
+          <DOMFolderItem name="images/drawer" itemID="4def93a7-0000020c" isExpanded="true"/>
           <DOMFolderItem name="images/logos" itemID="4f43b7da-00000438" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar" itemID="4defcc3f-00000223" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/buttons" itemID="4df520c6-00000219" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/clock" itemID="4ddbd5f0-0000001f"/>
           <DOMFolderItem name="images/menuBar/images" itemID="4f6301cb-0000091d"/>
           <DOMFolderItem name="images/menuBar/images/menuBar" itemID="4f6301cb-0000091e" isExpanded="true"/>
-          <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437"/>
-          <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468"/>
+          <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437" isExpanded="true"/>
+          <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes" itemID="4e07bc1c-00000215"/>
           <DOMFolderItem name="images/menuBar/notes/chart" itemID="4e07d19b-0000021b" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/notes/chart/data" itemID="4e07d20d-00000223" isExpanded="true"/>
@@ -48,16 +48,15 @@
           <DOMFolderItem name="images/surgery/marker" itemID="4ee5636a-00000333"/>
           <DOMFolderItem name="images/surgeryTools" itemID="4ed5b24d-00000315"/>
           <DOMFolderItem name="images/surgeryTools/second" itemID="4eec72d1-0000035d" isExpanded="true"/>
-          <DOMFolderItem name="images/tools" itemID="4defcd32-00000279"/>
-          <DOMFolderItem name="Scenes" itemID="4dd9ddc7-00000014"/>
+          <DOMFolderItem name="images/tools" itemID="4defcd32-00000279" isExpanded="true"/>
           <DOMFolderItem name="scripts" itemID="4dd9e52f-00000017"/>
-          <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b"/>
+          <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b" isExpanded="true"/>
           <DOMFolderItem name="Scenes" itemID="4dd9ddc7-00000014" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
           <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -151,8 +150,8 @@
           <DOMBitmapItem name="images/surgery/brain/duraOpen.png" itemID="4f38b32d-00000e9b" linkageExportForAS="true" linkageClassName="duraOpen" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgery/brain/duraOpen.png" sourceLastImported="1329115854" sourcePlatform="macintosh" externalFileSize="84468" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/duraOpen.png" bitmapDataHRef="M 281 1329107414.dat" frameRight="5700" frameBottom="5380"/>
           <DOMBitmapItem name="images/surgery/brain/duraOpenHealed.png" itemID="4f38b3e8-00000ead" linkageExportForAS="true" linkageClassName="duraOpenHealed" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgery/brain/duraOpenHealed.png" sourceLastImported="1329116134" sourcePlatform="macintosh" externalFileSize="87797" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/brain/duraOpenHealed.png" bitmapDataHRef="M 286 1329116065.dat" frameRight="5700" frameBottom="5380"/>
           <DOMBitmapItem name="Scenes/emtFace1.jpg" itemID="4e11e297-00000254" linkageExportForAS="true" linkageClassName="emtFace" sourceExternalFilepath="./LIBRARY/Scenes/emtFace1.jpg" sourceLastImported="1309789620" externalFileCRC32="649506956" externalFileSize="146939" quality="50" href="Scenes/emtFace1.jpg" bitmapDataHRef="M 22 1307585548.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
-          <DOMBitmapItem name="images/scanner/injuredBrains/epidural.jpg" itemID="4e745d7d-00000305" linkageExportForAS="true" linkageIdentifier="epidural.jpg" linkageClassName="epidural.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/epidural.jpg" sourceLastImported="1316248736" externalFileSize="5440" quality="50" href="images/scanner/injuredBrains/epidural.jpg" bitmapDataHRef="M 166 1316248853.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="images/MRI/epidural-illustration" itemID="4f630e0d-00000b59" linkageExportForAS="true" linkageClassName="epiduralIllustration" sourceExternalFilepath="./LIBRARY/images/MRI/epidural-illustration" sourceLastImported="1331733673" sourcePlatform="macintosh" quality="50" href="images/MRI/epidural-illustration./LIBRARY/images/MRI/epidural-illustration" bitmapDataHRef="M 317 1331891383.dat" frameRight="3060" frameBottom="3460" isJPEG="true"/>
+          <DOMBitmapItem name="images/scanner/injuredBrains/epidural.jpg" itemID="4e745d7d-00000305" linkageExportForAS="true" linkageIdentifier="epidural.jpg" linkageClassName="epidural.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/epidural.jpg" sourceLastImported="1316248736" externalFileSize="5440" quality="50" href="images/scanner/injuredBrains/epidural.jpg" bitmapDataHRef="M 166 1316248853.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="images/MRI/epiduralScan" itemID="4f630e0d-00000b5a" linkageExportForAS="true" linkageClassName="epiduralCTscan" sourceExternalFilepath="./LIBRARY/images/MRI/epiduralScan.jpg" sourceLastImported="1331733664" sourcePlatform="macintosh" quality="50" href="images/MRI/epiduralScan.jpg" bitmapDataHRef="M 316 1331891382.dat" frameRight="2460" frameBottom="2600" isJPEG="true"/>
           <DOMBitmapItem name="images/actions/pupil_scene/eye.png" itemID="4e19d995-00000254" linkageExportForAS="true" linkageClassName="eye" sourceExternalFilepath="./LIBRARY/images/actions/pupil_scene/eye.png" sourceLastImported="1310318234" externalFileCRC32="233381692" externalFileSize="26628" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/pupil_scene/eye.png" bitmapDataHRef="M 57 1310316949.dat" frameRight="3400" frameBottom="2700"/>
           <DOMBitmapItem name="images/actions/pupil_scene/eyeOpenHand.png" itemID="4e19df2d-00000296" linkageExportForAS="true" linkageClassName="eyeOpenHand" sourceExternalFilepath="./LIBRARY/images/actions/pupil_scene/eyeOpenHand.png" sourceLastImported="1309796800" externalFileCRC32="3696298368" externalFileSize="65979" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/pupil_scene/eyeOpenHand.png" bitmapDataHRef="M 60 1310318381.dat" frameRight="10820" frameBottom="13780"/>
@@ -173,7 +172,7 @@
           <DOMBitmapItem name="images/surgery/arms/handDrill1Arm.png" itemID="4f30048d-00000d7b" sourceExternalFilepath="./LIBRARY/images/surgery/arms/handDrill1Arm.png" sourceLastImported="1328488622" sourcePlatform="macintosh" externalFileSize="150588" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/arms/handDrill1Arm.png" bitmapDataHRef="M 255 1328546805.dat" frameRight="18320" frameBottom="12260"/>
           <DOMBitmapItem name="images/actions/handPumpImages/handPump1.png" itemID="4df26566-0000022e" linkageExportForAS="true" linkageClassName="handPump1" sourceExternalFilepath="./LIBRARY/images/actions/handPumpImages/handPump1.png" sourceLastImported="1307731176" externalFileCRC32="3535642848" externalFileSize="64915" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump1.png" bitmapDataHRef="M 29 1307731302.dat" frameRight="7300" frameBottom="9300"/>
           <DOMBitmapItem name="images/actions/handPumpImages/handPump2.png" itemID="4df26567-00000232" linkageExportForAS="true" linkageClassName="handPump2" sourceExternalFilepath="./LIBRARY/images/actions/handPumpImages/handPump2.png" sourceLastImported="1307730317" externalFileCRC32="3813389172" externalFileSize="66187" originalCompressionType="lossless" quality="50" href="images/actions/handPumpImages/handPump2.png" bitmapDataHRef="M 30 1307731303.dat" frameRight="6760" frameBottom="9300"/>
-          <DOMBitmapItem name="head.jpg" itemID="4ebe8562-00000304" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1323629681" externalFileSize="35021" quality="50" href="head.jpg" bitmapDataHRef="M 199 1321108363.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+          <DOMBitmapItem name="head.jpg" itemID="4ebe8562-00000304" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1323629681" externalFileSize="35021" originalCompressionType="lossless" quality="50" href="head.jpg" bitmapDataHRef="M 199 1321108363.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="head.jpg copy" itemID="4ed5c543-00000358" sourceExternalFilepath="./LIBRARY/head.jpg" sourceLastImported="1322632318" externalFileSize="35021" quality="50" href="head.jpg" bitmapDataHRef="M 211 1322632402.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
           <DOMBitmapItem name="head.png" itemID="4e11e5b1-0000025e" sourceExternalFilepath="./LIBRARY/head.png" sourceLastImported="1309795679" externalFileCRC32="394978551" externalFileSize="160882" originalCompressionType="lossless" quality="50" href="head.png" bitmapDataHRef="M 50 1309795761.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="images/surgery/headAlcohol.png" itemID="4f01ad1f-00000317" linkageExportForAS="true" linkageClassName="headAlcohol" sourceExternalFilepath="./LIBRARY/images/surgery/headAlcohol.png" sourceLastImported="1325509878" externalFileSize="15445" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgery/headAlcohol.png" bitmapDataHRef="M 213 1323643758.dat" frameRight="10740" frameBottom="10880"/>
@@ -324,14 +323,13 @@
           <DOMBitmapItem name="images/scanner/slices/slice9.jpg" itemID="4e764a2d-00000459" sourceExternalFilepath="./LIBRARY/images/scanner/slices/slice9.jpg" sourceLastImported="1316250396" externalFileSize="3597" quality="50" href="images/scanner/slices/slice9.jpg" bitmapDataHRef="M 178 1316375014.dat" frameRight="2860" frameBottom="3100" isJPEG="true"/>
           <DOMBitmapItem name="images/MRI/sliceExplanation" itemID="4f62f5f4-00000720" linkageExportForAS="true" linkageClassName="sliceExplanation" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/MRI/sliceExplanation.png" sourceLastImported="1331885545" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="images/MRI/sliceExplanation.png" bitmapDataHRef="M 306 1331854693.dat" frameRight="9960" frameBottom="9240"/>
           <DOMBitmapItem name="images/menuBar/slot" itemID="4e65be69-000002c8" linkageExportForAS="true" linkageClassName="slot" sourceExternalFilepath="./LIBRARY/images/menuBar/slot.png" sourceLastImported="1315026041" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/menuBar/slot.png" bitmapDataHRef="M 126 1315289884.dat" frameRight="1540" frameBottom="1540"/>
-          <DOMBitmapItem name="speaker_button.gif" itemID="4f88841a-00000632" sourceExternalFilepath="./LIBRARY/speaker_button.gif" sourceLastImported="1334346491" externalFileSize="32099" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="speaker_button.gif" bitmapDataHRef="M 336 1334346729.dat" frameRight="6000" frameBottom="6000"/>
           <DOMBitmapItem name="images/surgeryTools/second/sponge.png" itemID="4f376302-00000785" linkageExportForAS="true" linkageClassName="surgicalSponge" sourceExternalFilepath="./LIBRARY/images/surgeryTools/second/sponge.png" sourceLastImported="1331386329" sourcePlatform="macintosh" externalFileSize="56149" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/sponge.png" bitmapDataHRef="M 273 1329029457.dat" frameRight="5140" frameBottom="4440"/>
           <DOMSoundItem name="sounds/squeezePump.wav" itemID="4e18dee9-00000234" linkageExportForAS="true" linkageClassName="sound_squeezePump" sourceExternalFilepath="./LIBRARY/sounds/squeezePump.wav" sourceLastImported="1310252684" externalFileCRC32="1110573330" externalFileSize="34998" href="sounds/squeezePump.wav" soundDataHRef="M 51 1310252777.dat" format="44kHz 16bit Mono" sampleCount="16049"/>
           <DOMBitmapItem name="images/tools/stethoscope.png" itemID="4ed5b448-0000033b" linkageExportForAS="true" linkageClassName="stethoscope" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/tools/stethoscope.png" sourceLastImported="1328488977" externalFileCRC32="4124933622" externalFileSize="29701" originalCompressionType="lossless" quality="50" href="images/tools/stethoscope.png" bitmapDataHRef="M 18 1307561266.dat" frameRight="6420" frameBottom="7140"/>
           <DOMBitmapItem name="images/actions/stethoscopeCheck.png" itemID="4df1c412-0000021a" linkageExportForAS="true" linkageClassName="stethoscopeCheck" sourceExternalFilepath="./LIBRARY/images/actions/stethoscopeCheck.png" sourceLastImported="1307689943" externalFileCRC32="2300148028" externalFileSize="50232" originalCompressionType="lossless" quality="50" href="images/actions/stethoscopeCheck.png" bitmapDataHRef="M 24 1307690001.dat" frameRight="5760" frameBottom="11000"/>
-          <DOMBitmapItem name="images/scanner/injuredBrains/subdural.jpg" itemID="4e745d7e-00000307" linkageExportForAS="true" linkageIdentifier="subdural.jpg" linkageClassName="subdural.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/subdural.jpg" sourceLastImported="1316248765" externalFileSize="6369" quality="50" href="images/scanner/injuredBrains/subdural.jpg" bitmapDataHRef="M 168 1316248853.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="images/MRI/subdural-CT-scan.jpg" itemID="4f630f25-00000b9f" linkageExportForAS="true" linkageClassName="subduralScan" sourceExternalFilepath="./LIBRARY/images/MRI/subdural-CT-scan.jpg" sourceLastImported="1331734349" sourcePlatform="macintosh" externalFileSize="7414" quality="50" href="images/MRI/subdural-CT-scan.jpg" bitmapDataHRef="M 318 1331891943.dat" frameRight="2920" frameBottom="2900" isJPEG="true"/>
           <DOMBitmapItem name="images/MRI/subdural-illustration.jpg" itemID="4f630f25-00000ba0" linkageExportForAS="true" linkageClassName="subduralIllustration" sourceExternalFilepath="./LIBRARY/images/MRI/subdural-illustration.jpg" sourceLastImported="1331734359" sourcePlatform="macintosh" externalFileSize="8950" quality="50" href="images/MRI/subdural-illustration.jpg" bitmapDataHRef="M 319 1331891943.dat" frameRight="2920" frameBottom="2940" isJPEG="true"/>
+          <DOMBitmapItem name="images/scanner/injuredBrains/subdural.jpg" itemID="4e745d7e-00000307" linkageExportForAS="true" linkageIdentifier="subdural.jpg" linkageClassName="subdural.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/subdural.jpg" sourceLastImported="1316248765" externalFileSize="6369" quality="50" href="images/scanner/injuredBrains/subdural.jpg" bitmapDataHRef="M 168 1316248853.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="images/scanner/submitClick.png" itemID="4eb05382-00000311" sourceExternalFilepath="./LIBRARY/submitClick.png" sourceLastImported="1321108226" externalFileSize="2094" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/scanner/submitClick.png" bitmapDataHRef="M 196 1320178417.dat" frameRight="3340" frameBottom="820"/>
           <DOMBitmapItem name="images/scanner/submitHover.png" itemID="4eb05382-00000312" sourceExternalFilepath="./LIBRARY/submitHover.png" sourceLastImported="1321108226" externalFileSize="4872" originalCompressionType="lossless" quality="50" href="images/scanner/submitHover.png" bitmapDataHRef="M 197 1320178417.dat" frameRight="3340" frameBottom="820"/>
           <DOMBitmapItem name="images/scanner/submitUp.png" itemID="4eb05382-00000313" sourceExternalFilepath="./LIBRARY/submitUp.png" sourceLastImported="1321108226" externalFileSize="2118" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/scanner/submitUp.png" bitmapDataHRef="M 198 1320178417.dat" frameRight="3340" frameBottom="820"/>
@@ -398,7 +396,6 @@
           <DOMBitmapItem name="images/MRI/xray/xrayBrain8.jpg" itemID="4f5b5133-0000050a" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/MRI/xray/xrayBrain8.jpg" sourceLastImported="1331384709" externalFileSize="25054" quality="50" href="images/MRI/xray/xrayBrain8.jpg" bitmapDataHRef="M 148 1315562490.dat" frameRight="5080" frameBottom="5300" isJPEG="true"/>
      </media>
      <symbols>
-          <Include href="Canvas.xml" itemID="4ddd8f21-000000ac" lastModified="1306366226"/>
           <Include href="clipeight.xml" loadImmediate="false" itemID="4f2fa53b-00000bc6" lastModified="1328522555"/>
           <Include href="clipeleven.xml" loadImmediate="false" itemID="4f2fa572-00000bde" lastModified="1328522610"/>
           <Include href="clipfive.xml" loadImmediate="false" itemID="4f2fa526-00000bae" lastModified="1328522534"/>
@@ -411,6 +408,7 @@
           <Include href="clipthree.xml" loadImmediate="false" itemID="4f2fa519-00000b9e" lastModified="1328522521"/>
           <Include href="cliptwelve.xml" loadImmediate="false" itemID="4f2faa7e-00000c85" lastModified="1328523902"/>
           <Include href="cliptwo.xml" loadImmediate="false" itemID="4f2fa510-00000b96" lastModified="1328522512"/>
+          <Include href="Canvas.xml" itemID="4ddd8f21-000000ac" lastModified="1306366226"/>
           <Include href="h1.xml" loadImmediate="false" itemID="4f310ae3-00000f55" lastModified="1328614115"/>
           <Include href="h2.xml" loadImmediate="false" itemID="4f310aec-00000f5e" lastModified="1328614124"/>
           <Include href="h3.xml" loadImmediate="false" itemID="4f310af7-00000f67" lastModified="1328614135"/>
@@ -454,10 +452,9 @@
           <Include href="images/menuBar/menu/menubuttons/newGame.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8178-00000479" lastModified="1329563449"/>
           <Include href="images/menuBar/menu/menubuttons/options.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8184-0000047b" lastModified="1329563443"/>
           <Include href="images/menuBar/menu/menubuttons/returnButton.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8702-00000596" lastModified="1329563434"/>
-          <Include href="images/menuBar/menu/MenuScreen.xml" itemID="4f3f847d-00000561" lastModified="1329837654"/>
+          <Include href="images/menuBar/menu/MenuScreen.xml" itemID="4f3f847d-00000561" lastModified="1334407944"/>
           <Include href="images/menuBar/menuDrawer.xml" itemID="4f45da0d-000005cf" lastModified="1334346595"/>
           <Include href="images/menuBar/menuPop.xml" loadImmediate="false" itemID="4f46305a-000007aa" lastModified="1331888868"/>
-          <Include href="images/menuBar/No.xml" itemIcon="0" loadImmediate="false" itemID="4f630215-0000095d" lastModified="1331888805"/>
           <Include href="images/menuBar/notes/chart/chart.xml" itemID="4e07d4ad-00000250" lastModified="1309140396"/>
           <Include href="images/menuBar/notes/chart/data/accident.xml" loadImmediate="false" itemID="4e07db8f-00000307" lastModified="1309137807"/>
           <Include href="images/menuBar/notes/chart/data/age.xml" loadImmediate="false" itemID="4e07dc22-0000031b" lastModified="1309137954"/>
@@ -549,7 +546,6 @@
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" currentFrame="19">
-          <DOMTimeline name="Scene 1" currentFrame="2">
                <layers>
                     <DOMLayer name="scripts" color="#9933CC" autoNamed="false">
                          <frames>
@@ -725,7 +721,7 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200!16439 -200|16439 12279"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 -200|16439 12279!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMDynamicText width="559.95" height="55">
@@ -758,30 +754,24 @@
                </layers>
           </DOMTimeline>
      </timelines>
-     <persistentData>
-          <PD n="TestMovieChecked" v="FlashPro"/>
-     </persistentData>
-     <PrinterSettings/>
+     <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="5764408" publishTime="1332722086"/>
-          <PublishItem publishSize="5763889" publishTime="1332695332"/>
-          <PublishItem publishSize="5751030" publishTime="1332695266"/>
-          <PublishItem publishSize="5751030" publishTime="1332695241"/>
-          <PublishItem publishSize="5693348" publishTime="1332695218"/>
-          <PublishItem publishSize="5763745" publishTime="1332692259"/>
-          <PublishItem publishSize="5763736" publishTime="1332691455"/>
-          <PublishItem publishSize="5763761" publishTime="1332691258"/>
-          <PublishItem publishSize="5763740" publishTime="1332691234"/>
-          <PublishItem publishSize="5763765" publishTime="1332690830"/>
-          <PublishItem publishSize="5763498" publishTime="1332688715"/>
-          <PublishItem publishSize="5763515" publishTime="1332688521"/>
-          <PublishItem publishSize="5763515" publishTime="1332688401"/>
-          <PublishItem publishSize="5763493" publishTime="1332688321"/>
-          <PublishItem publishSize="5763416" publishTime="1332688250"/>
-          <PublishItem publishSize="5763420" publishTime="1332688154"/>
-          <PublishItem publishSize="5763403" publishTime="1332688109"/>
-          <PublishItem publishSize="5763411" publishTime="1332688074"/>
-          <PublishItem publishSize="5763408" publishTime="1332688028"/>
-          <PublishItem publishSize="5763425" publishTime="1332687925"/>
+          <PublishItem publishSize="5764976" publishTime="1334407783"/>
+          <PublishItem publishSize="5764964" publishTime="1334407243"/>
+          <PublishItem publishSize="5706316" publishTime="1334407216"/>
+          <PublishItem publishSize="5764766" publishTime="1334383878"/>
+          <PublishItem publishSize="5764773" publishTime="1334383815"/>
+          <PublishItem publishSize="5764769" publishTime="1334383766"/>
+          <PublishItem publishSize="5764764" publishTime="1334383689"/>
+          <PublishItem publishSize="5764762" publishTime="1334383580"/>
+          <PublishItem publishSize="5764744" publishTime="1334383436"/>
+          <PublishItem publishSize="5764739" publishTime="1334383366"/>
+          <PublishItem publishSize="5764686" publishTime="1334382854"/>
+          <PublishItem publishSize="5764686" publishTime="1334382715"/>
+          <PublishItem publishSize="5706322" publishTime="1334382685"/>
+          <PublishItem publishSize="5706316" publishTime="1334382654"/>
+          <PublishItem publishSize="5764613" publishTime="1334382171"/>
+          <PublishItem publishSize="5764617" publishTime="1334382127"/>
+          <PublishItem publishSize="5764622" publishTime="1334381313"/>
      </publishHistory>
 </DOMDocument>
