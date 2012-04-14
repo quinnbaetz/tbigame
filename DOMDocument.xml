@@ -11,7 +11,7 @@
           <DOMFolderItem name="images/menuBar" itemID="4defcc3f-00000223" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/buttons" itemID="4df520c6-00000219" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/clock" itemID="4ddbd5f0-0000001f"/>
-          <DOMFolderItem name="images/menuBar/images" itemID="4f6301cb-0000091d"/>
+          <DOMFolderItem name="images/menuBar/images" itemID="4f6301cb-0000091d" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/images/menuBar" itemID="4f6301cb-0000091e" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/menu" itemID="4f3f80a1-00000437" isExpanded="true"/>
           <DOMFolderItem name="images/menuBar/menu/menubuttons" itemID="4f3f80e8-00000468" isExpanded="true"/>
@@ -29,8 +29,8 @@
           <DOMFolderItem name="images/scanner" itemID="4e69e436-0000034f"/>
           <DOMFolderItem name="images/scanner/injuredBrains" itemID="4e745d38-00000302" isExpanded="true"/>
           <DOMFolderItem name="images/scanner/slices" itemID="4e7649fd-0000043f"/>
-          <DOMFolderItem name="images/surgery" itemID="4ebe8916-00000309"/>
-          <DOMFolderItem name="images/surgery/arms" itemID="4ed5c369-00000345"/>
+          <DOMFolderItem name="images/surgery" itemID="4ebe8916-00000309" isExpanded="true"/>
+          <DOMFolderItem name="images/surgery/arms" itemID="4ed5c369-00000345" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/clipArms" itemID="4f2f9acd-00000a4d"/>
           <DOMFolderItem name="images/surgery/arms/duraCutArm" itemID="4f6f0cea-000004cd" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/markerArm" itemID="4f63331a-00001100" isExpanded="true"/>
@@ -38,15 +38,15 @@
           <DOMFolderItem name="images/surgery/arms/patch" itemID="4f5b5df7-0000051d"/>
           <DOMFolderItem name="images/surgery/arms/scalpelArm" itemID="4f5b7fc1-00000817" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/arms/surgicel" itemID="4f38aff7-00000dfe"/>
-          <DOMFolderItem name="images/surgery/brain" itemID="4f01d148-00000324" isExpanded="true"/>
+          <DOMFolderItem name="images/surgery/brain" itemID="4f01d148-00000324"/>
           <DOMFolderItem name="images/surgery/brain/drillArm" itemID="4f633e21-000012ab"/>
           <DOMFolderItem name="images/surgery/brain/drilledHoles" itemID="4f3108b5-00000eef"/>
           <DOMFolderItem name="images/surgery/brain/hematoma" itemID="4f631f14-00000da9" isExpanded="true"/>
           <DOMFolderItem name="images/surgery/brain/xhole" itemID="4f310656-00000e3d"/>
-          <DOMFolderItem name="images/surgery/clips" itemID="4f2f8120-000005ac" isExpanded="true"/>
+          <DOMFolderItem name="images/surgery/clips" itemID="4f2f8120-000005ac"/>
           <DOMFolderItem name="images/surgery/drillArm" itemID="4f633e03-000012a5"/>
           <DOMFolderItem name="images/surgery/marker" itemID="4ee5636a-00000333"/>
-          <DOMFolderItem name="images/surgeryTools" itemID="4ed5b24d-00000315"/>
+          <DOMFolderItem name="images/surgeryTools" itemID="4ed5b24d-00000315" isExpanded="true"/>
           <DOMFolderItem name="images/surgeryTools/second" itemID="4eec72d1-0000035d" isExpanded="true"/>
           <DOMFolderItem name="images/tools" itemID="4defcd32-00000279" isExpanded="true"/>
           <DOMFolderItem name="scripts" itemID="4dd9e52f-00000017"/>
@@ -452,7 +452,7 @@
           <Include href="images/menuBar/menu/menubuttons/newGame.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8178-00000479" lastModified="1329563449"/>
           <Include href="images/menuBar/menu/menubuttons/options.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8184-0000047b" lastModified="1329563443"/>
           <Include href="images/menuBar/menu/menubuttons/returnButton.xml" itemIcon="0" loadImmediate="false" itemID="4f3f8702-00000596" lastModified="1329563434"/>
-          <Include href="images/menuBar/menu/MenuScreen.xml" itemID="4f3f847d-00000561" lastModified="1334407944"/>
+          <Include href="images/menuBar/menu/MenuScreen.xml" itemID="4f3f847d-00000561" lastModified="1334421381"/>
           <Include href="images/menuBar/menuDrawer.xml" itemID="4f45da0d-000005cf" lastModified="1334346595"/>
           <Include href="images/menuBar/menuPop.xml" loadImmediate="false" itemID="4f46305a-000007aa" lastModified="1331888868"/>
           <Include href="images/menuBar/notes/chart/chart.xml" itemID="4e07d4ad-00000250" lastModified="1309140396"/>
@@ -756,22 +756,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="5764976" publishTime="1334407783"/>
-          <PublishItem publishSize="5764964" publishTime="1334407243"/>
-          <PublishItem publishSize="5706316" publishTime="1334407216"/>
-          <PublishItem publishSize="5764766" publishTime="1334383878"/>
-          <PublishItem publishSize="5764773" publishTime="1334383815"/>
-          <PublishItem publishSize="5764769" publishTime="1334383766"/>
-          <PublishItem publishSize="5764764" publishTime="1334383689"/>
-          <PublishItem publishSize="5764762" publishTime="1334383580"/>
-          <PublishItem publishSize="5764744" publishTime="1334383436"/>
-          <PublishItem publishSize="5764739" publishTime="1334383366"/>
-          <PublishItem publishSize="5764686" publishTime="1334382854"/>
-          <PublishItem publishSize="5764686" publishTime="1334382715"/>
-          <PublishItem publishSize="5706322" publishTime="1334382685"/>
-          <PublishItem publishSize="5706316" publishTime="1334382654"/>
-          <PublishItem publishSize="5764613" publishTime="1334382171"/>
-          <PublishItem publishSize="5764617" publishTime="1334382127"/>
-          <PublishItem publishSize="5764622" publishTime="1334381313"/>
+          <PublishItem publishSize="5765019" publishTime="1334420475"/>
+          <PublishItem publishSize="5765034" publishTime="1334417287"/>
+          <PublishItem publishSize="5764965" publishTime="1334416906"/>
+          <PublishItem publishSize="5764982" publishTime="1334416806"/>
+          <PublishItem publishSize="5764956" publishTime="1334416542"/>
+          <PublishItem publishSize="5764974" publishTime="1334416341"/>
+          <PublishItem publishSize="5706332" publishTime="1334416312"/>
+          <PublishItem publishSize="5764952" publishTime="1334416162"/>
+          <PublishItem publishSize="5764974" publishTime="1334416118"/>
+          <PublishItem publishSize="5764975" publishTime="1334415710"/>
+          <PublishItem publishSize="5764955" publishTime="1334415548"/>
+          <PublishItem publishSize="5764574" publishTime="1334415306"/>
+          <PublishItem publishSize="5764876" publishTime="1334415058"/>
+          <PublishItem publishSize="5764713" publishTime="1334414349"/>
+          <PublishItem publishSize="5765081" publishTime="1334414131"/>
+          <PublishItem publishSize="5765086" publishTime="1334414022"/>
+          <PublishItem publishSize="5765091" publishTime="1334413799"/>
+          <PublishItem publishSize="5765093" publishTime="1334413760"/>
+          <PublishItem publishSize="5765114" publishTime="1334413700"/>
+          <PublishItem publishSize="5765122" publishTime="1334413657"/>
      </publishHistory>
 </DOMDocument>
