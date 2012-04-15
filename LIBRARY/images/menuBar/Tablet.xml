@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1332725139" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1334510058" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Tablet">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer 2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F">
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -27,7 +27,7 @@
                     <Edge strokeStyle="1" edges="!2900 9499|2800 9499"/>
                   </edges>
                 </DOMShape>
-                <DOMBitmapInstance libraryItemName="images/menuBar/tablet.png"/>
+                <DOMBitmapInstance selected="true" libraryItemName="images/menuBar/tablet.png"/>
               </elements>
             </DOMFrame>
           </frames>

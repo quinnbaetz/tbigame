@@ -1,10 +1,10 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" lastModified="1334509781">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1334510096">
   <timeline>
     <DOMTimeline name="TabletContent" currentFrame="2">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" name="defaultScreen" labelType="name" keyMode="9728">
               <elements>
                 <DOMStaticText width="46.25" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>
@@ -68,7 +68,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="1" keyMode="9728">
+            <DOMFrame index="1" name="searchList" labelType="name" keyMode="9728">
               <elements>
                 <DOMStaticText width="148" height="17.05" includeOutlines="true" isSelectable="false">
                   <matrix>
@@ -249,7 +249,7 @@
                 </DOMDynamicText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="2" keyMode="9728">
+            <DOMFrame index="2" name="descriptionField" labelType="name" keyMode="9728">
               <elements>
                 <DOMStaticText width="46.25" height="17.05" autoExpand="true" isSelectable="false">
                   <matrix>

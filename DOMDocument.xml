@@ -463,8 +463,8 @@
           <Include href="images/menuBar/notes/chart/data/bp.xml" loadImmediate="false" itemID="4e07dc7a-0000032f" lastModified="1309138042"/>
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
-          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1332725139"/>
-          <Include href="images/menuBar/TabletContent.xml" loadImmediate="false" itemID="4f6f548b-00000d5c" lastModified="1334509781"/>
+          <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1334510058"/>
+          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1334510096"/>
           <Include href="images/menuBar/Yes.xml" itemIcon="0" loadImmediate="false" itemID="4f630206-00000955" lastModified="1331888789"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1332692922"/>
           <Include href="images/MRI/brain/brainBase.xml" itemID="4e3896a1-00000301" lastModified="1313291135"/>
