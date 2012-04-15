@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1334510058" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1334514703" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Tablet">
       <layers>
@@ -25,9 +25,36 @@
                   </strokes>
                   <edges>
                     <Edge strokeStyle="1" edges="!2900 9499|2800 9499"/>
+                    <Edge cubics="!2900 9499(;2900,9499 2800,9499 2800,9499q2900 9499 2800 9499);"/>
                   </edges>
                 </DOMShape>
-                <DOMBitmapInstance selected="true" libraryItemName="images/menuBar/tablet.png"/>
+                <DOMBitmapInstance libraryItemName="images/menuBar/tablet.png"/>
+                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" selected="true" centerPoint3DX="146" centerPoint3DY="113.35">
+                  <matrix>
+                    <Matrix tx="267.55" ty="143.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-121.55" y="-30.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-14" ty="2"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="1.5">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!5219 860|5219 9459"/>
+                    <Edge cubics="!5219 860(5219,860;5219,860 5219,9459 5219,9459q5219 860 5219 9459)5219,9459;"/>
+                  </edges>
+                </DOMShape>
               </elements>
             </DOMFrame>
           </frames>

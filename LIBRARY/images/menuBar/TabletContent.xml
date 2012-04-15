@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1334510096">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1334515919">
   <timeline>
-    <DOMTimeline name="TabletContent" currentFrame="2">
+    <DOMTimeline name="TabletContent" currentFrame="1">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -143,106 +143,106 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMDynamicText name="EMT" width="213.4" height="17.05" autoExpand="true" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="289" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="-95.6"/>
+                    <Matrix tx="-4" ty="-95.6"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Emergency medical technician</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="verdana 1*" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="verdana*"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="PL" width="100" height="17.05" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="100" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="-71.75"/>
+                    <Matrix tx="-4" ty="-71.75"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Penlight</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="SS" width="100" height="17.05" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="100" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="-47.65"/>
+                    <Matrix tx="-4" ty="-47.65"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Stethoscope</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ET" width="122" height="19.1" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="122" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="-23.55"/>
+                    <Matrix tx="-4" ty="-23.55"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Ear thermometer</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="BPC" width="146" height="19.1" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="146" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="2"/>
+                    <Matrix tx="-4" ty="2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Blood pressure cuff</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="GZ" width="100" height="17.05" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="100" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="29.45"/>
+                    <Matrix tx="-4" ty="29.45"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Gauze</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="GCS" width="195" height="20.1" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText width="195" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="48" ty="53.45"/>
+                    <Matrix tx="-4" ty="53.45"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Glasgow Coma Scale (GCS)</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="MH" width="194" height="19.1" includeOutlines="true" isSelectable="false" lineType="multiline">
+                <DOMDynamicText selected="true" width="194" height="17.05" isSelectable="false">
                   <matrix>
-                    <Matrix tx="47" ty="80.5"/>
+                    <Matrix tx="-5" ty="80.5"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Medevac helicopter</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana" url="#"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="6.05" size="14" bitmapSize="280" face="Verdana"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
