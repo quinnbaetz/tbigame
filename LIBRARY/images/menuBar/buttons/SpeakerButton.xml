@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/buttons/SpeakerButton" itemID="4f8889d8-00000634" linkageExportForAS="true" linkageClassName="MuteToggleButton" symbolType="button" lastModified="1334348593">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/buttons/SpeakerButton" itemID="4f8889d8-00000634" linkageExportForAS="true" linkageClassName="MuteToggleButton" symbolType="button" lastModified="1334508426">
   <timeline>
     <DOMTimeline name="SpeakerButton">
       <layers>

@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="40.95" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="40.95" height="20.1" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -19,7 +19,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="40.95" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="40.95" height="20.1" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -36,7 +36,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="29.95" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="29.95" height="20.1" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -53,7 +53,7 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="29.95" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="29.95" height="20.1" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
