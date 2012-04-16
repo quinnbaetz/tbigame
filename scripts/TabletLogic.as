@@ -30,29 +30,35 @@
 		public function TabletLogic(theStage, scope, myToolbox) {
 			this.theStage = theStage;
 			this.scope = scope;
+			
+			//set parameters for tablet
 			this.pad = new Tablet();
 			this.pad.x = padX;
 			this.pad.y = padY;
 			this.pad.scaleX = scale;
 			this.pad.scaleY = scale;
 			this.pad.rotation = padRot;
-			//this.tabletContent = new TabletContent();
-			//this.tabletContent.gotoAndStop("defaultScreen");
+			
+			//tabletContent is embedded within the tablet movieClip now
 			this.pad.tabletContent.gotoAndStop("defaultScreen");
-			//pad.addChild(this.tabletContent);
 			this.scope.addCache(this.pad, this.theStage, "Tablet");
 			this.inToolbox = myToolbox;
 			addContentEvtListeners();
 		}
 		
 		private function addContentEvtListeners() {
+			//listens for user click on search button
 			this.pad.tabletContent.SearchButton.addEventListener(MouseEvent.CLICK, termSearch);
 		}
 		
+		/* triggered when clicked on search. We take the entered string and see if it is a substring from the list of
+		 * valid entries
+		 */
 		private function termSearch(evt) {
 			this.pad.tabletContent.gotoAndStop("searchList");
 		}
 		
+		//public wrapper for the actual toggle function
 		public function padToggle(evt, forceOpen = false, forceClose = false) {
 			tabletToggle(evt, forceOpen, forceClose);
 		}
