@@ -22,7 +22,7 @@ var lastFrame = 0;
 var timeline = 0;
 var clock;
 //DEBUGGING PURPOSES
-var DEBUG = false;
+var DEBUG = true;
 //USED TO JUMP TO A SPECIFIC SCENE
 var SCENE = 3;
 //used in heli scene

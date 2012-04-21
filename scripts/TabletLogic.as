@@ -54,13 +54,108 @@
 		/* triggered when clicked on search. We take the entered string and see if it is a substring from the list of
 		 * valid entries
 		 */
-		private function termSearch(evt) {
-			this.pad.tabletContent.gotoAndStop("searchList");
+
+		private function termSearch(event:MouseEvent) {
+			displayQueryResult(this.pad.tabletContent.SearchInput.text);
 		}
 		
 		//public wrapper for the actual toggle function
 		public function padToggle(evt, forceOpen = false, forceClose = false) {
 			tabletToggle(evt, forceOpen, forceClose);
+		}
+		
+		/**
+		* Hides all elements of searchList
+		*/
+		private function hideResults():void {
+			this.pad.tabletContent.gotoAndStop("searchList");
+			//A good place in code to see the strange instance names!
+			this.pad.tabletContent.EMT.alpha = 0;
+			this.pad.tabletContent.Penlight.alpha = 0;
+			this.pad.tabletContent.Stethoscope.alpha = 0;
+			this.pad.tabletContent.EarTherm.alpha = 0;
+			this.pad.tabletContent.BPCuff.alpha = 0;
+			this.pad.tabletContent.Gauze.alpha = 0;
+			this.pad.tabletContent.GCS.alpha = 0;
+			this.pad.tabletContent.MedevacHeli.alpha = 0;
+		}
+		
+		private function displayAll():void {
+			this.pad.tabletContent.EMT.alpha = 1;
+			this.pad.tabletContent.Penlight.alpha = 1;
+			this.pad.tabletContent.Stethoscope.alpha = 1;
+			this.pad.tabletContent.EarTherm.alpha = 1;
+			this.pad.tabletContent.BPCuff.alpha = 1;
+			this.pad.tabletContent.Gauze.alpha = 1;
+			this.pad.tabletContent.GCS.alpha = 1;
+			this.pad.tabletContent.MedevacHeli.alpha = 1;
+		}
+		
+		/**
+		* Uses indexOf to check for subStrings. hideResults will first set
+		* all elements invisible, and if indexOf spots match it will reveal it.
+		*/
+		private function displayQueryResult(queryStr:String):void {
+			hideResults();
+			var numFound:int = 0;
+			trace("string of query is: " + queryStr);
+			var foundStr:String = "Emergency medical technician";
+			//began the great if statement sequence
+			if(foundStr.search(queryStr) >= 0 ){
+				//EXAMPLE IF *** ALL ARE THE SAME BEYOND
+				//Set alpha to opaque
+				this.pad.tabletContent.EMT.alpha = 1;
+				//numFound will "crunch" the found search terms into a nice order from sart point -97
+				this.pad.tabletContent.EMT.y = -97 + numFound*24;
+				//if we've found it, then iterate numFound for next possible if
+				numFound++;
+			}
+			foundStr = "Penlight";
+			if(foundStr.search(queryStr) >= 0 ) {
+				this.pad.tabletContent.Penlight.alpha = 1;
+				this.pad.tabletContent.Penlight.y = -97 + numFound*24;
+				numFound++;
+			}
+			foundStr = "Stethoscope";
+			if(foundStr.search(queryStr) >= 0 ) {
+				this.pad.tabletContent.Stethoscope.alpha = 1;
+				this.pad.tabletContent.Stethoscope.y = -97 + numFound*24;
+				numFound++;
+			}
+			foundStr = "Ear thermometer";
+			if(foundStr.search(queryStr) >= 0 ) {
+				this.pad.tabletContent.EarTherm.alpha = 1;
+				this.pad.tabletContent.EarTherm.y = -97 + numFound*24;
+				numFound++;
+			}
+			foundStr = "Blood pressure cuff";
+			if(foundStr.search(queryStr) >= 0 ) {
+				this.pad.tabletContent.BPCuff.alpha = 1;
+				this.pad.tabletContent.BPCuff.y = -97 + numFound*24;
+				numFound++;
+			}
+			foundStr = "Gauze";
+			if(foundStr.search(queryStr) >= 0){
+				this.pad.tabletContent.Gauze.alpha = 1;  
+				this.pad.tabletContent.Gauze.y = -97 + numFound*24;
+				numFound++;
+			}
+			foundStr = "Glasgow Coma Scale";
+			if(foundStr.search(queryStr) >= 0 ) {
+				this.pad.tabletContent.GCS.alpha = 1;
+				this.pad.tabletContent.GCS.y = -97 + numFound*24;
+				numFound++;
+			}
+			foundStr = "Medevac helicopter";
+			if(foundStr.search(queryStr) >= 0 ) {
+				this.pad.tabletContent.MedevacHeli.alpha = 1;
+				this.pad.tabletContent.MedevacHeli.y = -97 + numFound*24;
+				numFound++;
+			}
+			if(numFound == 0) {
+				displayAll();
+			}
+			this.pad.tabletContent.SearchInput.text = "";
 		}
 		
 		private function tabletToggle(evt, forceOpen = false, forceClose = false): void {
