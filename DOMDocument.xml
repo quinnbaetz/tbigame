@@ -223,8 +223,7 @@
           </DOMCompiledClipItem>
           <DOMBitmapItem name="images/messageBox/container.png" itemID="4f6f2b9f-0000084d" sourceExternalFilepath="./LIBRARY/images/messageBox/container.png" sourceLastImported="1332685406" sourcePlatform="macintosh" externalFileSize="3754" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/messageBox/container.png" bitmapDataHRef="M 337 1332685448.dat" frameRight="8740" frameBottom="2220"/>
           <DOMBitmapItem name="images/scanner/injuredBrains/coup-contrecoup.jpg" itemID="4e745d7d-00000303" linkageExportForAS="true" linkageClassName="coupcontrecoup.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/coup-contrecoup.jpg" sourceLastImported="1316248819" externalFileSize="6557" quality="50" href="images/scanner/injuredBrains/coup-contrecoup.jpg" bitmapDataHRef="M 164 1316248852.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
-          <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg" itemID="4e69e4a6-0000038b" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1315562660" externalFileSize="312609" originalCompressionType="lossless" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 119 1313287228.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg copy" itemID="4e69e4a6-0000038c" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1315562660" externalFileSize="312609" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 120 1313287267.dat" frameRight="32000" frameBottom="24000" isJPEG="true"/>
+          <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg" itemID="4f993ba7-000009cf" sourceExternalFilepath="./LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1335442308" externalFileSize="44667" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 119 1313287228.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
           <DOMBitmapItem name="Scenes/CTTech.png" itemID="4f6209b9-000004d9" linkageExportForAS="true" linkageClassName="CTTech" sourceExternalFilepath="./LIBRARY/Scenes/CTTech.png" sourceLastImported="1331824588" sourcePlatform="macintosh" externalFileSize="170753" originalCompressionType="lossless" quality="50" href="Scenes/CTTech.png" bitmapDataHRef="M 304 1331824630.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="images/tools/cuff.png" itemID="4ed5b448-00000338" linkageExportForAS="true" linkageClassName="cuff" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/tools/cuff.png" sourceLastImported="1328488977" externalFileCRC32="1998285673" externalFileSize="61907" originalCompressionType="lossless" quality="50" href="images/tools/cuff.png" bitmapDataHRef="M 15 1307561266.dat" frameRight="6900" frameBottom="4940"/>
           <DOMBitmapItem name="images/actions/cuffedArms/cuffedArmLeft.png" itemID="4df2a0d2-00000281" linkageExportForAS="true" linkageClassName="cuffedArmLeft" sourceExternalFilepath="./LIBRARY/images/actions/cuffedArms/cuffedArmLeft.png" sourceLastImported="1307746410" externalFileCRC32="1895993168" externalFileSize="28294" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/cuffedArms/cuffedArmLeft.png" bitmapDataHRef="M 32 1307746514.dat" frameRight="4980" frameBottom="4780"/>
@@ -710,7 +709,7 @@
           <Include href="UIScrollBar.xml" itemID="44aaa686-00000064" lastModified="1292423118"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="19">
+          <DOMTimeline name="Scene 1" currentFrame="10">
                <layers>
                     <DOMLayer name="scripts" color="#9933CC" autoNamed="false">
                          <frames>
@@ -814,14 +813,7 @@
                               </DOMFrame>
                               <DOMFrame index="10" name="Scene_CTRoom" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance libraryItemName="Scenes/CTscanIntroShot.jpg copy">
-                                             <matrix>
-                                                  <Matrix a="0.5" d="0.5"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="800" y="600"/>
-                                             </transformationPoint>
-                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance libraryItemName="Scenes/CTscanIntroShot.jpg"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="11" name="Scene_CTQuiz" labelType="name" keyMode="9728">
@@ -921,26 +913,26 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="5814947" publishTime="1335435048"/>
-          <PublishItem publishSize="5814919" publishTime="1335434821"/>
-          <PublishItem publishSize="5814922" publishTime="1335434705"/>
-          <PublishItem publishSize="5715638" publishTime="1335434674"/>
-          <PublishItem publishSize="5814856" publishTime="1335434414"/>
-          <PublishItem publishSize="5815034" publishTime="1335434273"/>
-          <PublishItem publishSize="5814989" publishTime="1335434035"/>
-          <PublishItem publishSize="5814988" publishTime="1335433825"/>
-          <PublishItem publishSize="5814992" publishTime="1335432890"/>
-          <PublishItem publishSize="5814997" publishTime="1335432812"/>
-          <PublishItem publishSize="5772800" publishTime="1335375627"/>
-          <PublishItem publishSize="5772804" publishTime="1335375516"/>
-          <PublishItem publishSize="5772746" publishTime="1335375145"/>
-          <PublishItem publishSize="5772736" publishTime="1335374234"/>
-          <PublishItem publishSize="5772735" publishTime="1335374167"/>
-          <PublishItem publishSize="5772731" publishTime="1335374058"/>
-          <PublishItem publishSize="5772743" publishTime="1335374017"/>
-          <PublishItem publishSize="5711839" publishTime="1335372856" publishDebug="true"/>
-          <PublishItem publishSize="5795720" publishTime="1335372546" publishDebug="true"/>
-          <PublishItem publishSize="5771049" publishTime="1335057952"/>
+          <PublishItem publishSize="5815140" publishTime="1335440729"/>
+          <PublishItem publishSize="5815140" publishTime="1335440699"/>
+          <PublishItem publishSize="5815136" publishTime="1335440346"/>
+          <PublishItem publishSize="5815136" publishTime="1335440296"/>
+          <PublishItem publishSize="5815147" publishTime="1335440178"/>
+          <PublishItem publishSize="5815142" publishTime="1335440147"/>
+          <PublishItem publishSize="5815095" publishTime="1335439654"/>
+          <PublishItem publishSize="5815129" publishTime="1335439178"/>
+          <PublishItem publishSize="5815125" publishTime="1335439058"/>
+          <PublishItem publishSize="5715637" publishTime="1335439016"/>
+          <PublishItem publishSize="5715643" publishTime="1335438989"/>
+          <PublishItem publishSize="5815088" publishTime="1335438438"/>
+          <PublishItem publishSize="5815086" publishTime="1335438397"/>
+          <PublishItem publishSize="5815088" publishTime="1335438327"/>
+          <PublishItem publishSize="5815091" publishTime="1335438258"/>
+          <PublishItem publishSize="5815088" publishTime="1335437577"/>
+          <PublishItem publishSize="5715640" publishTime="1335437541"/>
+          <PublishItem publishSize="5715636" publishTime="1335437510"/>
+          <PublishItem publishSize="5815067" publishTime="1335437340"/>
+          <PublishItem publishSize="5815069" publishTime="1335437301"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="25bpq31qlw.swc">
