@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1331888868">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1335435025">
   <timeline>
-    <DOMTimeline name="menuPop" currentFrame="7">
+    <DOMTimeline name="menuPop">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -136,7 +136,7 @@
             <DOMFrame index="5" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMStaticText width="137" height="20.1" isSelectable="false">
+                <DOMStaticText width="137" height="18" isSelectable="false">
                   <matrix>
                     <Matrix tx="71" ty="5"/>
                   </matrix>
@@ -154,7 +154,7 @@
             <DOMFrame index="6" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMStaticText width="137" height="20.1" isSelectable="false">
+                <DOMStaticText width="137" height="18" isSelectable="false">
                   <matrix>
                     <Matrix tx="71" ty="5"/>
                   </matrix>
@@ -172,17 +172,17 @@
             <DOMFrame index="7" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/Yes" name="yes" symbolType="button">
+                <DOMSymbolInstance libraryItemName="images/menuBar/Yes" name="yes" selected="true" symbolType="button">
                   <matrix>
-                    <Matrix tx="161.45" ty="45"/>
+                    <Matrix tx="122.45" ty="32"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="images/menuBar/No" name="no" symbolType="button" centerPoint3DX="623.95" centerPoint3DY="50">
+                <DOMSymbolInstance libraryItemName="images/menuBar/No" name="no" symbolType="button" centerPoint3DX="623.95" centerPoint3DY="30">
                   <matrix>
-                    <Matrix tx="376.45" ty="45"/>
+                    <Matrix tx="376.45" ty="25"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

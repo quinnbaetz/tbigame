@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" name="defaultScreen" labelType="name" keyMode="9728">
               <elements>
-                <DOMStaticText width="46.25" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="46.25" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="-95.1"/>
                   </matrix>
@@ -32,7 +32,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText width="45.65" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="45.6" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="-8.1"/>
                   </matrix>
@@ -45,7 +45,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="61.5" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="61.5" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="17.95"/>
                   </matrix>
@@ -70,7 +70,7 @@
             </DOMFrame>
             <DOMFrame index="1" name="searchList" labelType="name" keyMode="9728">
               <elements>
-                <DOMStaticText width="148" height="17.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="148" height="17" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-204" ty="63"/>
                   </matrix>
@@ -83,7 +83,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="46.25" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="46.25" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.45" ty="-95.6"/>
                   </matrix>
@@ -109,7 +109,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText width="45.65" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="45.6" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.45" ty="-8.6"/>
                   </matrix>
@@ -122,7 +122,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="61.5" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="61.5" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.45" ty="17.45"/>
                   </matrix>
@@ -251,7 +251,7 @@
             </DOMFrame>
             <DOMFrame index="2" name="descriptionField" labelType="name" keyMode="9728">
               <elements>
-                <DOMStaticText width="46.25" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="46.25" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="-95.1"/>
                   </matrix>
@@ -277,7 +277,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText width="45.65" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="45.6" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="-8.1"/>
                   </matrix>
@@ -290,7 +290,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="61.5" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="61.5" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="17.95"/>
                   </matrix>
@@ -328,7 +328,7 @@
             </DOMFrame>
             <DOMFrame index="3" name="CT_Scan" labelType="name" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="46.25" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="46.25" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="-95.1"/>
                   </matrix>
@@ -354,7 +354,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText selected="true" width="45.65" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="45.6" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="-8.1"/>
                   </matrix>
@@ -367,7 +367,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="61.5" height="17.05" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="61.5" height="17" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-205.05" ty="17.95"/>
                   </matrix>
@@ -434,7 +434,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='2'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -461,7 +461,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='3'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -488,7 +488,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='4'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -515,7 +515,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='5'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -542,7 +542,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='6'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -569,7 +569,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='7'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -596,7 +596,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='8'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -649,7 +649,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='9'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -676,7 +676,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='10'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -703,7 +703,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='11'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -730,7 +730,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='12'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -757,7 +757,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='13'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -784,7 +784,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='14'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -962,7 +962,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='16'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -995,7 +995,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='17'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1028,7 +1028,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='18'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1061,7 +1061,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='19'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1094,7 +1094,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='20'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1127,7 +1127,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='21'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1160,7 +1160,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='22'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1193,7 +1193,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -1234,12 +1234,12 @@
                 </DOMDynamicText>
                 <DOMComponentInstance libraryItemName="TextArea" selected="true" centerPoint3DX="288.3" centerPoint3DY="314.8" uniqueID="25">
                   <matrix>
-                    <Matrix a="2.55921936035156" d="2.495849609375" tx="160.35" ty="259.9"/>
+                    <Matrix a="2.5592041015625" d="2.495849609375" tx="160.35" ty="259.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="22"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='25'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="condenseWhite">
@@ -1284,7 +1284,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='27'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="emphasized">
