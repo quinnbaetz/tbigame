@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="UIScrollBar" itemID="44aaa686-00000064" linkageExportForAS="true" linkageClassName="fl.controls.UIScrollBar" lastModified="1292423118" lastUniqueIdentifier="101" tooltip="UIScrollBar" customIconID="0" actionscriptClass="fl.controls.UIScrollBar" livePreviewScmHRef="haf79x0luk.swf" livePreviewScmSourceFilename="UIScrollBar.swf" persistLivePreview11="true" livePreview11ScmSourceFilename="C:\Documents and Settings\jkamerer\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPagtgzyd53p..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="UIScrollBar" itemID="44aaa686-00000064" linkageExportForAS="true" linkageClassName="fl.controls.UIScrollBar" lastModified="1292423118" lastUniqueIdentifier="121" tooltip="UIScrollBar" customIconID="0" actionscriptClass="fl.controls.UIScrollBar" livePreviewScmHRef="haf79x0luk.swf" livePreviewScmSourceFilename="UIScrollBar.swf" persistLivePreview11="true" livePreview11ScmSourceFilename="C:\Documents and Settings\jkamerer\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPagtgzyd53p..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="UIScrollBar" currentFrame="1">
       <layers>
@@ -289,7 +289,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='4.25.17.101'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>
