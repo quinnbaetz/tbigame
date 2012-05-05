@@ -65,9 +65,9 @@
           <DOMFolderItem name="Scenes" itemID="4dd9ddc7-00000014" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
           <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -224,7 +224,7 @@
           <DOMBitmapItem name="images/messageBox/container.png" itemID="4f6f2b9f-0000084d" sourceExternalFilepath="./LIBRARY/images/messageBox/container.png" sourceLastImported="1332685406" sourcePlatform="macintosh" externalFileSize="3754" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/messageBox/container.png" bitmapDataHRef="M 337 1332685448.dat" frameRight="8740" frameBottom="2220"/>
           <DOMBitmapItem name="images/scanner/injuredBrains/coup-contrecoup.jpg" itemID="4e745d7d-00000303" linkageExportForAS="true" linkageClassName="coupcontrecoup.jpg" sourceExternalFilepath="./LIBRARY/images/scanner/injuredBrains/coup-contrecoup.jpg" sourceLastImported="1316248819" externalFileSize="6557" quality="50" href="images/scanner/injuredBrains/coup-contrecoup.jpg" bitmapDataHRef="M 164 1316248852.dat" frameRight="4380" frameBottom="5420" isJPEG="true"/>
           <DOMBitmapItem name="Scenes/CTscanIntroShot.jpg" itemID="4f993ba7-000009cf" sourceExternalFilepath="./LIBRARY/Scenes/CTscanIntroShot.jpg" sourceLastImported="1335624754" externalFileSize="44667" quality="50" href="Scenes/CTscanIntroShot.jpg" bitmapDataHRef="M 119 1313287228.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
-          <DOMBitmapItem name="Scenes/CTTech.png" itemID="4f6209b9-000004d9" linkageExportForAS="true" linkageClassName="CTTech" sourceExternalFilepath="./LIBRARY/Scenes/CTTech.png" sourceLastImported="1331824588" sourcePlatform="macintosh" externalFileSize="170753" originalCompressionType="lossless" quality="50" href="Scenes/CTTech.png" bitmapDataHRef="M 304 1331824630.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="Scenes/CTTech.jpg" itemID="4fa50098-000004df" linkageExportForAS="true" linkageClassName="CTTech" sourceExternalFilepath="./LIBRARY/Scenes/CTTech.png" sourceLastImported="1336213515" sourcePlatform="macintosh" externalFileSize="34695" quality="50" href="Scenes/CTTech.jpg" bitmapDataHRef="M 304 1331824630.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
           <DOMBitmapItem name="images/tools/cuff.png" itemID="4ed5b448-00000338" linkageExportForAS="true" linkageClassName="cuff" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/images/tools/cuff.png" sourceLastImported="1328488977" externalFileCRC32="1998285673" externalFileSize="61907" originalCompressionType="lossless" quality="50" href="images/tools/cuff.png" bitmapDataHRef="M 15 1307561266.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/actions/cuffedArms/cuffedArmLeft.png" itemID="4df2a0d2-00000281" linkageExportForAS="true" linkageClassName="cuffedArmLeft" sourceExternalFilepath="./LIBRARY/images/actions/cuffedArms/cuffedArmLeft.png" sourceLastImported="1307746410" externalFileCRC32="1895993168" externalFileSize="28294" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/cuffedArms/cuffedArmLeft.png" bitmapDataHRef="M 32 1307746514.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/actions/cuffedArms/cuffedArmRight.png" itemID="4e092476-0000022d" linkageExportForAS="true" linkageClassName="cuffedArmRight" sourceExternalFilepath="./LIBRARY/images/actions/cuffedArms/cuffedArmRight.png" sourceLastImported="1309221870" externalFileCRC32="3673105633" externalFileSize="32042" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/actions/cuffedArms/cuffedArmRight.png" bitmapDataHRef="M 44 1309222006.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
@@ -437,7 +437,7 @@
           <DOMBitmapItem name="images/surgeryTools/second/suction.png" itemID="4eec732f-00000362" linkageExportForAS="true" linkageClassName="suction" sourceExternalFilepath="./LIBRARY/images/surgeryTools/second/suction.png" sourceLastImported="1321822132" externalFileSize="7634" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/suction.png" bitmapDataHRef="M 225 1324118704.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/surgery/arms/suctionArm.png" itemID="4f38a4af-00000cbe" linkageExportForAS="true" linkageClassName="suctionArm" sourceExternalFilepath="./LIBRARY/images/surgery/arms/suctionArm.png" sourceLastImported="1329109613" sourcePlatform="macintosh" externalFileSize="176703" originalCompressionType="lossless" quality="50" href="images/surgery/arms/suctionArm.png" bitmapDataHRef="M 283 1329112112.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="Scenes/surgeonFace" itemID="4ed5adc5-00000303" linkageExportForAS="true" linkageClassName="surgeonFace" sourceExternalFilepath="./LIBRARY/Scenes/surgeonFace.jpg" sourceLastImported="1322624932" quality="50" href="Scenes/surgeonFace.jpg" bitmapDataHRef="M 202 1322626404.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
-          <DOMBitmapItem name="Scenes/surgeryRoom.png" itemID="4f36fe3e-00000400" sourceExternalFilepath="./LIBRARY/Scenes/surgeryRoom.png" sourceLastImported="1329003842" sourcePlatform="macintosh" externalFileSize="236886" originalCompressionType="lossless" quality="50" href="Scenes/surgeryRoom.png" bitmapDataHRef="M 272 1329004028.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="Scenes/surgeryRoom.png" itemID="4f36fe3e-00000400" sourceExternalFilepath="./LIBRARY/Scenes/surgeryRoom.png" sourceLastImported="1336213302" sourcePlatform="macintosh" externalFileSize="50494" originalCompressionType="lossless" quality="50" href="Scenes/surgeryRoom.png" bitmapDataHRef="M 272 1329004028.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="Scenes/surgeryTray.jpg" itemID="4ed5b0f4-00000309" sourceExternalFilepath="C:/Users/QuinnBaetz/workspace/Flash/tbigame/tbigame/LIBRARY/Scenes/surgeryTray.jpg" sourceLastImported="1322627316" externalFileSize="26341" quality="50" href="Scenes/surgeryTray.jpg" bitmapDataHRef="M 203 1322627263.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
           <DOMBitmapItem name="images/surgeryTools/second/surgicalScalpel.png" itemID="4f376532-000007e8" linkageExportForAS="true" linkageClassName="duraScalpel" sourceExternalFilepath="/Users/quinn/dev/tbigame/tbigame/LIBRARY/images/surgeryTools/second/surgicalScalpel.png" sourceLastImported="1331386282" sourcePlatform="macintosh" externalFileSize="11511" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/surgeryTools/second/surgicalScalpel.png" bitmapDataHRef="M 276 1329030290.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="images/surgery/arms/surgicel/surgicel0.png" itemID="4f38b02f-00000e0c" sourceExternalFilepath="./LIBRARY/images/surgery/arms/surgicel/surgicel0.png" sourceLastImported="1329115007" sourcePlatform="macintosh" externalFileSize="153081" originalCompressionType="lossless" quality="50" href="images/surgery/arms/surgicel/surgicel0.png" bitmapDataHRef="M 284 1329115075.dat" frameRight="19040" frameBottom="14060"/>
@@ -709,7 +709,7 @@
           <Include href="UIScrollBar.xml" itemID="44aaa686-00000064" lastModified="1292423118"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="11">
+          <DOMTimeline name="Scene 1" currentFrame="18">
                <layers>
                     <DOMLayer name="scripts" color="#9933CC" autoNamed="false">
                          <frames>
@@ -818,7 +818,7 @@
                               </DOMFrame>
                               <DOMFrame index="11" name="Scene_CTQuiz" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance selected="true" libraryItemName="Scenes/Scene_CTQuiz.png"/>
+                                        <DOMBitmapInstance libraryItemName="Scenes/Scene_CTQuiz.png"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="12" name="Scene_CTScan" labelType="name" keyMode="9728">
@@ -857,7 +857,7 @@
                               </DOMFrame>
                               <DOMFrame index="18" name="Scene_CTTech" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance libraryItemName="Scenes/CTTech.png"/>
+                                        <DOMBitmapInstance selected="true" libraryItemName="Scenes/CTTech.jpg"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="19" keyMode="9728">
@@ -878,7 +878,7 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 -200S6|16439 12279!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 12279S6|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200!16439 -200|16439 12279"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMDynamicText selected="true" width="559.95" height="55">
