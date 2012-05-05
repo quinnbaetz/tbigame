@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/ScrollBar" itemID="45365ac7-000002ef" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="fl.controls.ScrollBar" lastModified="1292423118" lastUniqueIdentifier="60">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/ScrollBar" itemID="45365ac7-000002ef" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="fl.controls.ScrollBar" lastModified="1292423118" lastUniqueIdentifier="80">
   <timeline>
     <DOMTimeline name="ScrollBar" currentFrame="1">
       <layers>
@@ -265,7 +265,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Component Assets/ScrollBarSkins/ScrollTrack_skin">
                   <matrix>
-                    <Matrix d="0.675674438476562"/>
+                    <Matrix d="0.6756591796875"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="7.5" y="74"/>
@@ -289,7 +289,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='4.49.35.21.60'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

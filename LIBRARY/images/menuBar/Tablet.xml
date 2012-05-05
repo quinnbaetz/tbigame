@@ -1,15 +1,34 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1334514703" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1336239562" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="Tablet">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC">
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="reference" color="#FF800A" current="true" isSelected="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tablet reference" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-21" ty="-16"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="400" y="300"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30859375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="content" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -29,7 +48,7 @@
                   </edges>
                 </DOMShape>
                 <DOMBitmapInstance libraryItemName="images/menuBar/tablet.png"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" selected="true" centerPoint3DX="146" centerPoint3DY="113.35">
+                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" centerPoint3DX="146" centerPoint3DY="113.35">
                   <matrix>
                     <Matrix tx="267.55" ty="143.4"/>
                   </matrix>
@@ -39,7 +58,7 @@
                 </DOMSymbolInstance>
                 <DOMShape isDrawingObject="true">
                   <matrix>
-                    <Matrix tx="-14" ty="2"/>
+                    <Matrix tx="-76" ty="2"/>
                   </matrix>
                   <strokes>
                     <StrokeStyle index="1">

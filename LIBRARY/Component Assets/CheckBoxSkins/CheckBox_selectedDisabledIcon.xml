@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/CheckBoxSkins/CheckBox_selectedDisabledIcon" itemID="439706ef-00000a94" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="CheckBox_selectedDisabledIcon" linkageClassName="CheckBox_selectedDisabledIcon" lastModified="1168287108" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/CheckBoxSkins/CheckBox_selectedDisabledIcon" itemID="439706ef-00000a94" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="CheckBox_selectedDisabledIcon" linkageClassName="CheckBox_selectedDisabledIcon" lastModified="1168287108" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="CheckBox_selectedDisabledIcon">
       <layers>
@@ -86,7 +86,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!0 280|280 280!280 280|280 0!280 0|0 0!0 0|0 280!260 260|20 260!20 260|20 20!20 20|260 20!260 20|260 260"/>
+                    <Edge fillStyle0="1" edges="!260 260|20 260!20 260|20 20!20 20|260 20!260 20|260 260!0 280|280 280!280 280|280 0!280 0|0 0!0 0|0 280"/>
                   </edges>
                 </DOMShape>
               </elements>

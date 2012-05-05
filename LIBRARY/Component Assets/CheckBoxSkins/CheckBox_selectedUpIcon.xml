@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/CheckBoxSkins/CheckBox_selectedUpIcon" itemID="43970b00-00000e9b" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="CheckBox_selectedUpIcon" linkageClassName="CheckBox_selectedUpIcon" lastModified="1168287153" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/CheckBoxSkins/CheckBox_selectedUpIcon" itemID="43970b00-00000e9b" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="CheckBox_selectedUpIcon" linkageClassName="CheckBox_selectedUpIcon" lastModified="1335983569" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="CheckBox_selectedUpIcon">
       <layers>
@@ -83,7 +83,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!20 20|260 20!260 20|260 260!260 260|20 260!20 260|20 20!0 0|0 280!0 280|280 280!280 280|280 0!280 0|0 0"/>
+                    <Edge fillStyle0="1" edges="!0 0|0 280!0 280|280 280!280 280|280 0!280 0|0 0!20 20|260 20!260 20|260 260!260 260|20 260!20 260|20 20"/>
                   </edges>
                 </DOMShape>
               </elements>
