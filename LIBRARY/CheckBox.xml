@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CheckBox" itemID="44b19f0d-00000018" linkageExportForAS="true" linkageClassName="fl.controls.CheckBox" lastModified="1292423117" lastUniqueIdentifier="35" tooltip="CheckBox" customIconID="0" actionscriptClass="fl.controls.CheckBox" livePreviewScmHRef="hadr6x0lui7.swf" livePreviewScmSourceFilename="CheckBox.swf" persistLivePreview11="true" livePreview11ScmHRef="hadrmx0lui.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxleezaylsb..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CheckBox" itemID="44b19f0d-00000018" linkageExportForAS="true" linkageClassName="fl.controls.CheckBox" lastModified="1292423117" lastUniqueIdentifier="45" tooltip="CheckBox" customIconID="0" actionscriptClass="fl.controls.CheckBox" livePreviewScmHRef="hadr6x0lui7.swf" livePreviewScmSourceFilename="CheckBox.swf" persistLivePreview11="true" livePreview11ScmHRef="hadrmx0lui.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxleezaylsb..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="CheckBox" currentFrame="1">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Component Assets/CheckBoxSkins/CheckBox_upIcon">
+                <DOMSymbolInstance libraryItemName="Component Assets/CheckBoxSkins/CheckBox_upIcon" centerPoint3DX="82.35" centerPoint3DY="52.9">
                   <matrix>
                     <Matrix tx="75.35" ty="45.9"/>
                   </matrix>
@@ -41,7 +41,7 @@
                     <Point x="7" y="7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/CheckBoxSkins/CheckBox_selectedUpIcon">
+                <DOMSymbolInstance libraryItemName="Component Assets/CheckBoxSkins/CheckBox_selectedUpIcon" centerPoint3DX="82.35" centerPoint3DY="19.85">
                   <matrix>
                     <Matrix tx="75.35" ty="12.85"/>
                   </matrix>
@@ -73,7 +73,7 @@
                     <Point x="7" y="7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/Shared/focusRectSkin">
+                <DOMSymbolInstance libraryItemName="Component Assets/Shared/focusRectSkin" centerPoint3DX="48.35" centerPoint3DY="278.7">
                   <matrix>
                     <Matrix tx="7.3" ty="267.7"/>
                   </matrix>
@@ -157,7 +157,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='menuPop' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

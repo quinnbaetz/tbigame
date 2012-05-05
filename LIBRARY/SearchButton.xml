@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SearchButton" itemID="4f8afd79-00000406" symbolType="button" lastModified="1334509114">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SearchButton" itemID="4f8afd79-00000406" symbolType="button" lastModified="1335978950">
   <timeline>
-    <DOMTimeline name="SearchButton">
+    <DOMTimeline name="SearchButton" currentFrame="2">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMInputText width="126.95" height="19.1" border="true" lineType="multiline">
+                <DOMInputText selected="true" width="110.45" height="21" border="true" lineType="multiline">
                   <matrix>
                     <Matrix tx="-118.95" ty="-40.1"/>
                   </matrix>
@@ -14,7 +14,24 @@
                     <DOMTextRun>
                       <characters>Search</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="4" size="14" bitmapSize="280" face="Verdana"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="4" size="18" bitmapSize="360" face="Georgia"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMInputText selected="true" width="110.45" height="21" border="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-118.95" ty="-40.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Search</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="4" size="18" bitmapSize="360" face="Georgia-Bold"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
