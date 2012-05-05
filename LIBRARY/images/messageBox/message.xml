@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/messageBox/message" itemID="4f6f2b55-00000825" linkageExportForAS="true" linkageClassName="message" lastModified="1332692922" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/messageBox/message" itemID="4f6f2b55-00000825" linkageExportForAS="true" linkageClassName="message" lastModified="1336228985" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="message" currentFrame="1">
+    <DOMTimeline name="message">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
