@@ -649,7 +649,7 @@
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
           <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1336271709"/>
-          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1336239470"/>
+          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1336272127"/>
           <Include href="images/menuBar/Yes.xml" itemIcon="0" loadImmediate="false" itemID="4f630206-00000955" lastModified="1335435128"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1336228985"/>
           <Include href="images/MRI/brain/brainBase.xml" itemID="4e3896a1-00000301" lastModified="1313291135"/>
@@ -789,7 +789,7 @@
                               </DOMFrame>
                               <DOMFrame index="4" name="Scene_Drawer" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance selected="true" libraryItemName="Scenes/drawer.png">
+                                        <DOMBitmapInstance libraryItemName="Scenes/drawer.png">
                                              <matrix>
                                                   <Matrix tx="0.3"/>
                                              </matrix>
@@ -1202,6 +1202,7 @@
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="5694660" publishTime="1336271745"/>
           <PublishItem publishSize="5767453" publishTime="1336271685"/>
           <PublishItem publishSize="1103" publishTime="1335992273"/>
           <PublishItem publishSize="5815140" publishTime="1335440729"/>
@@ -1221,7 +1222,6 @@
           <PublishItem publishSize="5815091" publishTime="1335438258"/>
           <PublishItem publishSize="5815088" publishTime="1335437577"/>
           <PublishItem publishSize="5715640" publishTime="1335437541"/>
-          <PublishItem publishSize="5715636" publishTime="1335437510"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="25bpq31qlw.swc">
