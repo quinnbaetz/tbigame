@@ -319,7 +319,7 @@
             </DOMFrame>
             <DOMFrame index="1" name="searchList" labelType="name" keyMode="9728">
               <elements>
-                <DOMDynamicText name="EMT" selected="true" width="289" height="17.05" isSelectable="false">
+                <DOMDynamicText name="EMT" width="289" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="-74.5"/>
                   </matrix>
@@ -345,7 +345,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="Stethoscope" selected="true" width="100" height="17.05" isSelectable="false">
+                <DOMDynamicText name="Stethoscope" width="100" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="-26.55"/>
                   </matrix>
@@ -358,7 +358,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="EarTherm" selected="true" width="122" height="17.05" isSelectable="false">
+                <DOMDynamicText name="EarTherm" width="122" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="-2.45"/>
                   </matrix>
@@ -371,7 +371,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="BPCuff" selected="true" width="146" height="17.05" isSelectable="false">
+                <DOMDynamicText name="BPCuff" width="146" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="23.1"/>
                   </matrix>
@@ -384,7 +384,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="Gauze" selected="true" width="100" height="17.05" isSelectable="false">
+                <DOMDynamicText name="Gauze" width="100" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="50.55"/>
                   </matrix>
@@ -397,7 +397,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="GCS" selected="true" width="195" height="17.05" isSelectable="false">
+                <DOMDynamicText name="GCS" width="195" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="74.55"/>
                   </matrix>
@@ -410,7 +410,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="MedevacHeli" selected="true" width="194" height="17.05" isSelectable="false">
+                <DOMDynamicText name="MedevacHeli" width="194" height="17.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-58" ty="101.6"/>
                   </matrix>
@@ -423,7 +423,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMStaticText selected="true" width="93.5" height="20.45" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="93.5" height="20.45" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-210" ty="-101.1"/>
                   </matrix>
@@ -436,7 +436,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMInputText name="SearchInput" selected="true" width="111.5" height="17.45" border="true">
+                <DOMInputText name="SearchInput" width="111.5" height="17.45" border="true">
                   <matrix>
                     <Matrix tx="-210" ty="-72.5"/>
                   </matrix>
@@ -449,7 +449,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText selected="true" width="46.4" height="20.45" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="46.4" height="20.45" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-210.55" ty="1.4"/>
                   </matrix>
@@ -462,7 +462,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" width="111.55" height="15.9" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="111.55" height="15.9" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-210" ty="-47.1"/>
                   </matrix>
@@ -475,7 +475,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMComponentInstance libraryItemName="Button" name="ProgressButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="314.35" uniqueID="97">
+                <DOMComponentInstance libraryItemName="Button" name="ProgressButton" centerPoint3DX="-155.05" centerPoint3DY="314.35" uniqueID="97">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="303.35"/>
                   </matrix>
@@ -508,7 +508,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMStaticText selected="true" width="62.9" height="20.45" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="62.9" height="20.45" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-210.05" ty="143.25"/>
                   </matrix>
@@ -521,7 +521,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMComponentInstance libraryItemName="Button" name="EMTnoteButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="41.4" uniqueID="126">
+                <DOMComponentInstance libraryItemName="Button" name="EMTnoteButton" centerPoint3DX="-155.05" centerPoint3DY="41.4" uniqueID="126">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="30.4"/>
                   </matrix>
@@ -554,7 +554,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="Button" name="CTscanNoteButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="70.85" uniqueID="127">
+                <DOMComponentInstance libraryItemName="Button" name="CTscanNoteButton" centerPoint3DX="-155.05" centerPoint3DY="70.85" uniqueID="127">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="59.85"/>
                   </matrix>
@@ -587,7 +587,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="Button" name="SurgeryNoteButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="100.3" uniqueID="128">
+                <DOMComponentInstance libraryItemName="Button" name="SurgeryNoteButton" centerPoint3DX="-155.05" centerPoint3DY="100.3" uniqueID="128">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="89.3"/>
                   </matrix>
@@ -620,7 +620,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="Button" name="AdmissionReportButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="181.35" uniqueID="129">
+                <DOMComponentInstance libraryItemName="Button" name="AdmissionReportButton" centerPoint3DX="-155.05" centerPoint3DY="181.35" uniqueID="129">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="170.35"/>
                   </matrix>
@@ -653,7 +653,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="Button" name="CTreportButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="210.85" uniqueID="130">
+                <DOMComponentInstance libraryItemName="Button" name="CTreportButton" centerPoint3DX="-155.05" centerPoint3DY="210.85" uniqueID="130">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="199.85"/>
                   </matrix>
@@ -686,7 +686,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="Button" name="SurgeryReportButton" selected="true" centerPoint3DX="-155.05" centerPoint3DY="240.35" uniqueID="131">
+                <DOMComponentInstance libraryItemName="Button" name="SurgeryReportButton" centerPoint3DX="-155.05" centerPoint3DY="240.35" uniqueID="131">
                   <matrix>
                     <Matrix a="1.14999389648438" tx="-212.55" ty="229.35"/>
                   </matrix>

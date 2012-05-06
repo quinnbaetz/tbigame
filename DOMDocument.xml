@@ -1202,6 +1202,11 @@
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="5694828" publishTime="1336278630"/>
+          <PublishItem publishSize="5592964" publishTime="1336278568"/>
+          <PublishItem publishSize="5694652" publishTime="1336277649"/>
+          <PublishItem publishSize="5592964" publishTime="1336277513"/>
+          <PublishItem publishSize="5694761" publishTime="1336277385"/>
           <PublishItem publishSize="5694734" publishTime="1336276957"/>
           <PublishItem publishSize="5694716" publishTime="1336276708"/>
           <PublishItem publishSize="5592959" publishTime="1336276633"/>
@@ -1217,11 +1222,6 @@
           <PublishItem publishSize="5815140" publishTime="1335440729"/>
           <PublishItem publishSize="5815140" publishTime="1335440699"/>
           <PublishItem publishSize="5815136" publishTime="1335440346"/>
-          <PublishItem publishSize="5815136" publishTime="1335440296"/>
-          <PublishItem publishSize="5815147" publishTime="1335440178"/>
-          <PublishItem publishSize="5815142" publishTime="1335440147"/>
-          <PublishItem publishSize="5815095" publishTime="1335439654"/>
-          <PublishItem publishSize="5815129" publishTime="1335439178"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="25bpq31qlw.swc">

@@ -29,25 +29,25 @@
 		" trained to quickly assess a patient's condition at the scene of the accident and transport them quickly and" +
 		" safely to the nearest medical facility.";
 		
-		private static const Penlight:String = "This small pen-shaped flashlight is typically used by medical professionals" +
+		private static const PENLIGHT:String = "This small pen-shaped flashlight is typically used by medical professionals" +
 		" to illuminate a patient's throat, nose, and ears, as well as to check the for the response of pupils to bright" +
 		" light.";
 		
-		private static const Stethoscope:String = "Modern stethosscopes are a simple device that enable a medical professional" +
+		private static const STETHOSCOPE:String = "Modern stethosscopes are a simple device that enable a medical professional" +
 		" to listen to internal body sounds. Acoutsic sethtoscopes, the most common kind, use a plastic disc and hollow" +
 		" tubes to carry sound to the listener. More advanced electronic sethoscopes can amplify and record internal body sounds.";
 		
-		private static const EarTherm:String = "While there are many places that a patient's body temerature can be measured," +
+		private static const EARTHERM:String = "While there are many places that a patient's body temerature can be measured," +
 		" some locations are more accurate than others. Because the eardrum is set inside the head, ear thermometers are one" +
 		" of the more accurate ways to measure body temerature. Ear thermometers are able to measure the amount of infrared" +
 		" radiation (heat energy) given off by the eardrum without touching it.";
 		
-		private static const BPCuff:String = "Also called a sphygmomanometer, a blood pressure cuff measures the pressure of blood" +
+		private static const BPCUFF:String = "Also called a sphygmomanometer, a blood pressure cuff measures the pressure of blood" +
 		" flowing through arteries in the body. When gathering information on a patient, two pressures are checked: a systolic" +
 		" blood pressure (the pressure of the blood as the heart muscle contracts) and a diastolic pressure (the pressure of the" +
 		" blood when the heart is relaxed).";
 		
-		private static const Gauze:String = "Usually made of cotton, gauze is a type of bandage (or dressing) that is used to" +
+		private static const GAUZE:String = "Usually made of cotton, gauze is a type of bandage (or dressing) that is used to" +
 		" loosley wrap an injury or to hold other bandages in place. Some modern gauze has a plastic film on one side to prevent" +
 		" it from sticking to a wound.";
 		
@@ -57,7 +57,7 @@
 		" Depending on the score a patient gets in each area, they are classified as having either midle, moderate, or severe brain" +
 		" injury.";
 		
-		private static const MedevacHeli:String = "While motor vehicle ambulances are the most common way medical" +
+		private static const MEDEVACHELI:String = "While motor vehicle ambulances are the most common way medical" +
 		" techncicnas reach the scene of an emergency, sometimes accidents can happen where an ambulance would be too slow" +
 		" or unable to reach the patient. In these cases medevac (medical evacuation) helicopters are used to gain access" +
 		" to the scene of an emergency and transport the patient to the nearest hospital. Medevac helicopters have most of " +
@@ -103,7 +103,7 @@
 			//listens for user click on search button
 			hideResults();
 			//don't call hideResults after addLinkLiseners()... or make sure the gotoandstop is called earlier
-			addLinkListeners();
+			
 			//trace(this.pad.tabletContent.SearchInput);
 			this.pad.tabletContent.SearchInput.text = "";
 			this.pad.tabletContent.SearchInput.addEventListener(KeyboardEvent.KEY_DOWN, termSearch);
@@ -189,6 +189,7 @@
 			this.pad.tabletContent.Gauze.alpha = 1;
 			this.pad.tabletContent.GCS.alpha = 1;
 			this.pad.tabletContent.MedevacHeli.alpha = 1;
+			addLinkListeners();
 		}
 		
 		/**
@@ -200,6 +201,7 @@
 			var numFound:int = 0;
 			queryStr = queryStr.toLowerCase();
 			trace("string of query is: " + queryStr);
+			
 			var foundStr:String = "emergency medical technician";
 			//began the great if statement sequence
 			if(foundStr.indexOf(queryStr) >= 0 ){
@@ -210,48 +212,56 @@
 				this.pad.tabletContent.EMT.y = -97 + numFound*24;
 				//if we've found it, then iterate numFound for next possible if
 				numFound++;
+				this.pad.tabletContent.EMT.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "penlight";
 			if(foundStr.indexOf(queryStr) >= 0 ) {
 				this.pad.tabletContent.Penlight.alpha = 1;
 				this.pad.tabletContent.Penlight.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.Penlight.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "stethoscope";
 			if(foundStr.indexOf(queryStr) >= 0 ) {
 				this.pad.tabletContent.Stethoscope.alpha = 1;
 				this.pad.tabletContent.Stethoscope.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.Stethoscope.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "ear thermometer";
 			if(foundStr.indexOf(queryStr) >= 0 ) {
 				this.pad.tabletContent.EarTherm.alpha = 1;
 				this.pad.tabletContent.EarTherm.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.EarTherm.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "blood pressure cuff";
 			if(foundStr.indexOf(queryStr) >= 0 ) {
 				this.pad.tabletContent.BPCuff.alpha = 1;
 				this.pad.tabletContent.BPCuff.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.BPCuff.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "gauze";
 			if(foundStr.indexOf(queryStr) >= 0){
 				this.pad.tabletContent.Gauze.alpha = 1;  
 				this.pad.tabletContent.Gauze.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.Gauze.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "glasgow coma scale";
 			if(foundStr.indexOf(queryStr) >= 0 ) {
 				this.pad.tabletContent.GCS.alpha = 1;
 				this.pad.tabletContent.GCS.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.GCS.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			foundStr = "medevac helicopter";
 			if(foundStr.indexOf(queryStr) >= 0 ) {
 				this.pad.tabletContent.MedevacHeli.alpha = 1;
 				this.pad.tabletContent.MedevacHeli.y = -97 + numFound*24;
 				numFound++;
+				this.pad.tabletContent.MedevacHeli.addEventListener(MouseEvent.CLICK, displayDescription);
 			}
 			if(numFound == 0) {
 				displayAll();
@@ -298,31 +308,33 @@
 			this.pad.tabletContent.ReturnSearchButton.addEventListener(MouseEvent.CLICK, returnSearchButt);
 			trace('firing displayDescription ' + event.currentTarget.name);
 			switch (event.currentTarget.name) {
-				case EMT: 
-					pad.DescriptionField.text = EMT;
+				case "EMT": 
+					pad.tabletContent.DescriptionField.text = EMT;
 					break;
-				case Penlight:
-					pad.DescriptionField.text = Penlight;
+				case "Penlight":
+					pad.tabletContent.DescriptionField.text = PENLIGHT;
 					break;
-				case Stethoscope:
-					pad.DescriptionField.text = Stethoscope;
+				case "Stethoscope":
+					pad.tabletContent.DescriptionField.text = STETHOSCOPE;
 					break;
-				case EarTherm:
-					pad.DescriptionField.text = EarTherm;
+				case "EarTherm":
+					pad.tabletContent.DescriptionField.text = EARTHERM;
 					break;
-				case BPCuff:
-					pad.DescriptionField.text = BPCuff;
+				case "BPCuff":
+					pad.tabletContent.DescriptionField.text = BPCUFF;
 					break;
-				case Gauze:
-					pad.DescriptionField.text = Gauze;
+				case "Gauze":
+					pad.tabletContent.DescriptionField.text = GAUZE;
 					break;
-				case GCS:
-					pad.DescriptionField.text = GCS;
+				case "GCS":
+					pad.tabletContent.DescriptionField.text = GCS;
 					break;
-				case MedevacHeli:
-					pad.DescriptionField.text = MedevacHeli;
+				case "MedevacHeli":
+					pad.tabletContent.DescriptionField.text = MEDEVACHELI;
 					break;
 			}// end switch statement
+			
+			trace(pad.tabletContent.DescriptionField.text);
 		}
 		
 		private function returnSearchButt(event: MouseEvent):void {
