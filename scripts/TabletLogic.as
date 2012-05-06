@@ -94,7 +94,7 @@
 			this.pad.rotation = padRot;
 			//tabletContent is embedded within the tablet movieClip now
 			this.pad.tabletContent.gotoAndStop("defaultScreen");
-			this.scope.addCache(this.pad, this.theStage, "Tablet");
+			this.scope.addCache(this.pad, this.theStage);
 			this.inToolbox = myToolbox;
 			addContentEvtListeners();
 		}
@@ -254,7 +254,8 @@
 		
 		private function tabletToggle(evt, forceOpen = false, forceClose = false): void {
 			trace("here");
-
+			inToolbox.bringForward();
+			
 			if((pad.x<-50 || forceOpen) && !forceClose){
 				trace("opening");
 				this.inToolbox.hideMenu();
