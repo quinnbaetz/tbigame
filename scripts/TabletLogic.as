@@ -93,10 +93,10 @@
 			this.pad.scaleY = scale;
 			this.pad.rotation = padRot;
 			//tabletContent is embedded within the tablet movieClip now
-			this.pad.tabletContent.gotoAndStop("defaultScreen");
 			this.scope.addCache(this.pad, this.theStage);
+			this.pad.tabletContent.gotoAndStop("defaultScreen");
+			this.pad.tabletContent.SearchInput.addEventListener(MouseEvent.CLICK, prepSearch);
 			this.inToolbox = myToolbox;
-			addContentEvtListeners();
 		}
 		
 		private function addContentEvtListeners() {
@@ -104,10 +104,17 @@
 			hideResults();
 			//don't call hideResults after addLinkLiseners()... or make sure the gotoandstop is called earlier
 			addLinkListeners();
-			trace(this.pad.tabletContent.SearchInput);
+			//trace(this.pad.tabletContent.SearchInput);
 			this.pad.tabletContent.SearchInput.text = "";
 			this.pad.tabletContent.SearchInput.addEventListener(KeyboardEvent.KEY_DOWN, termSearch);
+			//reset focus
+			this.pad.tabletContent.SearchInput.stage.focus = this.pad.tabletContent.SearchInput;
+			this.pad.tabletContent.SearchInput.setSelection(0,0);
 			//this.pad.tabletContent.SearchButton.addEventListener(MouseEvent.CLICK, termSearch);
+		}
+		
+		private function prepSearch(event: MouseEvent):void {
+			addContentEvtListeners();
 		}
 		
 		/* triggered when clicked on search. We take the entered string and see if it is a substring from the list of
@@ -319,8 +326,10 @@
 		}
 		
 		private function returnSearchButt(event: MouseEvent):void {
+			trace('firing mouse');
 			this.pad.tabletContent.ReturnSearchButton.removeEventListener(MouseEvent.CLICK, returnSearchButt);
-			this.pad.gotoAndStop("defaultScreen");
+			this.pad.tabletContent.gotoAndStop("defaultScreen");
+			this.pad.tabletContent.SearchInput.addEventListener(MouseEvent.CLICK, prepSearch);
 		}
 
 	}
