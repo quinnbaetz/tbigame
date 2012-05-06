@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1336239562" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1336271709" lastUniqueIdentifier="6">
   <timeline>
     <DOMTimeline name="Tablet">
       <layers>
@@ -9,26 +9,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="reference" color="#FF800A" current="true" isSelected="true" autoNamed="false" visible="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="tablet reference" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="-21" ty="-16"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="400" y="300"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.30859375"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="content" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="content" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

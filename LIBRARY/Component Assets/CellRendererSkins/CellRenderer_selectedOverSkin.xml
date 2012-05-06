@@ -56,8 +56,8 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" fillStyle1="2" edges="!3020 420|20 420!20 420|20 20!20 20|3020 20!3020 20|3020 420"/>
                     <Edge fillStyle0="1" edges="!3040 0|0 0!0 0|0 440!0 440|3040 440!3040 440|3040 0"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!3020 420|20 420!20 420|20 20!20 20|3020 20!3020 20|3020 420"/>
                   </edges>
                 </DOMShape>
               </elements>
