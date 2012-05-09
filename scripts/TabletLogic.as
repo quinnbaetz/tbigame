@@ -71,6 +71,7 @@
 		************************************************************************************************
 		*/
 		
+		//CLASS VARS
 		//public var tabletContent;
 		public var theStage;
 		public var scope;
@@ -80,6 +81,9 @@
 		private var scale = .4;
 		public var pad;
 		public var inToolbox;
+		
+		//FLAGS
+		private var ctReportIsOn:Boolean = false;
 
 		public function TabletLogic(theStage, scope, myToolbox) {
 			this.theStage = theStage;
@@ -97,9 +101,14 @@
 			this.pad.tabletContent.gotoAndStop("defaultScreen");
 			this.pad.tabletContent.SearchInput.addEventListener(MouseEvent.CLICK, prepSearch);
 			this.inToolbox = myToolbox;
+			sideMenuListeners();
 		}
 		
-		private function addContentEvtListeners() {
+		private function sideMenuListeners():void {
+			this.pad.tabletContent.CTreportButton.addEventListener(MouseEvent.MOUSE_DOWN, toCTReport);
+		}
+		
+		private function addSearchEvtListeners() {
 			//listens for user click on search button
 			hideResults();
 			//don't call hideResults after addLinkLiseners()... or make sure the gotoandstop is called earlier
@@ -111,10 +120,12 @@
 			this.pad.tabletContent.SearchInput.stage.focus = this.pad.tabletContent.SearchInput;
 			this.pad.tabletContent.SearchInput.setSelection(0,0);
 			//this.pad.tabletContent.SearchButton.addEventListener(MouseEvent.CLICK, termSearch);
+			//re-add the listeners after each frame change.
+			sideMenuListeners();
 		}
 		
 		private function prepSearch(event: MouseEvent):void {
-			addContentEvtListeners();
+			addSearchEvtListeners();
 		}
 		
 		/* triggered when clicked on search. We take the entered string and see if it is a substring from the list of
@@ -305,6 +316,7 @@
 		
 		private function displayDescription(event:MouseEvent):void {
 			this.pad.tabletContent.gotoAndStop("descriptionField");
+			sideMenuListeners();
 			this.pad.tabletContent.ReturnSearchButton.addEventListener(MouseEvent.CLICK, returnSearchButt);
 			trace('firing displayDescription ' + event.currentTarget.name);
 			switch (event.currentTarget.name) {
@@ -342,6 +354,28 @@
 			this.pad.tabletContent.ReturnSearchButton.removeEventListener(MouseEvent.CLICK, returnSearchButt);
 			this.pad.tabletContent.gotoAndStop("defaultScreen");
 			this.pad.tabletContent.SearchInput.addEventListener(MouseEvent.CLICK, prepSearch);
+			sideMenuListeners();
+		}
+		
+		public function toggleCtReport():void {
+			if(ctReportIsOn){
+				ctReportIsOn = false;
+			}
+			else {
+				ctReportIsOn = true;
+			}
+		}
+		
+		private function toCTReport(event:MouseEvent):void {
+			if(ctReportIsOn) {
+			this.pad.tabletContent.gotoAndStop("CT_Scan_Report_1");
+			this.pad.tabletContent.NextPage.addEventListener(MouseEvent.CLICK, nextPageCTR);
+			}
+		}
+		
+		private function nextPageCTR(event:MouseEvent):void {
+			this.pad.tabletContent.gotoAndStop("CT_Scan_Report_2");
+			this.pad.tabletContent.previousPage.addEventListener(MouseEvent.CLICK, toCTReport);
 		}
 
 	}
