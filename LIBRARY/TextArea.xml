@@ -40,7 +40,7 @@
                   <transformationPoint>
                     <Point x="7.5" y="50"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='6.65.17'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='65.17'>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="direction">
@@ -169,7 +169,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='6.65.15'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='65.15'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

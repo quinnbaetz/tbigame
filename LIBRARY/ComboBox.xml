@@ -56,7 +56,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='6.23.34'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23.34'>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="displayAsPassword">
@@ -89,7 +89,7 @@
                   <transformationPoint>
                     <Point x="50.1" y="50"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='6.23.35'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23.35'>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="allowMultipleSelection">
@@ -278,7 +278,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='6.23.31'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23.31'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

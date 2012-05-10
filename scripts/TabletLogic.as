@@ -82,12 +82,26 @@
 		public var pad;
 		public var inToolbox;
 		
+		//Eventually taken as a param? Some way to differentiate..
+		private var classVersion:Boolean = false;
+		
 		//FLAGS
 		private var ctReportIsOn:Boolean = false;
+		
+		//CT-Report Array, index inputs --
+		//Indexes strings by diagnosis, then location, then summary
+		//top down, left to right
+		public var ctReportArr:Array;
+		//Store the string for second CT page separately.
+		public var ctRecommendStr:String;
 
+		//---
+		
 		public function TabletLogic(theStage, scope, myToolbox) {
 			this.theStage = theStage;
 			this.scope = scope;
+			
+			ctReportArr = new Array();
 			
 			//set parameters for tablet
 			this.pad = new Tablet();
@@ -96,6 +110,7 @@
 			this.pad.scaleX = scale;
 			this.pad.scaleY = scale;
 			this.pad.rotation = padRot;
+			
 			//tabletContent is embedded within the tablet movieClip now
 			this.scope.addCache(this.pad, this.theStage);
 			this.pad.tabletContent.gotoAndStop("defaultScreen");
@@ -104,10 +119,127 @@
 			sideMenuListeners();
 		}
 		
+		//public wrapper for the actual toggle function
+		public function padToggle(evt, forceOpen = false, forceClose = false) {
+			tabletToggle(evt, forceOpen, forceClose);
+		}
+		
+		/**
+		* Hides tablet from view
+		*/
+		public function hide(){
+			this.pad.buttonMode = false;
+			this.pad.useHandCursor = false;
+			this.pad.alpha = 0;
+		}
+		/**
+		* Shows tablet
+		*/
+		public function show(){
+			this.pad.buttonMode = true;
+			this.pad.useHandCursor = true;
+			this.pad.alpha = 1;
+		}
+		
+		//This will toggle the availability of CT Report scene
+		public function toggleCtReport():void {
+			if(ctReportIsOn){
+				ctReportIsOn = false;
+			}
+			else {
+				ctReportIsOn = true;
+			}
+		}
+		
+		/**
+		* Takes the user input from CT Report and stores it in the array for retrieval later..
+		* 
+		* Does not guarantee summary is non-null!
+		*/
+		private function CTR1toArr():void {
+			//update everytime user goes back and forth between recommendation
+			if(ctReportArr.length != 0){
+				ctReportArr = new Array();
+			}
+			
+			//******* began retrieving from the user input ****************//
+			
+			//DIAGNOSIS
+			if(this.pad.tabletContent.normal.selected) {
+				ctReportArr.push(this.pad.tabletContent.normal.label);
+			}
+			if(this.pad.tabletContent.concussion.selected) {
+				ctReportArr.push(this.pad.tabletContent.concussion.label);
+			}
+			if(this.pad.tabletContent.diffuseAxonalInjury.selected) {
+				ctReportArr.push(this.pad.tabletContent.diffuseAxonalInjury.label);
+			}
+			if(this.pad.tabletContent.massTumor.selected) {
+				ctReportArr.push(this.pad.tabletContent.massTumor.label);
+			}
+			if(this.pad.tabletContent.foreignObject.selected) {
+				ctReportArr.push(this.pad.tabletContent.foreignObject.label);
+			}
+			if(this.pad.tabletContent.hematoma.selected) {
+				ctReportArr.push(this.pad.tabletContent.hematoma.label);
+			}
+			if(this.pad.tabletContent.subdural.selected) {
+				ctReportArr.push(this.pad.tabletContent.subdural.label);
+			}
+			if(this.pad.tabletContent.epidural.selected) {
+				ctReportArr.push(this.pad.tabletContent.epidural.label);
+			}
+			
+			//LOCATION
+			if(this.pad.tabletContent.leftS.selected) {
+				ctReportArr.push(this.pad.tabletContent.leftS.label);
+			}
+			if(this.pad.tabletContent.rightS.selected) {
+				ctReportArr.push(this.pad.tabletContent.rightS.label);
+			}
+			if(this.pad.tabletContent.frontal.selected) {
+				ctReportArr.push(this.pad.tabletContent.frontal.label);
+			}
+			if(this.pad.tabletContent.temporal.selected) {
+				ctReportArr.push(this.pad.tabletContent.temporal.label);
+			}
+			if(this.pad.tabletContent.parietal.selected) {
+				ctReportArr.push(this.pad.tabletContent.parietal.label);
+			}
+			if(this.pad.tabletContent.occipital.selected) {
+				ctReportArr.push(this.pad.tabletContent.occipital.label);
+			}
+			
+			//SUMMARY
+			ctReportArr.push(this.pad.tabletContent.blood.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.rightCB.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.hematomaCB.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.temporalCB.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.crescent.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.subduralCB.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.brain.selectedItem.data);
+			ctReportArr.push(this.pad.tabletContent.brain2.selectedItem.data);
+			
+		}
+		
+		private function CTR2toArr():void {
+			//two cases, one for in class use.
+			if(!classVersion){
+				ctRecommendStr = this.pad.tabletContent.CERformprefilled.text;
+			} else {
+				ctRecommendStr = this.pad.tabletContent.CERform.text;
+			}
+			
+		}
+		
+		//adds one listener for now  -- 
+		//todo: will eventually add listeners to the whole side menu
 		private function sideMenuListeners():void {
 			this.pad.tabletContent.CTreportButton.addEventListener(MouseEvent.MOUSE_DOWN, toCTReport);
 		}
 		
+		//necessary for managing the Glossary
+		//todo: delete old code?? not sure if need... I hoarde old code.
 		private function addSearchEvtListeners() {
 			//listens for user click on search button
 			hideResults();
@@ -137,11 +269,6 @@
 			}
 		}
 		
-		//public wrapper for the actual toggle function
-		public function padToggle(evt, forceOpen = false, forceClose = false) {
-			tabletToggle(evt, forceOpen, forceClose);
-		}
-		
 		/**
 		* Adds event listeners to each "link" on the tablet, for click time.
 		*/
@@ -154,22 +281,6 @@
 			this.pad.tabletContent.Gauze.addEventListener(MouseEvent.CLICK, displayDescription);
 			this.pad.tabletContent.GCS.addEventListener(MouseEvent.CLICK, displayDescription);
 			this.pad.tabletContent.MedevacHeli.addEventListener(MouseEvent.CLICK, displayDescription);			
-		}
-		/**
-		* Hides tablet from view
-		*/
-		public function hide(){
-			this.pad.buttonMode = false;
-			this.pad.useHandCursor = false;
-			this.pad.alpha = 0;
-		}
-		/**
-		* Shows tablet
-		*/
-		public function show(){
-			this.pad.buttonMode = true;
-			this.pad.useHandCursor = true;
-			this.pad.alpha = 1;
 		}
 		
 		/**
@@ -314,11 +425,16 @@
 			} 
 		}//end toggle function
 		
+		//when a user clicks a link from search, this is where it goes..
 		private function displayDescription(event:MouseEvent):void {
+			
 			this.pad.tabletContent.gotoAndStop("descriptionField");
 			sideMenuListeners();
 			this.pad.tabletContent.ReturnSearchButton.addEventListener(MouseEvent.CLICK, returnSearchButt);
+			
 			trace('firing displayDescription ' + event.currentTarget.name);
+			
+			//we switch on the link's instance name, constants defined at top
 			switch (event.currentTarget.name) {
 				case "EMT": 
 					pad.tabletContent.DescriptionField.text = EMT;
@@ -349,6 +465,7 @@
 			trace(pad.tabletContent.DescriptionField.text);
 		}
 		
+		
 		private function returnSearchButt(event: MouseEvent):void {
 			trace('firing mouse');
 			this.pad.tabletContent.ReturnSearchButton.removeEventListener(MouseEvent.CLICK, returnSearchButt);
@@ -357,15 +474,7 @@
 			sideMenuListeners();
 		}
 		
-		public function toggleCtReport():void {
-			if(ctReportIsOn){
-				ctReportIsOn = false;
-			}
-			else {
-				ctReportIsOn = true;
-			}
-		}
-		
+		//Listener for CT Report button
 		private function toCTReport(event:MouseEvent):void {
 			if(ctReportIsOn) {
 			this.pad.tabletContent.gotoAndStop("CT_Scan_Report_1");
@@ -373,10 +482,30 @@
 			}
 		}
 		
+		private function submitReport(event:MouseEvent):void {
+			CTR2toArr();
+			
+			//TODO: How to escape and move on? Not immediatelys sure..
+		}
+		
 		private function nextPageCTR(event:MouseEvent):void {
-			this.pad.tabletContent.gotoAndStop("CT_Scan_Report_2");
+			
+			//store into our array
+			CTR1toArr();
+			
+			//two cases, one for in class use.
+			if(!classVersion){
+				this.pad.tabletContent.gotoAndStop("CT_Scan_Report_2");
+				this.pad.tabletContent.CTreportSubmit2.addEventListener(MouseEvent.CLICK, submitReport);
+			} else {
+				this.pad.tabletContent.gotoAndStop("CT_Scan_Report_2class");
+				this.pad.tabletContent.CTreportSubmit3.addEventListener(MouseEvent.CLICK, submitReport);
+			}
+			
+			//we need to get back!
 			this.pad.tabletContent.previousPage.addEventListener(MouseEvent.CLICK, toCTReport);
 		}
+		
 
 	}
 	

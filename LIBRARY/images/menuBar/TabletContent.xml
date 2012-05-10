@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1336537587" lastUniqueIdentifier="155">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1336678400" lastUniqueIdentifier="178">
   <timeline>
-    <DOMTimeline name="TabletContent" currentFrame="3">
+    <DOMTimeline name="TabletContent" currentFrame="5">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -1110,7 +1110,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText width="100" height="17.05" includeOutlines="true" isSelectable="false" lineType="multiline">
                   <matrix>
-                    <Matrix tx="316.95" ty="-67"/>
+                    <Matrix tx="319.95" ty="-70"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -1123,7 +1123,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText width="100" height="17.05" includeOutlines="true" isSelectable="false" lineType="multiline">
                   <matrix>
-                    <Matrix tx="314.95" ty="7.3"/>
+                    <Matrix tx="317.95" ty="2.3"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -1168,7 +1168,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMComponentInstance libraryItemName="ComboBox" name="hematoma" centerPoint3DX="278.9" centerPoint3DY="186.5" uniqueID="16">
+                <DOMComponentInstance libraryItemName="ComboBox" name="hematomaCB" centerPoint3DX="278.9" centerPoint3DY="186.5" uniqueID="16">
                   <matrix>
                     <Matrix tx="228.9" ty="175.5"/>
                   </matrix>
@@ -1201,7 +1201,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="right" centerPoint3DX="362.95" centerPoint3DY="161.6" uniqueID="17">
+                <DOMComponentInstance libraryItemName="ComboBox" name="rightCB" centerPoint3DX="362.95" centerPoint3DY="161.6" uniqueID="17">
                   <matrix>
                     <Matrix tx="312.95" ty="150.6"/>
                   </matrix>
@@ -1267,7 +1267,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="temporal" centerPoint3DX="-7.6" centerPoint3DY="210.5" uniqueID="19">
+                <DOMComponentInstance libraryItemName="ComboBox" name="temporalCB" centerPoint3DX="-7.6" centerPoint3DY="210.5" uniqueID="19">
                   <matrix>
                     <Matrix tx="-57.6" ty="199.5"/>
                   </matrix>
@@ -1333,7 +1333,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="subdural" centerPoint3DX="103" centerPoint3DY="236.5" uniqueID="21">
+                <DOMComponentInstance libraryItemName="ComboBox" name="subduralCB" centerPoint3DX="103" centerPoint3DY="236.5" uniqueID="21">
                   <matrix>
                     <Matrix tx="53" ty="225.5"/>
                   </matrix>
@@ -1399,7 +1399,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" centerPoint3DX="21.95" centerPoint3DY="261.1" uniqueID="23">
+                <DOMComponentInstance libraryItemName="ComboBox" name="brain2" centerPoint3DX="21.95" centerPoint3DY="261.1" uniqueID="23">
                   <matrix>
                     <Matrix tx="-28.05" ty="250.1"/>
                   </matrix>
@@ -1432,24 +1432,21 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="Button" name="CTreportSubmit1" centerPoint3DX="360.3" centerPoint3DY="321.55" uniqueID="27">
+                <DOMComponentInstance libraryItemName="CheckBox" name="hematoma" centerPoint3DX="207" centerPoint3DY="60.25" uniqueID="166">
                   <matrix>
-                    <Matrix tx="310.3" ty="310.55"/>
+                    <Matrix tx="157" ty="49.25"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='27'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='166'>
 </component>
 ]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="emphasized">
-      <Inspectable name="emphasized" variable="emphasized" category="" verbose="0" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="enabled">
+                  <parametersAsXML><![CDATA[   <property id="enabled">
       <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
    </property>
    <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Submit" type="String"/>
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Hematoma" type="String"/>
    </property>
    <property id="labelPlacement">
       <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
@@ -1457,126 +1454,362 @@
    <property id="selected">
       <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
    </property>
-   <property id="toggle">
-      <Inspectable name="toggle" variable="toggle" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="diffuseAxonalInjury" centerPoint3DX="224.5" centerPoint3DY="-9.5" uniqueID="167">
+                  <matrix>
+                    <Matrix a="1.3499755859375" tx="157" ty="-20.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='167'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Diffuse Axonal Injury" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
    </property>
    <property id="visible">
       <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="hemtoma" centerPoint3DX="204" centerPoint3DY="56.25">
+                <DOMComponentInstance libraryItemName="CheckBox" name="normal" centerPoint3DX="207" centerPoint3DY="-54" uniqueID="168">
                   <matrix>
-                    <Matrix tx="154" ty="45.25"/>
+                    <Matrix tx="157" ty="-65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="diffuseAxonalInjury" centerPoint3DX="221.5" centerPoint3DY="-13.5">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='168'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Normal" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="massTumor" centerPoint3DX="207" centerPoint3DY="13.75" uniqueID="169">
                   <matrix>
-                    <Matrix a="1.3499755859375" tx="154" ty="-24.5"/>
+                    <Matrix tx="157" ty="2.75"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="normal" centerPoint3DX="204" centerPoint3DY="-60">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='169'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Mass Tumor" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="concussion" centerPoint3DX="207" centerPoint3DY="-32.75" uniqueID="170">
                   <matrix>
-                    <Matrix tx="154" ty="-71"/>
+                    <Matrix tx="157" ty="-43.75"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="massTumor" centerPoint3DX="204" centerPoint3DY="9.75">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='170'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Concussion" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="foreignObject" centerPoint3DX="212" centerPoint3DY="37" uniqueID="171">
                   <matrix>
-                    <Matrix tx="154" ty="-1.25"/>
+                    <Matrix a="1.10000610351563" tx="157" ty="26"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="concussion" centerPoint3DX="204" centerPoint3DY="-36.75">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='171'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Foreign Object" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="subdural" centerPoint3DX="228" centerPoint3DY="81.5" uniqueID="172">
                   <matrix>
-                    <Matrix tx="154" ty="-47.75"/>
+                    <Matrix tx="178" ty="70.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="foreignObject" centerPoint3DX="204" centerPoint3DY="33">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='172'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Subdural" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="epidural" centerPoint3DX="228" centerPoint3DY="104.75" uniqueID="173">
                   <matrix>
-                    <Matrix tx="154" ty="22"/>
+                    <Matrix tx="178" ty="93.75"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="subdural" centerPoint3DX="225" centerPoint3DY="79.5">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='173'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Epidural" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="leftS" centerPoint3DX="367.95" centerPoint3DY="-35.5" uniqueID="174">
                   <matrix>
-                    <Matrix tx="175" ty="68.5"/>
+                    <Matrix tx="317.95" ty="-46.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="epidural" centerPoint3DX="225" centerPoint3DY="102.75">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='174'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Left" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="rightS" centerPoint3DX="367.95" centerPoint3DY="-13.5" uniqueID="175">
                   <matrix>
-                    <Matrix tx="175" ty="91.75"/>
+                    <Matrix tx="317.95" ty="-24.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="left" centerPoint3DX="364.95" centerPoint3DY="-34.5">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='175'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Right" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="frontal" centerPoint3DX="365.95" centerPoint3DY="34.35" uniqueID="176">
                   <matrix>
-                    <Matrix tx="314.95" ty="-45.5"/>
+                    <Matrix tx="315.95" ty="23.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="right" centerPoint3DX="364.95" centerPoint3DY="-12.5">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='176'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Frontal" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="temporal" centerPoint3DX="365.95" centerPoint3DY="55.35" uniqueID="177">
                   <matrix>
-                    <Matrix tx="314.95" ty="-23.5"/>
+                    <Matrix tx="315.95" ty="44.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="frontal" centerPoint3DX="362.95" centerPoint3DY="37.35">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='177'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Temporal" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="parietal" centerPoint3DX="365.95" centerPoint3DY="76.35" uniqueID="178">
                   <matrix>
-                    <Matrix tx="312.95" ty="26.35"/>
+                    <Matrix tx="315.95" ty="65.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="temporal" centerPoint3DX="362.95" centerPoint3DY="58.35">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='178'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Parietal" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CheckBox" name="occipital" centerPoint3DX="365.95" centerPoint3DY="97.35" uniqueID="165">
                   <matrix>
-                    <Matrix tx="312.95" ty="47.35"/>
+                    <Matrix tx="315.95" ty="86.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="parietal" centerPoint3DX="362.95" centerPoint3DY="79.35">
-                  <matrix>
-                    <Matrix tx="312.95" ty="68.35"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="RadioButton" name="occipital" centerPoint3DX="362.95" centerPoint3DY="100.35">
-                  <matrix>
-                    <Matrix tx="312.95" ty="89.35"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='165'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Occipital" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
                 <DOMDynamicText width="50.35" height="16" includeOutlines="true" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="-27.3" ty="312.55"/>
@@ -2394,7 +2627,7 @@
             </DOMFrame>
             <DOMFrame index="5" name="CT_Scan_Report_2class" labelType="name" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="Button" name="CTreportSubmit3" centerPoint3DX="360.3" centerPoint3DY="321.55" uniqueID="59">
+                <DOMComponentInstance libraryItemName="Button" name="CTreportSubmit3" selected="true" centerPoint3DX="360.3" centerPoint3DY="321.55" uniqueID="59">
                   <matrix>
                     <Matrix tx="310.3" ty="310.55"/>
                   </matrix>

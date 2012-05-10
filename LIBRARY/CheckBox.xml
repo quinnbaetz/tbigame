@@ -157,7 +157,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='165.16'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

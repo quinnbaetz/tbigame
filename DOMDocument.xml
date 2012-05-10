@@ -68,12 +68,12 @@
           <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="TabletFont" itemID="4fa16927-000005dd" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="TabletFont" font="Georgia" size="0" id="5" sourceLastImported="1335995188"/>
-          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
-          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
-          <DOMFontItem name="verdana" itemID="4fa5e201-00000467" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
           <DOMFontItem name="verdana 1" itemID="4fa5e201-00000466" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
+          <DOMFontItem name="verdana" itemID="4fa5e201-00000467" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
+          <DOMFontItem name="TabletFont" itemID="4fa16927-000005dd" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="TabletFont" font="Georgia" size="0" id="5" sourceLastImported="1335995188"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -649,7 +649,7 @@
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
           <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1336271709"/>
-          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1336537587"/>
+          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1336678400"/>
           <Include href="images/menuBar/Yes.xml" itemIcon="0" loadImmediate="false" itemID="4f630206-00000955" lastModified="1335435128"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1336228985"/>
           <Include href="images/MRI/brain/brainBase.xml" itemID="4e3896a1-00000301" lastModified="1313291135"/>
@@ -702,7 +702,7 @@
           <Include href="pTemp.xml" loadImmediate="false" itemID="4e07dd50-00000364" lastModified="1309138257"/>
           <Include href="pupil.xml" itemID="4e19e7d1-000002af" lastModified="1310322379"/>
           <Include href="pupils.xml" loadImmediate="false" itemID="4e07dca3-0000034d" lastModified="1309138084"/>
-          <Include href="RadioButton.xml" loadImmediate="false" itemID="4fa5e1ff-00000413" lastModified="1336271359"/>
+          <Include href="RadioButton.xml" itemID="44b1a57a-00000122" lastModified="1292423118"/>
           <Include href="SearchButton.xml" itemIcon="0" loadImmediate="false" itemID="4f8afd79-00000406" lastModified="1335978950"/>
           <Include href="Symbol 1.xml" loadImmediate="false" itemID="4e19d9a4-00000256" lastModified="1310317390"/>
           <Include href="Symbol 2.xml" loadImmediate="false" itemID="4f5b804b-00000827" lastModified="1331907854"/>
@@ -738,7 +738,7 @@
           <Include href="UIScrollBar.xml" itemID="44aaa686-00000064" lastModified="1292423118"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="4">
+          <DOMTimeline name="Scene 1" currentFrame="18">
                <layers>
                     <DOMLayer name="scripts" color="#9933CC" autoNamed="false" heightLiteral="18">
                          <frames>
@@ -857,7 +857,7 @@
                               </DOMFrame>
                               <DOMFrame index="13" name="Scene_SurgeryPatient" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance selected="true" libraryItemName="head.jpg copy"/>
+                                        <DOMBitmapInstance libraryItemName="head.jpg copy"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="14" name="Scene_SurgeonFace" labelType="name" keyMode="9728">
@@ -886,7 +886,7 @@
                               </DOMFrame>
                               <DOMFrame index="18" name="Scene_CTTech" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance libraryItemName="Scenes/CTTech.jpg"/>
+                                        <DOMBitmapInstance selected="true" libraryItemName="Scenes/CTTech.jpg"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="19" keyMode="9728">
@@ -907,7 +907,7 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 -200|16439 12279!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200!16439 -200|16439 12279"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMDynamicText width="559.95" height="55">
@@ -1202,6 +1202,9 @@
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="5698689" publishTime="1336678230"/>
+          <PublishItem publishSize="5593497" publishTime="1336678075"/>
+          <PublishItem publishSize="5695905" publishTime="1336676380"/>
           <PublishItem publishSize="5695050" publishTime="1336538106"/>
           <PublishItem publishSize="5695050" publishTime="1336537927"/>
           <PublishItem publishSize="5694848" publishTime="1336278978"/>
@@ -1219,9 +1222,6 @@
           <PublishItem publishSize="5694698" publishTime="1336275645"/>
           <PublishItem publishSize="5694693" publishTime="1336275577"/>
           <PublishItem publishSize="5694685" publishTime="1336275520"/>
-          <PublishItem publishSize="5694660" publishTime="1336271745"/>
-          <PublishItem publishSize="5767453" publishTime="1336271685"/>
-          <PublishItem publishSize="1103" publishTime="1335992273"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="25bpq31qlw.swc">
