@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1336678400" lastUniqueIdentifier="178">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/TabletContent" itemID="4f6f548b-00000d5c" linkageExportForAS="true" linkageClassName="TabletContent" lastModified="1336695496" lastUniqueIdentifier="178">
   <timeline>
-    <DOMTimeline name="TabletContent" currentFrame="5">
+    <DOMTimeline name="TabletContent" currentFrame="3">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -1234,7 +1234,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="ComboBox" name="blood" centerPoint3DX="214" centerPoint3DY="161.6" uniqueID="18">
+                <DOMComponentInstance libraryItemName="ComboBox" name="blood" selected="true" centerPoint3DX="214" centerPoint3DY="161.6" uniqueID="18">
                   <matrix>
                     <Matrix tx="164" ty="150.6"/>
                   </matrix>
