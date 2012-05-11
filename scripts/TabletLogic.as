@@ -106,7 +106,7 @@
 			this.scope = scope;
 			
 			ctReportArr = new Array();
-			ctrIndexMem = new Array();
+			ctrIndexMem = new Array(8);
 			
 			//set parameters for tablet
 			this.pad = new Tablet();
@@ -167,6 +167,7 @@
 			//update everytime user goes back and forth between recommendation
 			if(ctReportArr.length != 0){
 				ctReportArr = new Array();
+				ctrIndexMem = new Array(8);
 			}
 			
 			//******* began retrieving from the user input ****************//
@@ -221,42 +222,42 @@
 			
 			if(this.pad.tabletContent.blood.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.blood.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+				//ctrIndexMem[0] = this.pad.tabletContent.blood.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.rightCB.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.rightCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.rightCB.selectedIndex);
+				//ctrIndexMem[1] = this.pad.tabletContent.rightCB.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.hematomaCB.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.hematomaCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.hematomaCB.selectedIndex);
+				//ctrIndexMem[2] = this.pad.tabletContent.hematomaCB.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.temporalCB.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.temporalCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.temporalCB.selectedIndex);
+				//ctrIndexMem[3] = this.pad.tabletContent.temporalCB.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.crescent.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.crescent.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.crescent.selectedIndex);
+				//ctrIndexMem[4] = this.pad.tabletContent.crescent.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.subduralCB.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.subduralCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.subduralCB.selectedIndex);
+				//ctrIndexMem[5] = this.pad.tabletContent.subduralCB.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.brain.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.brain.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.brain.selectedIndex);
+				//ctrIndexMem[6] = this.pad.tabletContent.brain.selectedIndex;
 			} else { return false; }
 			
 			if(this.pad.tabletContent.brain2.selectedItem != null) {
 				ctReportArr.push(this.pad.tabletContent.brain2.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.brain2.selectedIndex);
+				//ctrIndexMem[7] = this.pad.tabletContent.brain2.selectedIndex;
 			} else { return false; }
 			
 			return true;
@@ -514,52 +515,31 @@
 			sideMenuListeners();
 		}
 		
-		private function refreshReportEntires():void {
+		private function refreshReportEntries():void {
 			
-			this.pad.tabletContent.blood.selectedIndex(ctrIndexMem[0]);
+			this.pad.tabletContent.blood.selectedIndex = ctrIndexMem[0];
 			
-			this.pad.tabletContent.blood.selectedIndex(ctrIndexMem[0]);
+			this.pad.tabletContent.rightCB.selectedIndex = ctrIndexMem[1];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.rightCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
+			this.pad.tabletContent.hematomaCB.selectedIndex = ctrIndexMem[2];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.hematomaCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
+			this.pad.tabletContent.temporalCB.selectedIndex = ctrIndexMem[3];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.temporalCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
+			this.pad.tabletContent.crescent.selectedIndex = ctrIndexMem[4];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.crescent.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
+			this.pad.tabletContent.subduralCB.selectedIndex = ctrIndexMem[5];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.subduralCB.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
+			this.pad.tabletContent.brain.selectedIndex = ctrIndexMem[6];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.brain.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
+			this.pad.tabletContent.brain2.selectedIndex = ctrIndexMem[7];
 			
-			if(this.pad.tabletContent.blood.selectedItem != null) {
-				ctReportArr.push(this.pad.tabletContent.brain2.selectedItem.data);
-				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
-			} else { return false; }
 		}
 		
 		//Listener for CT Report button
 		private function toCTReport(event:MouseEvent):void {
 			if(ctReportArr.length != 0){
-				refreshReportEntries();
+				//refreshReportEntries();
+				//Not sure why I'm getting access of null object ref in this function
 			}
 			if(ctReportIsOn) {
 			this.pad.tabletContent.gotoAndStop("CT_Scan_Report_1");
