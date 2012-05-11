@@ -68,12 +68,12 @@
           <DOMFolderItem name="sounds" itemID="4e0fd4b0-0000022b" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="verdana 1" itemID="4fa5e201-00000466" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
-          <DOMFontItem name="verdana" itemID="4fa5e201-00000467" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
-          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
-          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
-          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
           <DOMFontItem name="TabletFont" itemID="4fa16927-000005dd" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="TabletFont" font="Georgia" size="0" id="5" sourceLastImported="1335995188"/>
+          <DOMFontItem name="verdana 1" itemID="4f6f3370-000008bf" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
+          <DOMFontItem name="verdana" itemID="4f6f31f6-000008a5" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="Temperature" itemID="4e1a64e3-0000024b" font="Digital-7" size="0" id="2" sourceLastImported="1310352597" embeddedCharacters=".CF " embedRanges="3"/>
+          <DOMFontItem name="verdana" itemID="4fa5e201-00000467" font="Verdana" size="0" id="3" sourceLastImported="1332687350" embedRanges="9999"/>
+          <DOMFontItem name="verdana 1" itemID="4fa5e201-00000466" font="Verdana" size="0" id="4" sourceLastImported="1332687728" embedRanges="9999"/>
      </fonts>
      <media>
           <DOMBitmapItem name="images/surgery/arms/needleArms/1.png" itemID="4f1afdf4-00000373" sourceExternalFilepath="./LIBRARY/images/surgery/arms/needleArms/1.png" sourceLastImported="1327168459" externalFileSize="161254" originalCompressionType="lossless" quality="50" href="images/surgery/arms/needleArms/1.png" bitmapDataHRef="M 232 1327168843.dat" frameRight="19940" frameBottom="14080"/>
@@ -649,7 +649,7 @@
           <Include href="images/menuBar/notes/chart/data/gcs.xml" loadImmediate="false" itemID="4e07dc85-00000339" lastModified="1309138053"/>
           <Include href="images/menuBar/notes/chart/data/heightWeight.xml" loadImmediate="false" itemID="4e07dc3f-00000325" lastModified="1309137983"/>
           <Include href="images/menuBar/Tablet.xml" itemID="4f6f5100-00000d46" lastModified="1336271709"/>
-          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1336678400"/>
+          <Include href="images/menuBar/TabletContent.xml" itemID="4f6f548b-00000d5c" lastModified="1336695496"/>
           <Include href="images/menuBar/Yes.xml" itemIcon="0" loadImmediate="false" itemID="4f630206-00000955" lastModified="1335435128"/>
           <Include href="images/messageBox/message.xml" itemID="4f6f2b55-00000825" lastModified="1336228985"/>
           <Include href="images/MRI/brain/brainBase.xml" itemID="4e3896a1-00000301" lastModified="1313291135"/>
@@ -907,7 +907,7 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200!16439 -200|16439 12279"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!16439 -200|16439 12279!16439 12279|-300 12279!-300 12279|-300 -200!-300 -200|16439 -200"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMDynamicText width="559.95" height="55">
@@ -1202,6 +1202,17 @@
      </swatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="5698732" publishTime="1336695181"/>
+          <PublishItem publishSize="5698735" publishTime="1336694875"/>
+          <PublishItem publishSize="5698730" publishTime="1336694813"/>
+          <PublishItem publishSize="5698716" publishTime="1336694305"/>
+          <PublishItem publishSize="5593440" publishTime="1336693387"/>
+          <PublishItem publishSize="5593455" publishTime="1336693055"/>
+          <PublishItem publishSize="5698624" publishTime="1336691899"/>
+          <PublishItem publishSize="5698624" publishTime="1336691638"/>
+          <PublishItem publishSize="5698658" publishTime="1336691422"/>
+          <PublishItem publishSize="5723188" publishTime="1336690997" publishDebug="true"/>
+          <PublishItem publishSize="5723181" publishTime="1336690561" publishDebug="true"/>
           <PublishItem publishSize="5698689" publishTime="1336678230"/>
           <PublishItem publishSize="5593497" publishTime="1336678075"/>
           <PublishItem publishSize="5695905" publishTime="1336676380"/>
@@ -1211,17 +1222,6 @@
           <PublishItem publishSize="5694828" publishTime="1336278630"/>
           <PublishItem publishSize="5592964" publishTime="1336278568"/>
           <PublishItem publishSize="5694652" publishTime="1336277649"/>
-          <PublishItem publishSize="5592964" publishTime="1336277513"/>
-          <PublishItem publishSize="5694761" publishTime="1336277385"/>
-          <PublishItem publishSize="5694734" publishTime="1336276957"/>
-          <PublishItem publishSize="5694716" publishTime="1336276708"/>
-          <PublishItem publishSize="5592959" publishTime="1336276633"/>
-          <PublishItem publishSize="5694720" publishTime="1336276467"/>
-          <PublishItem publishSize="5694732" publishTime="1336276402"/>
-          <PublishItem publishSize="5592959" publishTime="1336276109"/>
-          <PublishItem publishSize="5694698" publishTime="1336275645"/>
-          <PublishItem publishSize="5694693" publishTime="1336275577"/>
-          <PublishItem publishSize="5694685" publishTime="1336275520"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="25bpq31qlw.swc">

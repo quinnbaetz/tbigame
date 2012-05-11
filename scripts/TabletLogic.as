@@ -94,6 +94,10 @@
 		public var ctReportArr:Array;
 		//Store the string for second CT page separately.
 		public var ctRecommendStr:String;
+		
+		private var ctrIndexMem:Array;
+		private var ctCallback:Function;
+		private var errCall:Function;
 
 		//---
 		
@@ -102,6 +106,7 @@
 			this.scope = scope;
 			
 			ctReportArr = new Array();
+			ctrIndexMem = new Array();
 			
 			//set parameters for tablet
 			this.pad = new Tablet();
@@ -142,13 +147,15 @@
 		}
 		
 		//This will toggle the availability of CT Report scene
-		public function toggleCtReport():void {
+		public function toggleCtReport(callback:Function, errorCallback:Function):void {
 			if(ctReportIsOn){
 				ctReportIsOn = false;
 			}
 			else {
 				ctReportIsOn = true;
 			}
+			ctCallback = callback;
+			errCall = errorCallback;
 		}
 		
 		/**
@@ -156,7 +163,7 @@
 		* 
 		* Does not guarantee summary is non-null!
 		*/
-		private function CTR1toArr():void {
+		private function CTR1toArr():Boolean {
 			//update everytime user goes back and forth between recommendation
 			if(ctReportArr.length != 0){
 				ctReportArr = new Array();
@@ -211,15 +218,48 @@
 			}
 			
 			//SUMMARY
-			ctReportArr.push(this.pad.tabletContent.blood.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.rightCB.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.hematomaCB.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.temporalCB.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.crescent.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.subduralCB.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.brain.selectedItem.data);
-			ctReportArr.push(this.pad.tabletContent.brain2.selectedItem.data);
 			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.blood.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.rightCB.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.rightCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.rightCB.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.hematomaCB.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.hematomaCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.hematomaCB.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.temporalCB.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.temporalCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.temporalCB.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.crescent.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.crescent.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.crescent.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.subduralCB.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.subduralCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.subduralCB.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.brain.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.brain.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.brain.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.brain2.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.brain2.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.brain2.selectedIndex);
+			} else { return false; }
+			
+			return true;
 		}
 		
 		private function CTR2toArr():void {
@@ -474,11 +514,57 @@
 			sideMenuListeners();
 		}
 		
+		private function refreshReportEntires():void {
+			
+			this.pad.tabletContent.blood.selectedIndex(ctrIndexMem[0]);
+			
+			this.pad.tabletContent.blood.selectedIndex(ctrIndexMem[0]);
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.rightCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.hematomaCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.temporalCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.crescent.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.subduralCB.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.brain.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+			
+			if(this.pad.tabletContent.blood.selectedItem != null) {
+				ctReportArr.push(this.pad.tabletContent.brain2.selectedItem.data);
+				ctrIndexMem.push(this.pad.tabletContent.blood.selectedIndex);
+			} else { return false; }
+		}
+		
 		//Listener for CT Report button
 		private function toCTReport(event:MouseEvent):void {
+			if(ctReportArr.length != 0){
+				refreshReportEntries();
+			}
 			if(ctReportIsOn) {
 			this.pad.tabletContent.gotoAndStop("CT_Scan_Report_1");
 			this.pad.tabletContent.NextPage.addEventListener(MouseEvent.CLICK, nextPageCTR);
+			this.pad.tabletContent.SearchInput.addEventListener(MouseEvent.CLICK, prepSearch);
 			}
 		}
 		
@@ -486,12 +572,18 @@
 			CTR2toArr();
 			
 			//TODO: How to escape and move on? Not immediatelys sure..
+			ctCallback();
 		}
 		
 		private function nextPageCTR(event:MouseEvent):void {
 			
 			//store into our array
-			CTR1toArr();
+			var formIsFilled:Boolean = CTR1toArr();
+			
+			if(!formIsFilled) {
+				errCall();
+				return;
+			}
 			
 			//two cases, one for in class use.
 			if(!classVersion){
@@ -501,6 +593,8 @@
 				this.pad.tabletContent.gotoAndStop("CT_Scan_Report_2class");
 				this.pad.tabletContent.CTreportSubmit3.addEventListener(MouseEvent.CLICK, submitReport);
 			}
+			
+			this.pad.tabletContent.SearchInput.addEventListener(MouseEvent.CLICK, prepSearch);
 			
 			//we need to get back!
 			this.pad.tabletContent.previousPage.addEventListener(MouseEvent.CLICK, toCTReport);
