@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1335435025">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1336807632">
   <timeline>
     <DOMTimeline name="menuPop">
       <layers>
@@ -15,14 +15,6 @@
                 <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_a" name="ct_question1_a" symbolType="button">
                   <matrix>
                     <Matrix tx="38.5" ty="6"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_b" name="ct_question1_b" symbolType="button">
-                  <matrix>
-                    <Matrix tx="38.5" ty="24"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -136,7 +128,7 @@
             <DOMFrame index="5" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMStaticText width="137" height="20.1" isSelectable="false">
+                <DOMStaticText width="137" height="18" isSelectable="false">
                   <matrix>
                     <Matrix tx="71" ty="5"/>
                   </matrix>
@@ -154,7 +146,7 @@
             <DOMFrame index="6" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMStaticText width="137" height="20.1" isSelectable="false">
+                <DOMStaticText width="137" height="18" isSelectable="false">
                   <matrix>
                     <Matrix tx="71" ty="5"/>
                   </matrix>

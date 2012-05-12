@@ -7,7 +7,7 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menu/menu.png"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/menu/menubuttons/newGame" name="newGame" symbolType="button">
+                <DOMSymbolInstance libraryItemName="images/menuBar/menu/menubuttons/newGame" name="newGame" selected="true" symbolType="button">
                   <matrix>
                     <Matrix tx="249.5" ty="272"/>
                   </matrix>
@@ -23,7 +23,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="images/menuBar/menu/menubuttons/options" name="muteButton" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="images/menuBar/menu/menubuttons/options" name="muteButton" symbolType="button">
                   <matrix>
                     <Matrix tx="249.5" ty="312.95"/>
                   </matrix>

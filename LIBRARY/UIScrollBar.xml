@@ -190,7 +190,7 @@
                     </SolidStroke>
                   </stroke>
                 </DOMRectangleObject>
-                <DOMStaticText width="33.5" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="33.35" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="192.45" ty="183.5"/>
                   </matrix>
@@ -203,7 +203,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="16.85" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="16.8" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="36" ty="185.45"/>
                   </matrix>
@@ -216,7 +216,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="28.4" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="28.35" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="118.45" ty="183.5"/>
                   </matrix>
@@ -229,7 +229,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="50.9" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="50.7" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="280.45" ty="183.5"/>
                   </matrix>
@@ -242,7 +242,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="94.9" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="94.9" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="197.55" ty="225"/>
                   </matrix>
@@ -289,7 +289,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='65.17.101'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Scene 1' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

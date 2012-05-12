@@ -29,7 +29,7 @@
                   </edges>
                 </DOMShape>
                 <DOMBitmapInstance libraryItemName="images/menuBar/tablet.png"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" centerPoint3DX="146" centerPoint3DY="113.35">
+                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" selected="true" centerPoint3DX="146" centerPoint3DY="113.35">
                   <matrix>
                     <Matrix tx="267.55" ty="143.4"/>
                   </matrix>

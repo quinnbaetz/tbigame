@@ -62,7 +62,7 @@
                     </SolidStroke>
                   </stroke>
                 </DOMRectangleObject>
-                <DOMStaticText width="144" height="17.7" isSelectable="false">
+                <DOMStaticText width="144" height="18" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999847412109375" tx="204.05" ty="111.3"/>
                   </matrix>
@@ -75,7 +75,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="144" height="17.7" isSelectable="false">
+                <DOMStaticText width="144" height="18" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999847412109375" tx="204.05" ty="67.65"/>
                   </matrix>
@@ -88,7 +88,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="144" height="17.7" isSelectable="false">
+                <DOMStaticText width="144" height="18" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999847412109375" tx="204.05" ty="20.2"/>
                   </matrix>
@@ -135,7 +135,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23.34.8'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Scene 1' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

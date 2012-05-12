@@ -102,7 +102,7 @@
                     </SolidStroke>
                   </stroke>
                 </DOMRectangleObject>
-                <DOMStaticText width="83.45" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="83.15" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="21.4"/>
                   </matrix>
@@ -115,7 +115,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="49.4" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="49.25" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="47.9"/>
                   </matrix>
@@ -128,7 +128,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="60.95" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="60.8" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="77.9"/>
                   </matrix>
@@ -141,7 +141,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="66.05" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="65.8" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="108.35"/>
                   </matrix>
@@ -154,7 +154,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="101.55" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="101.2" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="136.35"/>
                   </matrix>
@@ -167,7 +167,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="91.4" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="91.05" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="169.55"/>
                   </matrix>
@@ -180,7 +180,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="86.3" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="86.1" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="197.35"/>
                   </matrix>
@@ -193,7 +193,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="74.75" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="74.5" height="15" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.99981689453125" tx="210.45" ty="227.35"/>
                   </matrix>
@@ -237,7 +237,7 @@
                   <matrix>
                     <Matrix tx="86.05" ty="30"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='6.23.35.22.14'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Scene 1' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

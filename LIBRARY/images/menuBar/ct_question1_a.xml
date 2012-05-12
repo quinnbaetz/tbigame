@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/ct_question1_a" itemID="4f462fca-000007a1" linkageExportForAS="true" linkageClassName="ct_question1_a" symbolType="button" lastModified="1330000106">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/ct_question1_a" itemID="4f462fca-000007a1" linkageExportForAS="true" linkageClassName="ct_question1_a" symbolType="button" lastModified="1336807246">
   <timeline>
     <DOMTimeline name="ct_question1_a" currentFrame="1">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText width="478" height="20.1" isSelectable="false">
+                <DOMDynamicText width="478" height="19" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -14,16 +14,16 @@
                     <DOMTextRun>
                       <characters>A. We should wait and check his status again later. </characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Roman" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="3" size="18" bitmapSize="360" face="Times-Roman" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
-                </DOMStaticText>
+                </DOMDynamicText>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText width="478" height="20.1" isSelectable="false">
+                <DOMDynamicText selected="true" width="478" height="19" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -31,11 +31,11 @@
                     <DOMTextRun>
                       <characters>A. We should wait and check his status again later. </characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="3" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
-                </DOMStaticText>
+                </DOMDynamicText>
               </elements>
             </DOMFrame>
           </frames>

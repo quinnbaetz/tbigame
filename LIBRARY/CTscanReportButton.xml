@@ -1,5 +1,15 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CTscanReportButton" itemID="4fa16e26-00000a5a" symbolType="button" lastModified="1335979558">
   <timeline>
-    <DOMTimeline name="CTscanReportButton"/>
+    <DOMTimeline name="CTscanReportButton">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
   </timeline>
 </DOMSymbolItem>
