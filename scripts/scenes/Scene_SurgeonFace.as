@@ -1,1 +1,1 @@
-﻿switch(timeline){	case 101:		var surgeonDialog = function(callback){			displayMessages(_('surgery intro'), null, null, callback, false);		}				surgeonDialog(function(){			gotoAndStop("Scene_SurgeryRoom");		});		break;}timeline++;
+﻿switch(timeline){	case 101:		var surgeonDialog = function(callback){			displayMessages(_('surgery intro'), null, null, callback, false);		}				surgeonDialog(function(){			gotoAndStop("Scene_SurgeryRoom");		});		break;}

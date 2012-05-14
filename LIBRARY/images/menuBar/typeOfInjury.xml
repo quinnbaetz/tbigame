@@ -1,18 +1,18 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/ct_question4_a" itemID="4f4631ea-0000082a" symbolType="button" lastModified="1330004705">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/typeOfInjury" itemID="4fb0cc6a-00000ee8" symbolType="button" lastModified="1336986784">
   <timeline>
-    <DOMTimeline name="ct_question4_a">
+    <DOMTimeline name="typeOfInjury">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="511" height="18" isSelectable="false">
+                <DOMStaticText selected="true" width="152" height="18" isSelectable="false">
                   <matrix>
-                    <Matrix tx="2" ty="-4"/>
+                    <Matrix tx="2" ty="2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>A. Unless the hematoma is removed, death from blood loss will occur.</characters>
+                      <characters>the type of injury</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Roman" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -23,15 +23,15 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText width="547" height="18" isSelectable="false">
+                <DOMStaticText width="152" height="18" isSelectable="false">
                   <matrix>
-                    <Matrix tx="2" ty="-4"/>
+                    <Matrix tx="2" ty="2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>A. Unless the hematoma is removed, death from blood loss will occur.</characters>
+                      <characters>the type of injury</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" size="18" face="Times-Bold" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

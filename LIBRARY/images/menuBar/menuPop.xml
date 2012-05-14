@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1336807632">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/menuPop" itemID="4f46305a-000007aa" lastModified="1336987007">
   <timeline>
-    <DOMTimeline name="menuPop">
+    <DOMTimeline name="menuPop" currentFrame="5">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -44,6 +44,14 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question1_b" name="ct_question1_b" symbolType="button">
+                  <matrix>
+                    <Matrix tx="39" ty="25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
@@ -57,7 +65,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question2_b" name="ct_question2_b" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="images/menuBar/ct_question2_b" name="ct_question2_b" symbolType="button">
                   <matrix>
                     <Matrix tx="27" ty="43"/>
                   </matrix>
@@ -128,43 +136,33 @@
             <DOMFrame index="5" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMStaticText width="137" height="18" isSelectable="false">
+                <DOMSymbolInstance libraryItemName="images/menuBar/typeOfInjury" name="typeButton" symbolType="button">
                   <matrix>
-                    <Matrix tx="71" ty="5"/>
+                    <Matrix tx="99" ty="35"/>
                   </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>location of injury</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="images/menuBar/locationOfInjury" name="locationButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="300" ty="36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="6" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMStaticText width="137" height="18" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="71" ty="5"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>type of injury</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="18" face="Times-Bold" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
               </elements>
             </DOMFrame>
             <DOMFrame index="7" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="images/menuBar/menuPop.png"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/Yes" name="yes" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="images/menuBar/Yes" name="yes" symbolType="button">
                   <matrix>
                     <Matrix tx="122.45" ty="32"/>
                   </matrix>

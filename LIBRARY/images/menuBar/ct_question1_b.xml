@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/ct_question1_b" itemID="4fae1124-00001460" symbolType="button" lastModified="1336807907">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/ct_question1_b" itemID="4fae1124-00001460" symbolType="button" lastModified="1336986169">
   <timeline>
-    <DOMTimeline name="ct_question1_b">
+    <DOMTimeline name="ct_question1_b" currentFrame="1">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -23,7 +23,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMDynamicText width="478" height="19" isSelectable="false">
+                <DOMStaticText selected="true" width="478" height="18" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="-4"/>
                   </matrix>
@@ -31,11 +31,11 @@
                     <DOMTextRun>
                       <characters>B. Nothing else can be done for the patient.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="3" size="18" bitmapSize="360" face="Times-Roman" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="3" size="18" bitmapSize="360" face="Times-Bold" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
-                </DOMDynamicText>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
           </frames>
