@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/scanner/CTScanInjuries" itemID="4e764cca-00000533" linkageExportForAS="true" linkageClassName="CTScanInjuries" lastModified="1331891461" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="CTScanInjuries">
+    <DOMTimeline name="CTScanInjuries" currentFrame="1">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -31,7 +31,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="images/scanner/injuredBrains/coup-contrecoup.jpg">
+                <DOMBitmapInstance selected="true" libraryItemName="images/scanner/injuredBrains/coup-contrecoup.jpg">
                   <matrix>
                     <Matrix tx="0.8" ty="0.5"/>
                   </matrix>
