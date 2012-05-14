@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="List" itemID="44e5f6db-00000035" linkageExportForAS="true" linkageClassName="fl.controls.List" lastModified="1292423118" lastUniqueIdentifier="24" tooltip="List" customIconID="0" actionscriptClass="fl.controls.List" livePreviewScmHRef="haettx0luj.swf" livePreviewScmSourceFilename="List.swf" persistLivePreview11="true" livePreview11ScmHRef="6DKV13EXRX.swf" livePreview11ScmSourceFilename="/Users/neuron/Library/Application Support/Adobe/Flash CS5.5/en_US/Configuration/TMP1OOC53ERP1..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="List" itemID="44e5f6db-00000035" linkageExportForAS="true" linkageClassName="fl.controls.List" lastModified="1292423118" lastUniqueIdentifier="25" tooltip="List" customIconID="0" actionscriptClass="fl.controls.List" livePreviewScmHRef="haettx0luj.swf" livePreviewScmSourceFilename="List.swf" persistLivePreview11="true" livePreview11ScmHRef="6DKV13EXRX.swf" livePreview11ScmSourceFilename="/Users/neuron/Library/Application Support/Adobe/Flash CS5.5/en_US/Configuration/TMP1OOC53ERP1..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="List" currentFrame="1">
       <layers>
@@ -153,7 +153,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Scene 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TabletContent' oldCopiedComponentPath='23.35.12'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

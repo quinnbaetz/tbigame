@@ -1,8 +1,8 @@
 <DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Button" itemID="44a4944a-00000029" linkageExportForAS="true" linkageClassName="fl.controls.Button" lastModified="1292423117" lastUniqueIdentifier="42" tooltip="Button" customIconID="0" actionscriptClass="fl.controls.Button" livePreviewScmHRef="hadpvx0lui.swf" livePreviewScmSourceFilename="Button.swf" persistLivePreview11="true" livePreview11ScmHRef="hadpvx0lui6.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxl7jkayls3..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
-    <DOMTimeline name="Button" currentFrame="1">
+    <DOMTimeline name="Button">
       <layers>
-        <DOMLayer name="assets" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="assets" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -65,7 +65,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/ButtonSkins/Button_selectedUpSkin" selected="true" centerPoint3DX="79" centerPoint3DY="18.7">
+                <DOMSymbolInstance libraryItemName="Component Assets/ButtonSkins/Button_selectedUpSkin" centerPoint3DX="79" centerPoint3DY="18.7">
                   <matrix>
                     <Matrix tx="47" ty="7.7"/>
                   </matrix>
@@ -81,7 +81,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/Shared/focusRectSkin">
+                <DOMSymbolInstance libraryItemName="Component Assets/Shared/focusRectSkin" centerPoint3DX="70" centerPoint3DY="310.9">
                   <matrix>
                     <Matrix d="0.999664306640625" tx="28.95" ty="299.9"/>
                   </matrix>
@@ -154,7 +154,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="ComponentShim" color="#FFFF4F" locked="true" autoNamed="false">
+        <DOMLayer name="ComponentShim" color="#FFFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -165,7 +165,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Scene 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Tablet' oldCopiedComponentPath='14.20'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

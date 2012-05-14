@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1336960853" lastUniqueIdentifier="14">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="images/menuBar/Tablet" itemID="4f6f5100-00000d46" linkageExportForAS="true" linkageClassName="Tablet" lastModified="1336971681" lastUniqueIdentifier="15">
   <timeline>
     <DOMTimeline name="Tablet">
       <layers>
@@ -29,7 +29,7 @@
                   </edges>
                 </DOMShape>
                 <DOMBitmapInstance libraryItemName="images/menuBar/tablet.png"/>
-                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" centerPoint3DX="146" centerPoint3DY="113.35">
+                <DOMSymbolInstance libraryItemName="images/menuBar/TabletContent" name="tabletContent" selected="true" centerPoint3DX="146" centerPoint3DY="113.35">
                   <matrix>
                     <Matrix tx="267.55" ty="143.4"/>
                   </matrix>
@@ -272,7 +272,7 @@
       <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="CT report" type="String"/>
    </property>
    <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="top" enumeration="left,right,top,bottom" type="List"/>
    </property>
    <property id="selected">
       <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
